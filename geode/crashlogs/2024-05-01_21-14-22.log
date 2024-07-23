@@ -1,0 +1,51 @@
+2024-05-01T21:14:22+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.25
+Loader Commit: 20dc3c9
+Bindings Commit: 2eb85b0
+Installed mods: 15
+Problems: 1
+
+== Exception Information ==
+C++ Exception: class std::bad_optional_access("Bad optional access")
+Faulty Mod: <Unknown>
+Crashed thread: Main
+
+== Stack Trace ==
+ - C:\WINDOWS\System32\KERNELBASE.dll + 13f932 (RaiseException + 98)
+ - C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll + 7e96 (CxxThrowException + 102)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + 2327 (jukebox::setActiveSong + 4727)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + 75fd (jukebox::setActiveSong + 25933)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\tpdea.betterpause-Better\tpdea.betterpause-Better.dll + 28f0e
+ - 1427044E
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + 7074 (jukebox::setActiveSong + 24516)
+
+== Register States ==
+EAX: 012feb40
+EBX: 19930520
+ECX: 00000003
+EDX: 00000000
+EBP: 012feb98
+ESP: 012feb40
+EDI: 5aa45b78
+ESI: 31559d88
+EIP: 75f8f932
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+! | [v4.1.10] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+x | [v1.5.0] egg.icon_hack
+x | [v0.0.3] flafy.autonong
+x | [v2.7.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.25] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+  | [v1.0.1] n.friends
+x | [v1.0.6] syzzi.click_between_frames
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better

@@ -1,0 +1,68 @@
+23:30:02 INFO  [Main] [Geode]: Running Geode v2.0.0-beta.22 in Geometry Dash v2.204
+23:30:02 INFO  [Main] [Geode]: Setting up internal mod
+23:30:02 INFO  [Main] [Geode]: Setting up loader
+23:30:02 DEBUG [Main] [Geode]:   Loading launch arguments
+23:30:02 DEBUG [Main] [Geode]:   Setting up crash handler
+23:30:02 DEBUG [Main] [Geode]:   Loading hooks
+23:30:02 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::fullPathForFilename hook at 0x79df0f40 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::sharedFileUtils hook at 0x79df9770 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::getUserObject hook at 0x79e431f0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::setUserObject hook at 0x79d915a0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled LevelPage::onPlay hook at 0x69c080 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled LoadingLayer::init hook at 0x6a6370 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x6a6bd0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled MenuLayer::init hook at 0x6ab450 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled ProfilePage::getUserInfoFinished hook at 0x721db0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled AchievementNotifier::willSwitchToScene hook at 0x44c200 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled AppDelegate::trySaveGame hook at 0x48b790 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled cocos2d::CCScheduler::update hook at 0x79e36db0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled CCTextInputNode::ccTouchBegan hook at 0x4604f0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x6a6bd0 for geode.loader
+23:30:02 DEBUG [Main] [Geode]:   Setting up directories
+23:30:02 INFO  [Main] [Geode]:   Refreshing mod graph
+23:30:02 DEBUG [Main] [Geode]:     Queueing mods
+23:30:02 DEBUG [Main] [Geode]:       Searching E:\SteamLibrary\steamapps\common\Geometry Dash\geode\mods
+23:30:02 DEBUG [Main] [Geode]:     Populating mod list
+23:30:02 DEBUG [Main] [Geode]:     Building mod graph
+23:30:02 DEBUG [Main] [Geode]:       geode.loader
+23:30:02 DEBUG [Main] [Geode]:     Loading early mods
+23:30:02 INFO  [Main] [Geode]:     Took 0s. Continuing next frame...
+23:30:02 DEBUG [Main] [Geode]: Setting up IPC
+23:30:02 DEBUG [Main] [Geode]:   IPC set up
+23:30:02 INFO  [Main] [Geode]: Starting loader update check
+23:30:02 INFO  [Main] [Geode]: Entry took 0.01s
+23:30:04 INFO  [Main] [Geode]: Continuing mod graph refresh...
+23:30:04 DEBUG [Main] [Geode]:   Finding problems
+23:30:04 DEBUG [Main] [Geode]:     geode.loader
+23:30:04 INFO  [Main] [Geode]:   Took 0s
+23:30:04 DEBUG [Main] [Geode]: Verifying Loader Resources
+23:30:04 DEBUG [Main] [Geode]: Loading Loader Resources
+23:30:04 DEBUG [Main] [Geode]: Loading mod resources
+23:30:04 DEBUG [Main] [Geode]: Adding resources
+23:30:04 DEBUG [Main] [Geode]:   geode.loader
+23:30:04 DEBUG [Main] [Geode]:     Adding sheet geode.loader/LogoSheet
+23:30:04 DEBUG [Main] [Geode]:     Adding sheet geode.loader/APISheet
+23:30:04 DEBUG [Main] [Geode]:     Adding sheet geode.loader/BlankSheet
+23:30:07 DEBUG [Main] [Geode]: Checking updates for index
+23:30:07 DEBUG [Index Update] [Geode]: Updating local index cache
+23:30:09 WARN  [Index Update] [Geode]:   settings.randomise-main-menu-bg contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   settings.force-bg contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   settings.remove-player contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   [spaghettdev.gd-roulette/v2.0.4/mod.json] contains unknown key "links"
+23:30:09 WARN  [Index Update] [Geode]:   settings.mouse-move-on-zoom contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   settings.grid-size-controls contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   settings.show-grid-on-size-change contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   settings.soft-save-enabled contains unknown key "platforms"
+23:30:09 WARN  [Index Update] [Geode]:   [saumondeluxe.rainbow_icon/v1.1.2/mod.json] contains unknown key "links"
+23:30:09 WARN  [Index Update] [Geode]:   [relative.advanced_song_search/v1.0.1/mod.json] contains unknown key "links"
+23:30:10 DEBUG [Index Update] [Geode]:   Done
+23:30:44 DEBUG [Main] [Geode]: Installing geode.node-ids
+23:30:46 DEBUG [Main] [Geode]: Installed geode.node-ids
+23:30:46 DEBUG [Main] [Geode]: Installing tpdea.betterpause-Better
+23:30:48 DEBUG [Main] [Geode]: Installed tpdea.betterpause-Better
+23:31:01 DEBUG [Main] [Geode]: Installing geode.node-ids
+23:31:04 DEBUG [Main] [Geode]: Installed geode.node-ids
+23:31:04 DEBUG [Main] [Geode]: Installing cvolton.misc_bugfixes
+23:31:06 DEBUG [Main] [Geode]: Installed cvolton.misc_bugfixes
+23:31:06 DEBUG [Main] [Geode]: Installing cvolton.betterinfo
+23:31:09 DEBUG [Main] [Geode]: Installed cvolton.betterinfo

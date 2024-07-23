@@ -1,0 +1,55 @@
+2024-04-07T21:33:54+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.23
+Loader Commit: b3c0c9f
+Bindings Commit: a4c775b
+Installed mods: 12
+Problems: 0
+
+== Exception Information ==
+C++ Exception: class std::bad_optional_access("Bad optional access")
+Faulty Mod: <Unknown>
+
+== Stack Trace ==
+ - C:\WINDOWS\System32\KERNELBASE.dll + 13f932 (RaiseException + 98)
+ - C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll + 7e96 (CxxThrowException + 102)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + 2107 (jukebox::setActiveSong + 4183)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\flafy.autonong\flafy.autonong.dll + 114b3
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\flafy.autonong\flafy.autonong.dll + 15a38
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 921df (geode::Loader::Impl::executeMainThreadQueue + 271 | D:\a\geode\geode\loader\src\loader\LoaderImpl.cpp:807)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 4ecc2 (geode::modifier::AsStaticFunction_update<FunctionQueue,void (FunctionQueue::*)(float) __attribute__((thiscall))>::Impl<void (FunctionQueue::*)(float) __attribute__((thiscall))>::function + 18 | D:\a\geode\geode\build\bindings\bindings\Geode\modify\CCScheduler.hpp:115)
+ - 02ED1ED7
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 103223 (cocos2d::CCDirector::levelForSceneInStack + 131)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c12d8
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 172764 (gdMainHook + 532 | D:\a\geode\geode\loader\src\platform\windows\main.cpp:59)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c267e
+ - C:\WINDOWS\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c6e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c3e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 00f6f410
+EBX: 19930520
+ECX: 00000003
+EDX: 00000000
+EBP: 00f6f46c
+ESP: 00f6f410
+EDI: 51b54b48
+ESI: 00f6f4c0
+EIP: 7788f932
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+x | [v4.1.7] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+x | [v0.0.2] flafy.autonong
+x | [v2.6.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.23] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better

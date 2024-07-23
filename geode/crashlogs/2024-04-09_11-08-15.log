@@ -1,0 +1,55 @@
+2024-04-09T11:08:15+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.23
+Loader Commit: b3c0c9f
+Bindings Commit: a4c775b
+Installed mods: 12
+Problems: 0
+
+== Exception Information ==
+Faulty Module: E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 56183570 (libcocos2d.dll + 63570 (cocos2d::CCArray::count + 0))
+Number Parameters: 2
+
+== Stack Trace ==
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 63570 (cocos2d::CCArray::count + 0)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 279848
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 106e36 (cocos2d::CCScheduler::update + 134)
+ - 036B22B6
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 103223 (cocos2d::CCDirector::levelForSceneInStack + 131)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c12d8
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 172764 (gdMainHook + 532 | D:\a\geode\geode\loader\src\platform\windows\main.cpp:59)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c267e
+ - C:\WINDOWS\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c6e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c3e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 00000000
+EBX: 0000003f
+ECX: 00000000
+EDX: 0176f8ec
+EBP: 0176f8e4
+ESP: 0176f8dc
+EDI: 00000000
+ESI: 00000000
+EIP: 56183570
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+x | [v4.1.7] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+x | [v0.0.2] flafy.autonong
+x | [v2.6.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.23] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better

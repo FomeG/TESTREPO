@@ -1,0 +1,55 @@
+2024-04-25T14:14:51+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.25
+Loader Commit: 20dc3c9
+Bindings Commit: 2eb85b0
+Installed mods: 14
+Problems: 2
+
+== Exception Information ==
+Faulty Module: E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 55DD0BAB (libcocos2d.dll + b0bab (cocos2d::CCMotionStreak::draw + 107))
+Number Parameters: 2
+Crashed thread: Main
+
+== Stack Trace ==
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + b0bab (cocos2d::CCMotionStreak::draw + 107)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 103223 (cocos2d::CCDirector::levelForSceneInStack + 131)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c12d8
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 1759d4 (gdMainHook + 532 | D:\a\geode\geode\loader\src\platform\windows\main.cpp:59)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c267e
+ - C:\WINDOWS\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c6e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c3e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 00000001
+EBX: 1c01aa88
+ECX: 00000000
+EDX: 00000000
+EBP: 00fff9b8
+ESP: 00fff964
+EDI: 17ddc1d8
+ESI: 1c01aa88
+EIP: 55dd0bab
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+x | [v4.1.7] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+! | [v0.0.2] flafy.autonong
+x | [v2.7.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.25] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+  | [v1.0.1] n.friends
+x | [v1.0.6] syzzi.click_between_frames
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better

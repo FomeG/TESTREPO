@@ -1,0 +1,64 @@
+2024-04-09T17:41:21+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.23
+Loader Commit: b3c0c9f
+Bindings Commit: a4c775b
+Installed mods: 14
+Problems: 0
+
+== Exception Information ==
+Faulty Module: E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 6F507265 (6F507265)
+Number Parameters: 2
+
+== Stack Trace ==
+ - 6F507265
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 94297
+ - 14770416
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + cced (jukebox::setActiveSong + 48189)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\fleym.nongd\fleym.nongd.dll + 73bd (jukebox::setActiveSong + 25357)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\tpdea.betterpause-Better\tpdea.betterpause-Better.dll + 28f0e
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\flafy.autonong\flafy.autonong.dll + 11509
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\geode\unzipped\flafy.autonong\flafy.autonong.dll + 15048
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 921df (geode::Loader::Impl::executeMainThreadQueue + 271 | D:\a\geode\geode\loader\src\loader\LoaderImpl.cpp:807)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 4ecc2 (geode::modifier::AsStaticFunction_update<FunctionQueue,void (FunctionQueue::*)(float) __attribute__((thiscall))>::Impl<void (FunctionQueue::*)(float) __attribute__((thiscall))>::function + 18 | D:\a\geode\geode\build\bindings\bindings\Geode\modify\CCScheduler.hpp:115)
+ - 036D1ED7
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcocos2d.dll + 103223 (cocos2d::CCDirector::levelForSceneInStack + 131)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c12d8
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\Geode.dll + 172764 (gdMainHook + 532 | D:\a\geode\geode\loader\src\platform\windows\main.cpp:59)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\GeometryDash.exe + 3c267e
+ - C:\WINDOWS\System32\KERNEL32.DLL + 1fcc9 (BaseThreadInitThunk + 25)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c6e (RtlGetAppContainerNamedObjectPath + 286)
+ - C:\WINDOWS\SYSTEM32\ntdll.dll + 67c3e (RtlGetAppContainerNamedObjectPath + 238)
+
+== Register States ==
+EAX: 564032f4
+EBX: 018ff940
+ECX: 1f4d2d90
+EDX: 00000002
+EBP: 018ff5dc
+ESP: 018ff5cc
+EDI: 1d5df568
+ESI: 1f4d3928
+EIP: 6f507265
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+x | [v4.1.7] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+x | [v0.0.2] flafy.autonong
+x | [v2.6.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.23] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+  | [v1.0.1] n.friends
+x | [v1.0.2] syzzi.click_between_frames
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better

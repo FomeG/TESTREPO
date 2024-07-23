@@ -1,0 +1,34 @@
+{
+	"geode": "3.0.0-beta.1",
+	"gd": {
+		"win": "2.206"
+	},
+	"version": "v1.6.0",
+	"id": "geode.custom-keybinds",
+	"name": "Custom Keybinds",
+	"developer": "Geode Team",
+	"description": "Custom keybind support for Geode",
+	"repository": "https://github.com/geode-sdk/CustomKeybinds",
+	"resources": {
+		"spritesheets": {
+			"KB_ControllerSheet": [
+				"resources/controller/*.png"
+			]
+		},
+		"sprites": [
+			"resources/*.png"
+		]
+	},
+	"api": {
+		"include": [
+			"include/*.hpp"
+		]
+	},
+	"dependencies": [],
+	"incompatibilities": [],
+	"settings": {
+		"open-menu": {
+			"type": "custom"
+		}
+	}
+}

@@ -1,0 +1,418 @@
+03:05:54 INFO  [Main] [Geode]: Running Geode v3.0.0 in Geometry Dash v2.206 on Windows
+03:05:54 INFO  [Main] [Geode]: Setting up internal mod
+03:05:54 WARN  [Main] [Geode]:   Encountered unknown setting "auto-update-mods" while loading settings
+03:05:54 INFO  [Main] [Geode]: Setting up loader
+03:05:54 DEBUG [Main] [Geode]:   Loading launch arguments
+03:05:54 DEBUG [Main] [Geode]:   Setting up crash handler
+03:05:54 DEBUG [Main] [Geode]:   Loading hooks
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::fullPathForFilename hook at 0x7ffbf280dde0 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::sharedFileUtils hook at 0x7ffbf2818640 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenuItem::activate hook at 0x7ffbf27f97a0 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenu::ccTouchEnded hook at 0x7ffbf27f8770 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled FMOD::System::init hook at 0x7ffbf16ff320 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled FMOD::ChannelControl::setVolume hook at 0x7ffbf165e480 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::getUserObject hook at 0x7ffbf27a3520 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::setUserObject hook at 0x7ffbf27a4fd0 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled LevelPage::onPlay hook at 0x7ff66fe1d2e0 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled LoadingLayer::init hook at 0x7ff66fe2db60 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x7ff66fe2e400 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled MenuLayer::init hook at 0x7ff66fe330f0 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled ProfilePage::getUserInfoFinished hook at 0x7ff66fec2120 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled AppDelegate::willSwitchToScene hook at 0x7ff66fba1f10 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled AppDelegate::trySaveGame hook at 0x7ff66fba1e30 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled cocos2d::CCScheduler::update hook at 0x7ffbf2860390 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled CCTextInputNode::ccTouchBegan hook at 0x7ff66fb70440 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x7ff66fe2e400 for geode.loader
+03:05:54 DEBUG [Main] [Geode]:   Setting up directories
+03:05:54 INFO  [Main] [Geode]:   Refreshing mod graph
+03:05:54 DEBUG [Main] [Geode]:     Queueing mods
+03:05:54 DEBUG [Main] [Geode]:       Searching E:\SteamLibrary\steamapps\common\Geometry Dash\geode\mods
+03:05:54 DEBUG [Main] [Geode]:         Found alphalaneous.deathlink.geode
+03:05:55 DEBUG [Main] [Geode]:           id: alphalaneous.deathlink
+03:05:55 DEBUG [Main] [Geode]:           version: v1.2.9
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found bitz.moregames.geode
+03:05:55 DEBUG [Main] [Geode]:           id: bitz.moregames
+03:05:55 DEBUG [Main] [Geode]:           version: v1.0.4
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found cvolton.betterinfo.geode
+03:05:55 DEBUG [Main] [Geode]:           id: cvolton.betterinfo
+03:05:55 DEBUG [Main] [Geode]:           version: v4.1.10
+03:05:55 DEBUG [Main] [Geode]:           early: yes
+03:05:55 DEBUG [Main] [Geode]:         Found cvolton.misc_bugfixes.geode
+03:05:55 DEBUG [Main] [Geode]:           id: cvolton.misc_bugfixes
+03:05:55 DEBUG [Main] [Geode]:           version: v1.1.3
+03:05:55 DEBUG [Main] [Geode]:           early: yes
+03:05:55 DEBUG [Main] [Geode]:         Found dankmeme.globed2.geode
+03:05:55 DEBUG [Main] [Geode]:           id: dankmeme.globed2
+03:05:55 DEBUG [Main] [Geode]:           version: v1.3.7
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found egg.icon_hack.geode
+03:05:55 DEBUG [Main] [Geode]:           id: egg.icon_hack
+03:05:55 DEBUG [Main] [Geode]:           version: v1.5.0
+03:05:55 DEBUG [Main] [Geode]:           early: yes
+03:05:55 DEBUG [Main] [Geode]:         Found elsai.a_daily_shop.geode
+03:05:55 DEBUG [Main] [Geode]:           id: elsai.a_daily_shop
+03:05:55 DEBUG [Main] [Geode]:           version: v1.3.1
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found flafy.autonong.geode
+03:05:55 WARN  [Main] [Geode]:           dependencies.0 contains unknown key "required"
+03:05:55 DEBUG [Main] [Geode]:           id: flafy.autonong
+03:05:55 DEBUG [Main] [Geode]:           version: v0.0.3
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found fleym.nongd.geode
+03:05:55 DEBUG [Main] [Geode]:           id: fleym.nongd
+03:05:55 DEBUG [Main] [Geode]:           version: v2.7.1
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found geode.custom-keybinds.geode
+03:05:55 DEBUG [Main] [Geode]:           id: geode.custom-keybinds
+03:05:55 DEBUG [Main] [Geode]:           version: v1.5.6
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found geode.node-ids.geode
+03:05:55 DEBUG [Main] [Geode]:           id: geode.node-ids
+03:05:55 DEBUG [Main] [Geode]:           version: v1.9.1
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found geode.texture-loader.geode
+03:05:55 DEBUG [Main] [Geode]:           id: geode.texture-loader
+03:05:55 DEBUG [Main] [Geode]:           version: v1.5.0
+03:05:55 DEBUG [Main] [Geode]:           early: yes
+03:05:55 DEBUG [Main] [Geode]:         Found n.friends.geode
+03:05:55 DEBUG [Main] [Geode]:           id: n.friends
+03:05:55 DEBUG [Main] [Geode]:           version: v1.0.1
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found nampe.demonlistvn.geode
+03:05:55 DEBUG [Main] [Geode]:           id: nampe.demonlistvn
+03:05:55 DEBUG [Main] [Geode]:           version: v1.0.3
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found statuszer0.ultra_ldm.geode
+03:05:55 DEBUG [Main] [Geode]:           id: statuszer0.ultra_ldm
+03:05:55 DEBUG [Main] [Geode]:           version: v1.0.0
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found syzzi.click_between_frames.geode
+03:05:55 DEBUG [Main] [Geode]:           id: syzzi.click_between_frames
+03:05:55 DEBUG [Main] [Geode]:           version: v1.0.9
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found TheSillyDoggo.StartposSwitcher.geode
+03:05:55 DEBUG [Main] [Geode]:           id: TheSillyDoggo.StartposSwitcher
+03:05:55 DEBUG [Main] [Geode]:           version: v1.1.2
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:         Found tpdea.betterpause-Better.geode
+03:05:55 DEBUG [Main] [Geode]:           id: tpdea.betterpause-Better
+03:05:55 DEBUG [Main] [Geode]:           version: v1.6.8
+03:05:55 DEBUG [Main] [Geode]:           early: yes
+03:05:55 DEBUG [Main] [Geode]:         Found zilko.custom_labels.geode
+03:05:55 DEBUG [Main] [Geode]:           id: zilko.custom_labels
+03:05:55 DEBUG [Main] [Geode]:           version: v1.1.0
+03:05:55 DEBUG [Main] [Geode]:           early: no
+03:05:55 DEBUG [Main] [Geode]:     Populating mod list
+03:05:55 DEBUG [Main] [Geode]:       alphalaneous.deathlink v1.2.9
+03:05:55 DEBUG [Main] [Geode]:       bitz.moregames v1.0.4
+03:05:55 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.1.10
+03:05:55 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.1.3
+03:05:55 DEBUG [Main] [Geode]:       dankmeme.globed2 v1.3.7
+03:05:55 DEBUG [Main] [Geode]:       egg.icon_hack v1.5.0
+03:05:55 DEBUG [Main] [Geode]:       elsai.a_daily_shop v1.3.1
+03:05:55 DEBUG [Main] [Geode]:       flafy.autonong v0.0.3
+03:05:55 DEBUG [Main] [Geode]:       fleym.nongd v2.7.1
+03:05:55 DEBUG [Main] [Geode]:       geode.custom-keybinds v1.5.6
+03:05:55 DEBUG [Main] [Geode]:       geode.node-ids v1.9.1
+03:05:55 DEBUG [Main] [Geode]:       geode.texture-loader v1.5.0
+03:05:55 DEBUG [Main] [Geode]:       n.friends v1.0.1
+03:05:55 DEBUG [Main] [Geode]:       nampe.demonlistvn v1.0.3
+03:05:55 DEBUG [Main] [Geode]:       statuszer0.ultra_ldm v1.0.0
+03:05:55 DEBUG [Main] [Geode]:       syzzi.click_between_frames v1.0.9
+03:05:55 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher v1.1.2
+03:05:55 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8
+03:05:55 DEBUG [Main] [Geode]:       zilko.custom_labels v1.1.0
+03:05:55 DEBUG [Main] [Geode]:     Building mod graph
+03:05:55 DEBUG [Main] [Geode]:       fleym.nongd
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       geode.loader
+03:05:55 DEBUG [Main] [Geode]:       alphalaneous.deathlink
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       bitz.moregames
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       dankmeme.globed2
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       cvolton.betterinfo
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:         geode.node-ids
+03:05:55 DEBUG [Main] [Geode]:         cvolton.misc_bugfixes
+03:05:55 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       egg.icon_hack
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       elsai.a_daily_shop
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       tpdea.betterpause-Better
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:         geode.node-ids
+03:05:55 DEBUG [Main] [Geode]:       flafy.autonong
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:         fleym.nongd
+03:05:55 DEBUG [Main] [Geode]:       geode.custom-keybinds
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       geode.node-ids
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       geode.texture-loader
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       n.friends
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       nampe.demonlistvn
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       syzzi.click_between_frames
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:         geode.custom-keybinds
+03:05:55 DEBUG [Main] [Geode]:       statuszer0.ultra_ldm
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:       zilko.custom_labels
+03:05:55 DEBUG [Main] [Geode]:         geode.loader
+03:05:55 DEBUG [Main] [Geode]:         geode.node-ids
+03:05:55 DEBUG [Main] [Geode]:     Loading early mods
+03:05:55 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.1.10 has unresolved dependencies
+03:05:55 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.1.3
+03:05:55 ERROR [Main] [Geode]:         This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:55 DEBUG [Main] [Geode]:       egg.icon_hack v1.5.0
+03:05:55 ERROR [Main] [Geode]:         This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:55 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8 has unresolved dependencies
+03:05:55 DEBUG [Main] [Geode]:       geode.node-ids v1.9.1
+03:05:55 ERROR [Main] [Geode]:         This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:55 DEBUG [Main] [Geode]:       geode.texture-loader v1.5.0
+03:05:55 ERROR [Main] [Geode]:         This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:55 INFO  [Main] [Geode]:     Took 0.811s. Continuing next frame...
+03:05:55 DEBUG [Main] [Geode]: Setting up IPC
+03:05:55 DEBUG [Main] [Geode]:   IPC set up
+03:05:55 INFO  [Main] [Geode]: Starting loader update check
+03:05:55 DEBUG [Main] [Geode]: Last update check result: v2.0.0-beta.27
+03:05:55 INFO  [Main] [Geode]: Entry took 0.913s
+03:05:59 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:05:59 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     fleym.nongd v2.7.1
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Latest version is v3.0.0
+03:05:59 INFO  [Main] [Geode]: Took 0.015s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     alphalaneous.deathlink v1.2.9
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.017s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     bitz.moregames v1.0.4
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.061s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     dankmeme.globed2 v1.3.7
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     elsai.a_daily_shop v1.3.1
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     flafy.autonong v0.0.3 has unresolved dependencies
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     geode.custom-keybinds v1.5.6
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     n.friends v1.0.1
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     nampe.demonlistvn v1.0.3
+03:05:59 ERROR [Main] [Geode]:       Unsupported Geode version: v2.0.0-beta.25
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher v1.1.2
+03:05:59 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:05:59 INFO  [Main] [Geode]: Took 0.017s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     syzzi.click_between_frames v1.0.9 has unresolved dependencies
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     statuszer0.ultra_ldm v1.0.0
+03:05:59 ERROR [Main] [Geode]:       mod.json uses old syntax
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Loading mods
+03:05:59 DEBUG [Main] [Geode]:     zilko.custom_labels v1.1.0 has unresolved dependencies
+03:05:59 INFO  [Main] [Geode]: Took 0.016s
+03:05:59 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:05:59 DEBUG [Main] [Geode]:   Finding problems
+03:05:59 DEBUG [Main] [Geode]:     fleym.nongd
+03:05:59 DEBUG [Main] [Geode]:     geode.loader
+03:05:59 DEBUG [Main] [Geode]:     alphalaneous.deathlink
+03:05:59 DEBUG [Main] [Geode]:     bitz.moregames is not enabled
+03:05:59 DEBUG [Main] [Geode]:     dankmeme.globed2
+03:05:59 DEBUG [Main] [Geode]:     cvolton.betterinfo
+03:05:59 ERROR [Main] [Geode]:       cvolton.betterinfo requires geode.node-ids >=v1.7.1
+03:05:59 ERROR [Main] [Geode]:       cvolton.betterinfo requires cvolton.misc_bugfixes >=v1.1.3
+03:05:59 DEBUG [Main] [Geode]:     cvolton.misc_bugfixes
+03:05:59 DEBUG [Main] [Geode]:     egg.icon_hack
+03:05:59 DEBUG [Main] [Geode]:     elsai.a_daily_shop
+03:05:59 DEBUG [Main] [Geode]:     tpdea.betterpause-Better
+03:05:59 ERROR [Main] [Geode]:       tpdea.betterpause-Better requires geode.node-ids >=v1.3.0
+03:05:59 DEBUG [Main] [Geode]:     flafy.autonong
+03:05:59 ERROR [Main] [Geode]:       flafy.autonong requires fleym.nongd >=v2.7.0
+03:05:59 DEBUG [Main] [Geode]:     geode.custom-keybinds
+03:05:59 DEBUG [Main] [Geode]:     geode.node-ids
+03:05:59 DEBUG [Main] [Geode]:     geode.texture-loader
+03:05:59 DEBUG [Main] [Geode]:     n.friends is not enabled
+03:05:59 DEBUG [Main] [Geode]:     nampe.demonlistvn
+03:05:59 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher
+03:05:59 DEBUG [Main] [Geode]:     syzzi.click_between_frames
+03:05:59 ERROR [Main] [Geode]:       syzzi.click_between_frames requires geode.custom-keybinds >=v1.5.2
+03:05:59 DEBUG [Main] [Geode]:     statuszer0.ultra_ldm is not enabled
+03:05:59 DEBUG [Main] [Geode]:     zilko.custom_labels
+03:05:59 ERROR [Main] [Geode]:       zilko.custom_labels requires geode.node-ids >=v1.8.1
+03:05:59 INFO  [Main] [Geode]:   Took 0s
+03:05:59 DEBUG [Main] [Geode]: Verifying Loader Resources
+03:05:59 DEBUG [Main] [Geode]: Loading Loader Resources
+03:05:59 DEBUG [Main] [Geode]: Loading mod resources
+03:05:59 DEBUG [Main] [Geode]: Adding resources
+03:05:59 DEBUG [Main] [Geode]:   geode.loader
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet geode.loader/LogoSheet
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet geode.loader/APISheet
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet geode.loader/BlankSheet
+03:05:59 DEBUG [Main] [Geode]:   bitz.moregames
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet bitz.moregames/IconSheet
+03:05:59 DEBUG [Main] [Geode]:   dankmeme.globed2
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet dankmeme.globed2/globedsheet1
+03:05:59 DEBUG [Main] [Geode]:   cvolton.betterinfo
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet cvolton.betterinfo/SearchButtons-410
+03:05:59 DEBUG [Main] [Geode]:   geode.custom-keybinds
+03:05:59 DEBUG [Main] [Geode]:     Adding sheet geode.custom-keybinds/KB_ControllerSheet
+03:06:01 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:01 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: cHRM chunk does not match sRGB
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:02 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:06:02 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:06:02 INFO  [Main] [Geode]: Found updates for mods: ["cvolton.betterinfo", "cvolton.misc_bugfixes", "dankmeme.globed2", "flafy.autonong", "fleym.nongd", "geode.custom-keybinds", "geode.node-ids", "geode.texture-loader", "syzzi.click_between_frames"]!
+03:06:04 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:04 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:04 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:06:04 DEBUG [stderr]: libpng warning: Interlace handling should be turned on when using png_read_image
+03:06:56 ERROR [Main] [Geode]: Unable to parse mod 'itzkiba.better_progression' version from the server: Mod targets version v3.0.0-alpha.2 but Geode is version v3.0.0
+03:06:56 ERROR [Main] [Geode]: Unable to parse mod 'itzkiba.better_progression' version from the server: Mod targets version v3.0.0-alpha.2 but Geode is version v3.0.0
+03:07:11 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:07:21 ERROR [Main] [Geode]: Unable to parse mod 'geode.devtools' version from the server: Mod targets version v2.0.0 but Geode is version v3.0.0
+03:07:21 ERROR [Main] [Geode]: Unable to parse mod 'geode.devtools' version from the server: Mod targets version v2.0.0-beta.21 but Geode is version v3.0.0
+03:07:21 ERROR [Main] [Geode]: Unable to parse mod 'geode.devtools' version from the server: Mod targets version v2.0.0-beta.27 but Geode is version v3.0.0
+03:07:47 ERROR [Main] [Geode]: Unable to parse mod 'zmx.cbf-lite' version from the server: Mod targets version v2.0.0-beta.25 but Geode is version v3.0.0
+03:09:27 WARN  [Main] [Geode]: Unhandled block enter type 1
+03:09:27 WARN  [Main] [Geode]: Unhandled block leave type 1
+03:09:32 INFO  [Main] [Geode]: Saving mod data...
+03:09:32 DEBUG [Main] [Geode]:   fleym.nongd
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if fix-empty-size is saved
+03:09:32 DEBUG [Main] [Geode]:   geode.loader
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if auto-check-updates is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if show-platform-console is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-last-crashed-popup is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if auto-update-mods is saved
+03:09:32 DEBUG [Main] [Geode]:   alphalaneous.deathlink
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:   bitz.moregames
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:   dankmeme.globed2
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if force-skip-preload is saved
+03:09:32 DEBUG [Main] [Geode]:   cvolton.betterinfo
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if fix-green-users is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if show-comment-ids is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if white-id is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if level-info is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if alt-button is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if auto-submit is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if hide-platformer-time is saved
+03:09:32 DEBUG [Main] [Geode]:   cvolton.misc_bugfixes
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if skip-4gb-patch-check is saved
+03:09:32 DEBUG [Main] [Geode]:   egg.icon_hack
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if disablerandomize is saved
+03:09:32 DEBUG [Main] [Geode]:   elsai.a_daily_shop
+03:09:32 DEBUG [Main] [Geode]:   tpdea.betterpause-Better
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if type-pause is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if level-editor-hack is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if show-comment-button is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if amount-scroll-button is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-arrow-blink is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if tolerance-in-buttons-list is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-arrow-buttons is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-creator-label is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if enabled-info-button is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if enabled-coins-viewer is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if Quick-Settings-Select is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if original-comment-button-sprite is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-rating-plus-label is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-edit-level is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if disable-icon-rating-plus-label is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if remove-exit-hotkey is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-resume-level is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-practice-level is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-normal-level is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-restart-level is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if confirm-restart-full-level is saved
+03:09:32 DEBUG [Main] [Geode]:   flafy.autonong
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if show-level-popup is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if use-cobalt is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if indexes is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if use-yt-dlp is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if yt-dlp-path is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if _blacklistPPClear is saved
+03:09:32 DEBUG [Main] [Geode]:   geode.custom-keybinds
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if open-menu is saved
+03:09:32 DEBUG [Main] [Geode]:   geode.node-ids
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:   geode.texture-loader
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:   n.friends
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if Disable In Editor is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if Friend Scale is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if Disable In Game is saved
+03:09:32 DEBUG [Main] [Geode]:   nampe.demonlistvn
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if API key is saved
+03:09:32 DEBUG [Main] [Geode]:   TheSillyDoggo.StartposSwitcher
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if show-ui is saved
+03:09:32 DEBUG [Main] [Geode]:   syzzi.click_between_frames
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if right-click is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if late-cutoff is saved
+03:09:32 DEBUG [Main] [Geode]:   statuszer0.ultra_ldm
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:   zilko.custom_labels
+03:09:32 DEBUG [Main] [Geode]:     Check covered
+03:09:32 DEBUG [Main] [Geode]:     Check if labels_enabled is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if button_enabled is saved
+03:09:32 DEBUG [Main] [Geode]:     Check if button_menu is saved
+03:09:32 INFO  [Main] [Geode]:   Took 0.028s

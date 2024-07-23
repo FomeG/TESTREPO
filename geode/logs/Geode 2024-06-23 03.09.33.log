@@ -1,0 +1,1070 @@
+03:09:33 INFO  [Main] [Geode]: Running Geode v3.0.0 in Geometry Dash v2.206 on Windows
+03:09:33 INFO  [Main] [Geode]: Setting up internal mod
+03:09:33 WARN  [Main] [Geode]:   Encountered unknown setting "auto-update-mods" while loading settings
+03:09:33 INFO  [Main] [Geode]: Setting up loader
+03:09:33 DEBUG [Main] [Geode]:   Loading launch arguments
+03:09:33 DEBUG [Main] [Geode]:   Setting up crash handler
+03:09:33 DEBUG [Main] [Geode]:   Loading hooks
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::fullPathForFilename hook at 0x7ffbf375dde0 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::sharedFileUtils hook at 0x7ffbf3768640 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenuItem::activate hook at 0x7ffbf37497a0 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenu::ccTouchEnded hook at 0x7ffbf3748770 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled FMOD::System::init hook at 0x7ffbf16ff320 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled FMOD::ChannelControl::setVolume hook at 0x7ffbf165e480 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::getUserObject hook at 0x7ffbf36f3520 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::setUserObject hook at 0x7ffbf36f4fd0 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled LevelPage::onPlay hook at 0x7ff6913ed2e0 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled LoadingLayer::init hook at 0x7ff6913fdb60 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x7ff6913fe400 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled MenuLayer::init hook at 0x7ff6914030f0 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled ProfilePage::getUserInfoFinished hook at 0x7ff691492120 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled AppDelegate::willSwitchToScene hook at 0x7ff691171f10 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled AppDelegate::trySaveGame hook at 0x7ff691171e30 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled cocos2d::CCScheduler::update hook at 0x7ffbf37b0390 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled CCTextInputNode::ccTouchBegan hook at 0x7ff691140440 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x7ff6913fe400 for geode.loader
+03:09:33 DEBUG [Main] [Geode]:   Setting up directories
+03:09:33 INFO  [Main] [Geode]:   Refreshing mod graph
+03:09:33 DEBUG [Main] [Geode]:     Queueing mods
+03:09:33 DEBUG [Main] [Geode]:       Searching E:\SteamLibrary\steamapps\common\Geometry Dash\geode\mods
+03:09:33 DEBUG [Main] [Geode]:         Found alphalaneous.deathlink.geode
+03:09:33 DEBUG [Main] [Geode]:           id: alphalaneous.deathlink
+03:09:33 DEBUG [Main] [Geode]:           version: v1.2.9
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found bitz.moregames.geode
+03:09:33 DEBUG [Main] [Geode]:           id: bitz.moregames
+03:09:33 DEBUG [Main] [Geode]:           version: v1.0.4
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found cvolton.betterinfo.geode
+03:09:33 DEBUG [Main] [Geode]:           id: cvolton.betterinfo
+03:09:33 DEBUG [Main] [Geode]:           version: v4.2.0-beta.2
+03:09:33 DEBUG [Main] [Geode]:           early: yes
+03:09:33 DEBUG [Main] [Geode]:         Found cvolton.misc_bugfixes.geode
+03:09:33 DEBUG [Main] [Geode]:           id: cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:           version: v1.2.0-beta.1
+03:09:33 DEBUG [Main] [Geode]:           early: yes
+03:09:33 DEBUG [Main] [Geode]:         Found dankmeme.globed2.geode
+03:09:33 DEBUG [Main] [Geode]:           id: dankmeme.globed2
+03:09:33 DEBUG [Main] [Geode]:           version: v1.4.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found egg.icon_hack.geode
+03:09:33 DEBUG [Main] [Geode]:           id: egg.icon_hack
+03:09:33 DEBUG [Main] [Geode]:           version: v1.5.0
+03:09:33 DEBUG [Main] [Geode]:           early: yes
+03:09:33 DEBUG [Main] [Geode]:         Found flafy.autonong.geode
+03:09:33 DEBUG [Main] [Geode]:           id: flafy.autonong
+03:09:33 DEBUG [Main] [Geode]:           version: v0.2.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found fleym.nongd.geode
+03:09:33 DEBUG [Main] [Geode]:           id: fleym.nongd
+03:09:33 DEBUG [Main] [Geode]:           version: v2.10.1
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found geode.custom-keybinds.geode
+03:09:33 DEBUG [Main] [Geode]:           id: geode.custom-keybinds
+03:09:33 DEBUG [Main] [Geode]:           version: v1.6.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found geode.node-ids.geode
+03:09:33 DEBUG [Main] [Geode]:           id: geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:           version: v1.12.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found geode.texture-loader.geode
+03:09:33 DEBUG [Main] [Geode]:           id: geode.texture-loader
+03:09:33 DEBUG [Main] [Geode]:           version: v1.6.0
+03:09:33 DEBUG [Main] [Geode]:           early: yes
+03:09:33 DEBUG [Main] [Geode]:         Found itzkiba.better_progression.geode
+03:09:33 DEBUG [Main] [Geode]:           id: itzkiba.better_progression
+03:09:33 DEBUG [Main] [Geode]:           version: v1.2.1
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found statuszer0.ultra_ldm.geode
+03:09:33 DEBUG [Main] [Geode]:           id: statuszer0.ultra_ldm
+03:09:33 DEBUG [Main] [Geode]:           version: v1.0.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found syzzi.click_between_frames.geode
+03:09:33 DEBUG [Main] [Geode]:           id: syzzi.click_between_frames
+03:09:33 DEBUG [Main] [Geode]:           version: v1.1.15
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found TheSillyDoggo.StartposSwitcher.geode
+03:09:33 DEBUG [Main] [Geode]:           id: TheSillyDoggo.StartposSwitcher
+03:09:33 DEBUG [Main] [Geode]:           version: v1.1.2
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:         Found tpdea.betterpause-Better.geode
+03:09:33 DEBUG [Main] [Geode]:           id: tpdea.betterpause-Better
+03:09:33 DEBUG [Main] [Geode]:           version: v1.6.8
+03:09:33 DEBUG [Main] [Geode]:           early: yes
+03:09:33 DEBUG [Main] [Geode]:         Found zilko.custom_labels.geode
+03:09:33 DEBUG [Main] [Geode]:           id: zilko.custom_labels
+03:09:33 DEBUG [Main] [Geode]:           version: v1.1.0
+03:09:33 DEBUG [Main] [Geode]:           early: no
+03:09:33 DEBUG [Main] [Geode]:     Populating mod list
+03:09:33 DEBUG [Main] [Geode]:       alphalaneous.deathlink v1.2.9
+03:09:33 DEBUG [Main] [Geode]:       bitz.moregames v1.0.4
+03:09:33 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.2.0-beta.2
+03:09:33 WARN  [Main] [BetterInfo]:    Encountered unknown setting "hide-platformer-time" while loading settings
+03:09:33 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.2.0-beta.1
+03:09:33 WARN  [Main] [Misc Bugfixes]: Encountered unknown setting "skip-4gb-patch-check" while loading settings
+03:09:33 DEBUG [Main] [Geode]:       dankmeme.globed2 v1.4.0
+03:09:33 DEBUG [Main] [Geode]:       egg.icon_hack v1.5.0
+03:09:33 DEBUG [Main] [Geode]:       flafy.autonong v0.2.0
+03:09:33 DEBUG [Main] [Geode]:       fleym.nongd v2.10.1
+03:09:33 DEBUG [Main] [Geode]:       geode.custom-keybinds v1.6.0
+03:09:33 DEBUG [Main] [Geode]:       geode.node-ids v1.12.0
+03:09:33 DEBUG [Main] [Geode]:       geode.texture-loader v1.6.0
+03:09:33 DEBUG [Main] [Geode]:       itzkiba.better_progression v1.2.1
+03:09:33 DEBUG [Main] [Geode]:       statuszer0.ultra_ldm v1.0.0
+03:09:33 DEBUG [Main] [Geode]:       syzzi.click_between_frames v1.1.15
+03:09:33 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher v1.1.2
+03:09:33 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8
+03:09:33 DEBUG [Main] [Geode]:       zilko.custom_labels v1.1.0
+03:09:33 DEBUG [Main] [Geode]:     Building mod graph
+03:09:33 DEBUG [Main] [Geode]:       fleym.nongd
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       geode.loader
+03:09:33 DEBUG [Main] [Geode]:       alphalaneous.deathlink
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       bitz.moregames
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       tpdea.betterpause-Better
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:       flafy.autonong
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         fleym.nongd
+03:09:33 DEBUG [Main] [Geode]:       dankmeme.globed2
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.custom-keybinds
+03:09:33 DEBUG [Main] [Geode]:       cvolton.betterinfo
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:         cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       egg.icon_hack
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       geode.custom-keybinds
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       geode.texture-loader
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       itzkiba.better_progression
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       syzzi.click_between_frames
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.custom-keybinds
+03:09:33 DEBUG [Main] [Geode]:       statuszer0.ultra_ldm
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:       zilko.custom_labels
+03:09:33 DEBUG [Main] [Geode]:         geode.loader
+03:09:33 DEBUG [Main] [Geode]:         geode.node-ids
+03:09:33 DEBUG [Main] [Geode]:     Loading early mods
+03:09:33 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8 has unresolved dependencies
+03:09:33 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.2.0-beta.2 has unresolved dependencies
+03:09:33 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.2.0-beta.1
+03:09:33 DEBUG [Main] [Geode]:         Unzip
+03:09:33 DEBUG [Main] [Geode]:         Hash mismatch detected, unzipping
+03:09:33 DEBUG [Main] [Geode]:         Load
+03:09:33 DEBUG [Main] [Geode]:         Loading binary for mod cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x7ff6914030f0 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled CommentCell::FLAlert_Clicked hook at 0x7ff6911a5d50 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled CommentCell::onConfirmDelete hook at 0x7ff6911a5be0 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled CommentCell::onLike hook at 0x7ff6911a5980 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x7ff6914030f0 for cvolton.misc_bugfixes
+03:09:33 INFO  [Main] [Misc Bugfixes]: Checking if v3.0.0 is older than v2.0.0-beta.24
+03:09:33 DEBUG [Main] [Geode]:         Enabled cocos2d::CCDrawNode::drawPolygon hook at 0x7ffbf3702990 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled LevelBrowserLayer::getSearchTitle hook at 0x7ff6913a8750 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled ProfilePage::loadPageFromUserInfo hook at 0x7ff69148c890 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled GJSongBrowser::FLAlert_Clicked hook at 0x7ff691395540 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled CustomSongWidget::deleteSong hook at 0x7ff6911b7360 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled CustomSongWidget::updateSongInfo hook at 0x7ff6911b8800 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x7ff6914030f0 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::downloadCustomSong hook at 0x7ff69140f240 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::downloadSong hook at 0x7ff69140d960 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::isSongDownloaded hook at 0x7ff69140e180 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::onDownloadSongCompleted hook at 0x7ff69140dc50 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::init hook at 0x7ff6913c7620 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::onPlay hook at 0x7ff6913cc520 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x7ff6914030f0 for cvolton.misc_bugfixes
+03:09:33 DEBUG [Main] [Geode]:       egg.icon_hack v1.5.0
+03:09:33 ERROR [Main] [Geode]:         This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:33 DEBUG [Main] [Geode]:       geode.node-ids v1.12.0
+03:09:33 DEBUG [Main] [Geode]:         Unzip
+03:09:33 DEBUG [Main] [Geode]:         Hash mismatch detected, unzipping
+03:09:34 DEBUG [Main] [Geode]:         Load
+03:09:34 DEBUG [Main] [Geode]:         Loading binary for mod geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ChallengeNode::init hook at 0x7ff691175490 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ChallengesPage::createChallengeNode hook at 0x7ff6911749f0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ChallengesPage::init hook at 0x7ff691173ca0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CharacterColorPage::init hook at 0x7ff6911766e0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CommentCell::loadFromComment hook at 0x7ff6911a3790 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CreatorLayer::init hook at 0x7ff69118a300 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CustomSongWidget::init hook at 0x7ff6911b5900 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CustomizeObjectLayer::init hook at 0x7ff6911932f0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled CustomizeObjectLayer::toggleVisible hook at 0x7ff6911970e0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled DailyLevelNode::init hook at 0x7ff6911bea30 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled DailyLevelPage::init hook at 0x7ff6911bb4c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled DemonFilterSelectLayer::init hook at 0x7ff6913e72c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled EditLevelLayer::init hook at 0x7ff6911c1c80 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled EditorPauseLayer::init hook at 0x7ff6911c66f0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled EditorUI::init hook at 0x7ff6911cba20 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled EndLevelLayer::customSetup hook at 0x7ff69121edf0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled EndLevelLayer::showLayer hook at 0x7ff691220b60 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled FLAlertLayer::init hook at 0x7ff691140ce0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJCommentListLayer::init hook at 0x7ff69136f8c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJDropDownLayer::init hook at 0x7ff6913354f0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJGarageLayer::init hook at 0x7ff691351150 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJGarageLayer::setupPage hook at 0x7ff691354070 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJGroundLayer::init hook at 0x7ff69135c060 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJListLayer::init hook at 0x7ff69135d710 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GJScoreCell::loadFromScore hook at 0x7ff6911a6010 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GameToolbox::addBackButton hook at 0x7ff691153a20 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GameToolbox::addRThumbScrollButton hook at 0x7ff691153b00 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GauntletNode::init hook at 0x7ff6912ddf90 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GauntletSelectLayer::init hook at 0x7ff6912dbd80 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled GauntletSelectLayer::setupGauntlets hook at 0x7ff6912dce70 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled InfoLayer::init hook at 0x7ff691398470 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled InfoLayer::setupCommentsBrowser hook at 0x7ff69139c2c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LeaderboardsLayer::init hook at 0x7ff69139ed30 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelAreaInnerLayer::init hook at 0x7ff6913a3200 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelBrowserLayer::init hook at 0x7ff6913a57d0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelCell::loadCustomLevelCell hook at 0x7ff69119c110 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelCell::loadFromLevel hook at 0x7ff69119bf30 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelCell::loadLocalLevelCell hook at 0x7ff69119ea50 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelEditorLayer::init hook at 0x7ff6913ae440 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::init hook at 0x7ff6913c7620 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::setupPlatformerStats hook at 0x7ff6913ca440 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::setupProgressBars hook at 0x7ff6913ca870 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::updateLabelValues hook at 0x7ff6913cf060 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelLeaderboard::init hook at 0x7ff6913d0660 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelListCell::loadFromList hook at 0x7ff6911ac320 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelPage::init hook at 0x7ff6913e9570 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelPage::updateDynamicPage hook at 0x7ff6913ea200 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelSearchLayer::init hook at 0x7ff6913dbc60 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled LevelSelectLayer::init hook at 0x7ff6913e7d60 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled MenuGameLayer::init hook at 0x7ff691400ac0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled MoreOptionsLayer::init hook at 0x7ff691441e90 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled MoreSearchLayer::init hook at 0x7ff6913e2540 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled OptionsLayer::customSetup hook at 0x7ff6914404c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled PauseLayer::customSetup hook at 0x7ff69144abc0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled PlayLayer::init hook at 0x7ff691472890 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled PlayLayer::setupHasCompleted hook at 0x7ff6914735e0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled PlayerObject::init hook at 0x7ff691454970 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ProfilePage::init hook at 0x7ff69148b3b0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ProfilePage::loadPageFromUserInfo hook at 0x7ff69148c890 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled RewardsPage::init hook at 0x7ff691498710 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled SecretRewardsLayer::init hook at 0x7ff69149e2c0 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled SetGroupIDLayer::init hook at 0x7ff6914bde60 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled ShardsPage::init hook at 0x7ff69154de70 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:         Enabled UILayer::init hook at 0x7ff69158fe60 for geode.node-ids
+03:09:34 DEBUG [Main] [Geode]:       geode.texture-loader v1.6.0
+03:09:34 DEBUG [Main] [Geode]:         Unzip
+03:09:34 DEBUG [Main] [Geode]:         Hash mismatch detected, unzipping
+03:09:34 DEBUG [Main] [Geode]:         Load
+03:09:34 DEBUG [Main] [Geode]:         Loading binary for mod geode.texture-loader
+03:09:34 DEBUG [Main] [Geode]:         Enabled cocos2d::CCSprite::create hook at 0x7ffbf3778c40 for geode.texture-loader
+03:09:34 DEBUG [Main] [Geode]:         Enabled cocos2d::CCSprite::createWithSpriteFrameName hook at 0x7ffbf3778e30 for geode.texture-loader
+03:09:34 DEBUG [Main] [Geode]:         Enabled cocos2d::CCSprite::initWithSpriteFrame hook at 0x7ffbf3779340 for geode.texture-loader
+03:09:34 DEBUG [Main] [Geode]:         Enabled cocos2d::CCSpriteFrameCache::spriteFrameByName hook at 0x7ffbf377ffa0 for geode.texture-loader
+03:09:34 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x7ff6914030f0 for geode.texture-loader
+03:09:34 INFO  [Ma>] [Texture Loader]: Loading texture packs
+03:09:34 WARN  [Ma>] [Texture Loader]: Unable to load pack E:\SteamLibrary\steamapps\common\Geometry Dash\geode\config\geode.texture-loader\packs\feefai ob 1.rar: Expected zip or apk
+03:09:34 INFO  [Ma>] [Texture Loader]: Loaded 1 packs
+03:09:34 INFO  [Main] [Geode]:     Took 0.449s. Continuing next frame...
+03:09:34 DEBUG [Main] [Geode]: Setting up IPC
+03:09:34 DEBUG [Main] [Geode]:   IPC set up
+03:09:34 INFO  [Main] [Geode]: Starting loader update check
+03:09:34 DEBUG [Main] [Geode]: Last update check result: v3.0.0
+03:09:34 INFO  [Main] [Geode]: Entry took 0.461s
+03:09:38 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:38 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:38 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:38 DEBUG [Main] [Geode]:   Loading mods
+03:09:38 DEBUG [Main] [Geode]:     zilko.custom_labels v1.1.0
+03:09:38 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:38 INFO  [Main] [Geode]: Latest version is v3.0.0
+03:09:38 INFO  [Main] [Geode]: Took 0.006s
+03:09:38 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:38 DEBUG [Main] [Geode]:   Loading mods
+03:09:38 DEBUG [Main] [Geode]:     itzkiba.better_progression v1.2.1
+03:09:38 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:38 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:38 DEBUG [Main] [Geode]:       Load
+03:09:38 DEBUG [Main] [Geode]:       Loading binary for mod itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x7ff691472890 for itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled PlayLayer::onQuit hook at 0x7ff691487540 for itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled cocos2d::CCDirector::willSwitchToScene hook at 0x7ffbf37adad0 for itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled ProfilePage::loadPageFromUserInfo hook at 0x7ff69148c890 for itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x7ff6914030f0 for itzkiba.better_progression
+03:09:38 DEBUG [Main] [Geode]:       Enabled GJScoreCell::loadFromScore hook at 0x7ff6911a6010 for itzkiba.better_progression
+03:09:38 INFO  [Main] [Geode]: Took 0.159s
+03:09:38 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:38 DEBUG [Main] [Geode]:   Loading mods
+03:09:38 DEBUG [Main] [Geode]:     cvolton.betterinfo v4.2.0-beta.2
+03:09:38 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:38 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:39 DEBUG [Main] [Geode]:       Load
+03:09:39 DEBUG [Main] [Geode]:       Loading binary for mod cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ChallengesPage::createChallengeNode hook at 0x7ff6911749f0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ChallengesPage::init hook at 0x7ff691173ca0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ChallengesPage::updateTimers hook at 0x7ff691174d70 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled CommentCell::loadFromComment hook at 0x7ff6911a3790 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled CreatorLayer::init hook at 0x7ff69118a300 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled DailyLevelNode::init hook at 0x7ff6911bea30 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled DailyLevelPage::init hook at 0x7ff6911bb4c0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled DailyLevelPage::updateTimers hook at 0x7ff6911be170 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditLevelLayer::init hook at 0x7ff6911c1c80 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditLevelLayer::onLevelInfo hook at 0x7ff6911c3270 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJLevelList::showListInfo hook at 0x7ff69125eff0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJScoreCell::loadFromScore hook at 0x7ff6911a6010 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GameLevelManager::getCompletedLevels hook at 0x7ff691232d40 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GameLevelManager::getSavedLevels hook at 0x7ff6912328f0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GameLevelManager::limitSavedLevels hook at 0x7ff691234b70 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GameLevelManager::onProcessHttpRequestCompleted hook at 0x7ff69122e3d0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GameLevelManager::userNameForUserID hook at 0x7ff6912314e0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled InfoLayer::init hook at 0x7ff691398470 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled InfoLayer::loadPage hook at 0x7ff69139bd50 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled InfoLayer::onLevelInfo hook at 0x7ff69139b5b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled InfoLayer::onMore hook at 0x7ff69139aed0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled InfoLayer::setupCommentsBrowser hook at 0x7ff69139c2c0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ItemInfoPopup::init hook at 0x7ff691359730 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LeaderboardsLayer::init hook at 0x7ff69139ed30 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::init hook at 0x7ff6913a3200 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::init hook at 0x7ff6913a57d0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::loadPage hook at 0x7ff6913a72b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::onGoToPage hook at 0x7ff6913a9420 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::setupPageInfo hook at 0x7ff6913a9130 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelCell::loadCustomLevelCell hook at 0x7ff69119c110 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelCell::onViewProfile hook at 0x7ff69119f700 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x7ff6913c7620 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onLevelInfo hook at 0x7ff6913ceba0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onViewProfile hook at 0x7ff6913ceaf0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::updateLabelValues hook at 0x7ff6913cf060 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelLeaderboard::init hook at 0x7ff6913d0660 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelListCell::loadFromList hook at 0x7ff6911ac320 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelPage::onInfo hook at 0x7ff6913ed820 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelSearchLayer::getSearchObject hook at 0x7ff6913df7b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::init hook at 0x7ff6913e2540 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::onSongFilter hook at 0x7ff6913e57e0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::onSongMode hook at 0x7ff6913e6500 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x7ff691472890 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayLayer::levelComplete hook at 0x7ff691474850 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayLayer::onQuit hook at 0x7ff691487540 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayLayer::resetLevel hook at 0x7ff6914858b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ProfilePage::getUserInfoFailed hook at 0x7ff691492210 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ProfilePage::init hook at 0x7ff69148b3b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ProfilePage::loadPageFromUserInfo hook at 0x7ff69148c890 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled ProfilePage::onClose hook at 0x7ff6914915b0 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled RewardsPage::init hook at 0x7ff691498710 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJGameLevel::lengthKeyToString hook at 0x7ff691254860 for cvolton.betterinfo
+03:09:39 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x7ff6914030f0 for cvolton.betterinfo
+03:09:39 INFO  [Main] [Geode]: Took 0.334s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     tpdea.betterpause-Better v1.6.8
+03:09:39 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     cvolton.betterinfo v4.2.0-beta.2
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     fleym.nongd v2.10.1
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:39 INFO  [BI Manager Loader] [BetterInfo]: Loaded cache.json
+03:09:39 DEBUG [Main] [Geode]:       Load
+03:09:39 DEBUG [Main] [Geode]:       Loading binary for mod fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::init hook at 0x7ff6911b5900 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateMultiAssetInfo hook at 0x7ff6911b9960 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongInfo hook at 0x7ff6911b8800 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateWithMultiAssets hook at 0x7ff6911b9610 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x7ff6913c7620 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJGameLevel::getAudioFileName hook at 0x7ff691254b80 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelTools::getAudioTitle hook at 0x7ff6913f7130 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::init hook at 0x7ff6913e7d60 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x7ff6914030f0 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::getSongInfoObject hook at 0x7ff69140e070 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::onGetSongInfoCompleted hook at 0x7ff69140c960 for fleym.nongd
+03:09:39 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::pathForSong hook at 0x7ff69140e400 for fleym.nongd
+03:09:39 INFO  [Main] [Geode]: Took 0.192s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     flafy.autonong v0.2.0
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:39 DEBUG [Main] [Geode]:       Load
+03:09:39 DEBUG [Main] [Geode]:       Loading binary for mod flafy.autonong
+03:09:39 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongInfo hook at 0x7ff6911b8800 for flafy.autonong
+03:09:39 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x7ff6913c7620 for flafy.autonong
+03:09:39 INFO  [Main] [Auto Nong]:   Loading Auto Nong index from url: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]:   Loading Auto Nong index from url: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]:   Loading Auto Nong index from url: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Geode]: Took 0.133s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     alphalaneous.deathlink v1.2.9
+03:09:39 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     bitz.moregames v1.0.4
+03:09:39 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     flafy.autonong v0.2.0
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     dankmeme.globed2 v1.4.0 has unresolved dependencies
+03:09:39 INFO  [Main] [Geode]: Took 0.016s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     geode.custom-keybinds v1.6.0
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 DEBUG [Main] [Geode]:       Load
+03:09:39 DEBUG [Main] [Geode]:       Loading binary for mod geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled AppDelegate::applicationWillEnterForeground hook at 0x7ff6911717a0 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorPauseLayer::customSetup hook at 0x7ff6911c6d50 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorPauseLayer::keyDown hook at 0x7ff6911cac90 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorUI::init hook at 0x7ff6911cba20 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorUI::keyDown hook at 0x7ff691211300 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorUI::keyUp hook at 0x7ff691212590 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorUI::moveObjectCall hook at 0x7ff69120bb90 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled EditorUI::transformObjectCall hook at 0x7ff69120c340 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x7ff69144abc0 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled PauseLayer::keyDown hook at 0x7ff69144cec0 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled UILayer::init hook at 0x7ff69158fe60 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled UILayer::keyDown hook at 0x7ff691591220 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled UILayer::keyUp hook at 0x7ff691591230 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled cocos2d::CCEGLView::onGLFWKeyCallback hook at 0x7ffbf3765dc0 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG hook at 0x7ffbf3734500 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::updateModifierKeys hook at 0x7ffbf3735160 for geode.custom-keybinds
+03:09:39 DEBUG [Main] [Geode]:       Enabled MoreOptionsLayer::onKeybindings hook at 0x7ff6911c9640 for geode.custom-keybinds
+03:09:39 INFO  [Main] [Geode]: Took 0.22s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     syzzi.click_between_frames v1.1.15
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 INFO  [Main] [Auto Nong]: event for index https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+03:09:39 DEBUG [Main] [Geode]:       Load
+03:09:39 DEBUG [Main] [Geode]:       Loading binary for mod syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x7ff691472890 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled cocos2d::CCDirector::setDeltaTime hook at 0x7ffbf37ace00 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::checkCollisions hook at 0x7ff6912f4350 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::getModifiedDelta hook at 0x7ff691317730 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::handleButton hook at 0x7ff6913138a0 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayerObject::update hook at 0x7ff691456ee0 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled PlayerObject::updateRotation hook at 0x7ff69145f0b0 for syzzi.click_between_frames
+03:09:39 DEBUG [Main] [Geode]:       Enabled EndLevelLayer::customSetup hook at 0x7ff69121edf0 for syzzi.click_between_frames
+03:09:39 INFO  [Main] [Geode]: Took 0.177s
+03:09:39 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:39 DEBUG [Main] [Geode]:   Loading mods
+03:09:39 DEBUG [Main] [Geode]:     dankmeme.globed2 v1.4.0
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Unzip
+03:09:39 DEBUG [Mod Unzip] [Geode]:  Hash mismatch detected, unzipping
+03:09:40 DEBUG [Main] [Geode]:       Load
+03:09:40 DEBUG [Main] [Geode]:       Loading binary for mod dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::incrementJumps hook at 0x7ff69145acd0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::playDeathEffect hook at 0x7ff69144d0c0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::incrementJumps hook at 0x7ff69145acd0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::playSpiderDashEffect hook at 0x7ff691463200 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::update hook at 0x7ff691456ee0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::checkCollisions hook at 0x7ff6912f4350 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::init hook at 0x7ff6912e7dd0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::loadLevelSettings hook at 0x7ff691319e30 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x7ff69144abc0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::goEdit hook at 0x7ff69144cac0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onEdit hook at 0x7ff69144c8f0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onNormalMode hook at 0x7ff69144c640 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onPracticeMode hook at 0x7ff69144c560 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onQuit hook at 0x7ff69144cd70 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestart hook at 0x7ff69144c7b0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestartFull hook at 0x7ff69144c850 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::onResume hook at 0x7ff69144c720 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x7ff69144abc0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled EditorPauseLayer::onSaveAndPlay hook at 0x7ff6911ca5a0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled FLAlertLayer::keyBackClicked hook at 0x7ff691141a00 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GameManager::loadIcon hook at 0x7ff691268e70 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GameManager::reloadAllStep2 hook at 0x7ff691270850 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GameManager::returnToLastScene hook at 0x7ff691270350 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelEditorLayer::init hook at 0x7ff6913ae440 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled GJGameLevel::savePercentage hook at 0x7ff691254540 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::destroyPlayer hook at 0x7ff6914805a0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::fullReset hook at 0x7ff691485600 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x7ff691472890 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::levelComplete hook at 0x7ff691474850 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::onQuit hook at 0x7ff691487540 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::resetLevel hook at 0x7ff6914858b0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::setupHasCompleted hook at 0x7ff6914735e0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayLayer::showNewBest hook at 0x7ff6914760c0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled PlayerObject::update hook at 0x7ff691456ee0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::init hook at 0x7ff6913a3200 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::onBack hook at 0x7ff6913a5260 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::onDoor hook at 0x7ff6913a4f70 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::setupLevelBrowser hook at 0x7ff6913a8440 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onPlay hook at 0x7ff6913cc520 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::tryCloneLevel hook at 0x7ff6913cd4f0 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::init hook at 0x7ff6913e7d60 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::updatePageWithObject hook at 0x7ff6913e8b50 for dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x7ff6914030f0 for dankmeme.globed2
+03:09:40 INFO  [Main] [Geode]: Took 0.387s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Loading mods
+03:09:40 DEBUG [Main] [Geode]:     itzkiba.better_progression v1.2.1
+03:09:40 INFO  [Main] [Geode]: Took 0.016s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Loading mods
+03:09:40 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher v1.1.2
+03:09:40 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:40 INFO  [Main] [Geode]: Took 0.016s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Loading mods
+03:09:40 DEBUG [Main] [Geode]:     syzzi.click_between_frames v1.1.15
+03:09:40 INFO  [Main] [Geode]: Took 0.016s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Loading mods
+03:09:40 DEBUG [Main] [Geode]:     statuszer0.ultra_ldm v1.0.0
+03:09:40 ERROR [Main] [Geode]:       mod.json uses old syntax
+03:09:40 INFO  [Main] [Geode]: Took 0.018s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Loading mods
+03:09:40 DEBUG [Main] [Geode]:     zilko.custom_labels v1.1.0
+03:09:40 ERROR [Main] [Geode]:       This mod was created for a different version of Geometry Dash (2.204). You currently have version 2.206.
+03:09:40 INFO  [Main] [Geode]: Took 0.016s
+03:09:40 INFO  [Main] [Geode]: Continuing mod graph refresh...
+03:09:40 DEBUG [Main] [Geode]:   Finding problems
+03:09:40 DEBUG [Main] [Geode]:     fleym.nongd
+03:09:40 DEBUG [Main] [Geode]:     geode.loader
+03:09:40 DEBUG [Main] [Geode]:     alphalaneous.deathlink
+03:09:40 DEBUG [Main] [Geode]:     bitz.moregames is not enabled
+03:09:40 DEBUG [Main] [Geode]:     tpdea.betterpause-Better
+03:09:40 DEBUG [Main] [Geode]:     flafy.autonong
+03:09:40 DEBUG [Main] [Geode]:     dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:     cvolton.betterinfo
+03:09:40 DEBUG [Main] [Geode]:     cvolton.misc_bugfixes
+03:09:40 DEBUG [Main] [Geode]:     egg.icon_hack
+03:09:40 DEBUG [Main] [Geode]:     geode.custom-keybinds
+03:09:40 DEBUG [Main] [Geode]:     geode.node-ids
+03:09:40 DEBUG [Main] [Geode]:     geode.texture-loader
+03:09:40 DEBUG [Main] [Geode]:     itzkiba.better_progression
+03:09:40 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher
+03:09:40 DEBUG [Main] [Geode]:     syzzi.click_between_frames
+03:09:40 DEBUG [Main] [Geode]:     statuszer0.ultra_ldm is not enabled
+03:09:40 DEBUG [Main] [Geode]:     zilko.custom_labels
+03:09:40 INFO  [Main] [Geode]:   Took 0.001s
+03:09:40 DEBUG [Main] [Geode]: Verifying Loader Resources
+03:09:40 DEBUG [Main] [Geode]: Loading Loader Resources
+03:09:40 DEBUG [Main] [Geode]: Loading mod resources
+03:09:40 DEBUG [Main] [Geode]: Adding resources
+03:09:40 DEBUG [Main] [Geode]:   geode.loader
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet geode.loader/LogoSheet
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet geode.loader/APISheet
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet geode.loader/BlankSheet
+03:09:40 DEBUG [Main] [Geode]:   bitz.moregames
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet bitz.moregames/IconSheet
+03:09:40 DEBUG [Main] [Geode]:   dankmeme.globed2
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet dankmeme.globed2/globedsheet1
+03:09:40 DEBUG [Main] [Geode]:   cvolton.betterinfo
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet cvolton.betterinfo/SearchButtons-410
+03:09:40 DEBUG [Main] [Geode]:   geode.custom-keybinds
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet geode.custom-keybinds/KB_ControllerSheet
+03:09:40 DEBUG [Main] [Geode]:   itzkiba.better_progression
+03:09:40 DEBUG [Main] [Geode]:     Adding sheet itzkiba.better_progression/badgeSpritesheet
+03:09:41 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:41 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:41 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:41 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:41 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:41 INFO  [Main] [Globed]: preloading assets
+03:09:41 DEBUG [Main] [Globed]: preloadAssets stage: 0
+03:09:41 DEBUG [Main] [Globed]: initialized preload state in 2.777ms
+03:09:41 DEBUG [Main] [Globed]: texture quality: Medium
+03:09:41 DEBUG [Main] [Globed]: texture packs: 0
+03:09:41 DEBUG [Main] [Globed]: game resources path (3): E:\SteamLibrary\steamapps\common\Geometry Dash\Resources/
+03:09:41 DEBUG [Main] [Globed]: preload: preparing 19 textures
+03:09:41 DEBUG [Main] [Globed]: preload: loading images (19 total)
+03:09:41 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:41 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:41 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:41 DEBUG [Main] [Globed]: preloadAssets stage: 1
+03:09:41 DEBUG [Main] [Globed]: preload: preparing 485 textures
+03:09:41 DEBUG [Main] [Globed]: preload: loading images (485 total)
+03:09:41 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:42 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:44 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:44 DEBUG [Main] [Globed]: preloadAssets stage: 2
+03:09:44 DEBUG [Main] [Globed]: preload: preparing 168 textures
+03:09:44 DEBUG [Main] [Globed]: preload: loading images (168 total)
+03:09:44 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:44 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:45 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:45 DEBUG [Main] [Globed]: preloadAssets stage: 3
+03:09:45 DEBUG [Main] [Globed]: preload: preparing 119 textures
+03:09:45 DEBUG [Main] [Globed]: preload: loading images (119 total)
+03:09:45 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:45 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:45 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:45 DEBUG [Main] [Globed]: preloadAssets stage: 4
+03:09:45 DEBUG [Main] [Globed]: preload: preparing 149 textures
+03:09:45 DEBUG [Main] [Globed]: preload: loading images (149 total)
+03:09:45 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:46 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:46 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:46 DEBUG [Main] [Globed]: preloadAssets stage: 5
+03:09:46 DEBUG [Main] [Globed]: preload: preparing 96 textures
+03:09:46 DEBUG [Main] [Globed]: preload: loading images (96 total)
+03:09:46 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:46 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:46 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:46 DEBUG [Main] [Globed]: preloadAssets stage: 6
+03:09:46 DEBUG [Main] [Globed]: preload: preparing 185 textures
+03:09:46 DEBUG [Main] [Globed]: preload: loading images (185 total)
+03:09:46 DEBUG [Main] [Globed]: preload: initializing gl textures
+03:09:47 DEBUG [Main] [Globed]: preload: initialized textures, adding sprite frames
+03:09:47 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+03:09:47 INFO  [Main] [Globed]: Asset preloading finished in 6.478s.
+03:09:47 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:47 DEBUG [stderr]: libpng warning: iCCP: cHRM chunk does not match sRGB
+03:09:47 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:47 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:47 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:09:47 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:09:47 WARN  [Main] [Globed]: Condition failed at D:/a/globed2/globed2/src/managers/game_server.cpp:185 (Result<> __cdecl GameServerManager::loadFromCache(void)): invalid response sent by the server (invalid magic)
+03:09:47 WARN  [Main] [Globed]: failed to autoconnect: invalid response sent by the server (invalid magic)
+03:09:47 INFO  [Main] [Misc Bugfixes]: Fetching important notices from: https://geometrydash.eu/mods/miscbugfixes/_api/importantNotices/?platform=Windows&version=v1.2.0-beta.1&loader=v3.0.0&wine=&os=Windows%2010.0.19045
+03:09:47 DEBUG [Main] [Misc Bugfixes]: Loading song browser lag fix
+03:09:47 DEBUG [Thread #19060] [Misc Bugfixes]: Started populating downloaded songs cache
+03:09:47 INFO  [Main] [Misc Bugfixes]: Adjusted collected orbs by: 0 (134019 -> 134019)
+03:09:47 DEBUG [Thread #19060] [Misc Bugfixes]: Finished populating downloaded songs cache
+03:09:47 DEBUG [BI Manager Loader II] [BetterInfo]: Caching 2 rated and 150 unrated levels
+03:09:47 DEBUG [BI Manager Loader II] [BetterInfo]: Caching 0 rated and 2 unrated levels
+03:09:48 INFO  [Main] [Geode]: All mods up to date!
+03:09:48 INFO  [Main] [Misc Bugfixes]: Checking if v3.0.0 is older than v2.0.0-beta.25
+03:09:48 INFO  [Main] [Better Progression]: Creator Points from request: 0
+03:09:48 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:09:48 DEBUG [Main] [BetterInfo]: Cached 2 levels
+03:09:49 DEBUG [Main] [BetterInfo]: Finished caching levels
+03:09:49 DEBUG [Main] [BetterInfo]: Finished caching levels
+03:09:50 DEBUG [Main] [BetterInfo]: Finished caching levels
+03:09:59 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:10:01 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:10:06 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:06 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:09 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:09 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:23 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:10:44 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:10:44 DEBUG [stderr]: libpng warning: Interlace handling should be turned on when using png_read_image
+03:10:53 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:53 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:53 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:10:53 DEBUG [stderr]: libpng warning: iCCP: cHRM chunk does not match sRGB
+03:10:53 DEBUG [Main] [Globed]: pos: 3, top: false, right: true
+03:10:58 WARN  [Main] [Globed]: vmt hook failed: Cannot enable patch: Failed to enable patch: Unable to write to memory
+03:10:59 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:10:59 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:11:27 ERROR [Main] [Geode]: Unable to parse mod 'bitz.moregames' version from the server: Mod targets version v2.0.0-beta.12 but Geode is version v3.0.0
+03:11:41 ERROR [Main] [Geode]: Unable to parse mod 'dankmeme.globed2' version from the server: Mod targets version v2.0.0-beta.15 but Geode is version v3.0.0
+03:11:41 ERROR [Main] [Geode]: Unable to parse mod 'dankmeme.globed2' version from the server: Mod targets version v2.0.0-beta.23 but Geode is version v3.0.0
+03:11:43 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:11:43 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:11:47 INFO  [Main] [Globed]: Authkey created successfully, saving.
+03:11:53 DEBUG [Network Thread (out)] [Globed]: tcp connection successful, sending the handshake
+03:11:53 DEBUG [Main] [Globed]: handshake successful, logging in
+03:11:54 INFO  [Network Thread (in)] [Globed]: Successfully logged into the server!
+03:11:54 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:12:53 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+03:12:56 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 399ms, decompress: 44ms, parse: 355ms
+03:12:59 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 342ms, decompress: 32ms, parse: 310ms
+03:13:01 DEBUG [Main] [Globed]: pos: 3, top: false, right: true
+03:13:01 WARN  [Main] [Globed]: vmt hook failed: Cannot enable patch: Failed to enable patch: Unable to write to memory
+03:13:02 DEBUG [stderr]: libpng warning: iCCP: known incorrect sRGB profile
+03:14:12 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 317ms, decompress: 51ms, parse: 266ms
+03:14:47 ERROR [Main] [Geode]: Unable to parse mod 'geode.texture-loader' version from the server: Mod targets version v3.0.0-alpha.1 but Geode is version v3.0.0
+03:14:47 ERROR [Main] [Geode]: Unable to parse mod 'geode.texture-loader' version from the server: Mod targets version v3.0.0-alpha.1 but Geode is version v3.0.0
+03:14:47 ERROR [Main] [Geode]: Unable to parse mod 'geode.texture-loader' version from the server: Mod targets version v3.0.0-alpha.2 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v2.0.0 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v2.0.0 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v2.0.0 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v2.0.0 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v3.0.0-alpha.1 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v3.0.0-alpha.1 but Geode is version v3.0.0
+03:15:00 ERROR [Main] [Geode]: Unable to parse mod 'cvolton.misc_bugfixes' version from the server: Mod targets version v3.0.0-alpha.2 but Geode is version v3.0.0
+03:15:32 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:15:32 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:15:53 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:15:53 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:16:15 DEBUG [Main] [Globed]: pos: 3, top: false, right: true
+03:16:52 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:16:52 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+03:16:53 INFO  [Main] [Geode]: Saving mod data...
+03:16:53 DEBUG [Main] [Geode]:   fleym.nongd
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if fix-empty-size is saved
+03:16:53 DEBUG [Main] [Geode]:   geode.loader
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if auto-check-updates is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if show-platform-console is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-last-crashed-popup is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if server-cache-size-limit is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if enable-geode-theme is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if auto-update-mods is saved
+03:16:53 DEBUG [Main] [Geode]:   alphalaneous.deathlink
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:   bitz.moregames
+03:16:53 DEBUG [Main] [Geode]:   tpdea.betterpause-Better
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if type-pause is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if level-editor-hack is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if show-comment-button is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if amount-scroll-button is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-arrow-blink is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if tolerance-in-buttons-list is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-arrow-buttons is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-creator-label is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if enabled-info-button is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if enabled-coins-viewer is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-rating-plus-label is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if original-comment-button-sprite is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-edit-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if remove-exit-hotkey is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if disable-icon-rating-plus-label is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-resume-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-practice-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-normal-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-restart-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if confirm-restart-full-level is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if Quick-Settings-Select is saved
+03:16:53 DEBUG [Main] [Geode]:   flafy.autonong
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if show-level-popup is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if use-cobalt is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if use-yt-dlp is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if yt-dlp-path is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if indexes is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if _blacklistPPClear is saved
+03:16:53 DEBUG [Main] [Geode]:   dankmeme.globed2
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if force-skip-preload is saved
+03:16:53 DEBUG [Main] [Geode]:   cvolton.betterinfo
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if fix-green-users is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if show-comment-ids is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if white-id is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if level-info is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if alt-button is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if auto-submit is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if hide-platformer-time is saved
+03:16:53 DEBUG [Main] [Geode]:   cvolton.misc_bugfixes
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if skip-4gb-patch-check is saved
+03:16:53 DEBUG [Main] [Geode]:   egg.icon_hack
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if disablerandomize is saved
+03:16:53 DEBUG [Main] [Geode]:   geode.custom-keybinds
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if open-menu is saved
+03:16:53 DEBUG [Main] [Geode]:   geode.node-ids
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:   geode.texture-loader
+03:16:53 INFO  [M>] [Texture Lo>]: Saving texture packs
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:   itzkiba.better_progression
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:   TheSillyDoggo.StartposSwitcher
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if show-ui is saved
+03:16:53 DEBUG [Main] [Geode]:   syzzi.click_between_frames
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if right-click is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if late-cutoff is saved
+03:16:53 DEBUG [Main] [Geode]:   statuszer0.ultra_ldm
+03:16:53 DEBUG [Main] [Geode]:   zilko.custom_labels
+03:16:53 DEBUG [Main] [Geode]:     Check covered
+03:16:53 DEBUG [Main] [Geode]:     Check if labels_enabled is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if button_enabled is saved
+03:16:53 DEBUG [Main] [Geode]:     Check if button_menu is saved
+03:16:53 INFO  [Main] [Geode]:   Took 0.042s
+03:16:54 DEBUG [Main] [Globed]: waiting for network threads to terminate..
+03:16:54 DEBUG [Main] [Globed]: disconnecting from the server..
+03:16:54 INFO  [Main] [Globed]: goodbye from networkmanager!
+03:16:54 INFO  [Main] [Globed]: audio thread halted.

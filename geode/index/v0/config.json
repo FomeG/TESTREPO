@@ -1,0 +1,3694 @@
+{
+    "repos": {
+        "camila314/geode-index": [
+            "camila314.acbypass",
+            "camila314.alignto",
+            "camila314.demonlist-button",
+            "camila314.noclip",
+            "camila314.startswitcher"
+        ],
+        "altalk23/geode-indexer": [
+            "alk.editorcollab",
+            "alk.fps-shower",
+            "alk.small-additions"
+        ],
+        "HJfod/geode-indexer": [],
+        "Fleeym/indexer": [
+            "fleym.nongd"
+        ],
+        "matcool/geode-indexer": [
+            "mat.circle-tool",
+            "mat.fps-bypass",
+            "mat.practice-music",
+            "mat.rgb-color-input",
+            "mat.scroll-zoom"
+        ],
+        "relativemodder/indexer": [
+            "rlt.gd-multiprofile-mod",
+            "rlt.gd-platformer"
+        ],
+        "FigmentBoy/indexer": [
+            "fig.video_player"
+        ],
+        "ninXout/index-test": [
+            "ninxout.crystalclient"
+        ],
+        "CattoDev/indexer": [
+            "cattodev.gatobot"
+        ],
+        "ruslan831/indexer": [
+            "ruslan.apm",
+            "ruslan.ne",
+            "ruslan.nm"
+        ],
+        "Igbalabanov/indexer": [
+            "chs.confirmquit",
+            "chs000.modmenutest"
+        ],
+        "o7Moon/indexer": [
+            "o7moon.noglow"
+        ],
+        "balt-dev/indexer": [
+            "balt.freewindow"
+        ],
+        "HarmOnGitHub/indexer": [
+            "harm.restartkey"
+        ],
+        "Cvolton/geode-indexer": [
+            "cvolton.betterinfo"
+        ]
+    },
+    "verified": [
+        "camila314",
+        "matcool",
+        "HJfod",
+        "altalk23",
+        "FigmentBoy",
+        "CattoDev",
+        "Cvolton",
+        "Fleeym",
+        "ninXout",
+        "relativemodder",
+        "melowody",
+        "cgytrus",
+        "NicknameGG",
+        "dankmeme01",
+        "Jouca",
+        "FireMario211",
+        "iArtie",
+        "Capeling",
+        "TheSillyDoggo",
+        "ItzKiba",
+        "maxnut",
+        "LXanii",
+        "ZiLko",
+        "TechStudent10",
+        "Alphalaneous",
+        "Uproxide",
+        "undefined06855",
+        "MuhXd",
+        "coopeeo",
+        "SaiOwO",
+        "RoootTheFox",
+        "B1rtek",
+        "Prevter",
+        "qimiko",
+        "cdc-sys",
+        "RayDeeUx",
+        "SpaghettDev",
+        "hiimjustin000"
+    ],
+    "staff": [
+        "camila314",
+        "matcool",
+        "HJfod",
+        "altalk23",
+        "FigmentBoy",
+        "cgytrus",
+        "Cvolton",
+        "Fleeym",
+        "dankmeme01",
+        "kynex7510",
+        "Alphalaneous",
+        "qimiko",
+        "Prevter",
+        "ninXout"
+    ],
+    "entries": {
+        "alk.editorcollab": {
+            "verified": false,
+            "versions": [
+                "1.12.4-beta",
+                "1.12.2-beta",
+                "1.12.3-beta",
+                "1.12.1-beta",
+                "1.12.5-beta",
+                "1.12.6-beta",
+                "1.12.7-beta",
+                "1.12.8-beta",
+                "1.12.9-beta",
+                "1.12.10-beta",
+                "1.12.11-beta",
+                "1.12.12-beta",
+                "1.12.13-beta"
+            ]
+        },
+        "geode.texture-loader": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.2.0",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.5.0"
+            ]
+        },
+        "alk.fullscreen-fix": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "alk.fps-bypass": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9",
+                "1.0.10",
+                "1.0.11",
+                "1.0.12",
+                "1.0.13"
+            ]
+        },
+        "alk.small-additions": {
+            "verified": false,
+            "versions": [
+                "2.2.1",
+                "2.2.2",
+                "2.2.3",
+                "2.2.4",
+                "2.2.5"
+            ]
+        },
+        "alk.fps-shower": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "geode.devtools": {
+            "verified": false,
+            "versions": [
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.1.1",
+                "1.2.4",
+                "1.3.0",
+                "1.4.0",
+                "1.5.0",
+                "1.5.1",
+                "1.6.0"
+            ]
+        },
+        "cvolton.betterinfo": {
+            "verified": false,
+            "versions": [
+                "3.0.2",
+                "3.0.3",
+                "3.0.4",
+                "3.0.5",
+                "3.0.6",
+                "3.0.7",
+                "3.0.8",
+                "3.0.9",
+                "3.0.10",
+                "3.0.11",
+                "3.0.12",
+                "3.0.13",
+                "3.1.0",
+                "3.1.1",
+                "4.0.0-alpha.1",
+                "4.0.0-alpha.2",
+                "4.0.0-alpha.3",
+                "4.0.0-alpha.4",
+                "4.0.0-alpha.5",
+                "4.0.0-alpha.6",
+                "4.0.0-alpha.7",
+                "4.0.0-alpha.8",
+                "4.0.0-alpha.9",
+                "4.0.0-alpha.10",
+                "4.0.0-alpha.11",
+                "4.0.0-alpha.12",
+                "4.0.0-alpha.13",
+                "4.0.0",
+                "4.1.0",
+                "4.1.1",
+                "4.1.2",
+                "4.1.3",
+                "4.1.4",
+                "4.1.5",
+                "4.1.6",
+                "4.1.7",
+                "4.1.8",
+                "4.1.9",
+                "4.1.10",
+                "4.1.11",
+                "4.1.12",
+                "4.1.13"
+            ]
+        },
+        "mat.practice-music": {
+            "verified": false,
+            "versions": [
+                "1.0.4",
+                "1.0.5"
+            ]
+        },
+        "cvolton.robtop_bot": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "mat.run-info": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "alk.drawing-utilities": {
+            "verified": false,
+            "versions": [
+                "0.1.0-alpha",
+                "0.2.0-alpha",
+                "0.2.1-alpha",
+                "0.2.2-alpha",
+                "0.3.0-alpha"
+            ]
+        },
+        "balt.freewindow": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.acbypass": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.alignto": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.demonlist-button": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.noclip": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.startswitcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cattodev.gatobot": {
+            "verified": false,
+            "versions": [
+                "1.3.0"
+            ]
+        },
+        "chs.confirmquit": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "chs000.modmenutest": {
+            "verified": false,
+            "versions": [
+                "0.1.2"
+            ]
+        },
+        "fig.video_player": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "fleym.nongd": {
+            "verified": false,
+            "versions": [
+                "1.0.3",
+                "1.0.4",
+                "1.0.6",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "2.0.0",
+                "2.0.1",
+                "2.1.0",
+                "2.1.1",
+                "2.1.2",
+                "2.1.3",
+                "2.1.4",
+                "2.1.5",
+                "2.2.0",
+                "2.2.2",
+                "2.2.3",
+                "2.2.4",
+                "2.2.5",
+                "2.3.0",
+                "2.4.0",
+                "2.5.0",
+                "2.5.1",
+                "2.5.2",
+                "2.6.0",
+                "2.7.0",
+                "2.7.1",
+                "2.8.0",
+                "2.9.0"
+            ]
+        },
+        "hjfod.gdshare": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5"
+            ]
+        },
+        "hjfod.gmd-api": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.5",
+                "1.1.0"
+            ]
+        },
+        "mat.circle-tool": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "mat.fps-bypass": {
+            "verified": false,
+            "versions": [
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "mat.rgb-color-input": {
+            "verified": false,
+            "versions": [
+                "1.0.2"
+            ]
+        },
+        "mat.scroll-zoom": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0"
+            ]
+        },
+        "ninxout.crystalclient": {
+            "verified": false,
+            "versions": [
+                "2.0.0",
+                "3.0.0",
+                "4.0.0",
+                "4.0.1"
+            ]
+        },
+        "o7moon.noglow": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "rlt.gd-multiprofile-mod": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "rlt.gd-platformer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ruslan.ne": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ruslan.nm": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ruslan.apm": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.betterloading": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta",
+                "1.0.1-beta",
+                "1.0.2-beta",
+                "1.0.3-beta",
+                "1.0.4-beta"
+            ]
+        },
+        "camila314.bezier": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "org.dogotrigger.deathreplay": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.1.1",
+                "1.2.0-beta.1",
+                "1.2.0-beta.2",
+                "1.2.0-beta.3",
+                "1.2.0-beta.4"
+            ]
+        },
+        "alphalaneous.separatedualicons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "melody.antiantialttab": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cgytrus.patcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "mat.song-search": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "geode.custom-keybinds": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.4.0",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3",
+                "1.5.4",
+                "1.5.5",
+                "1.5.6",
+                "1.5.7",
+                "1.5.9"
+            ]
+        },
+        "deathfuel.blink": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "n.robtop-jumpscare": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.0.1",
+                "1.2.1",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "abb2k.UltimateCustomDash": {
+            "verified": false,
+            "versions": [
+                "0.1.0",
+                "0.1.0-alpha"
+            ]
+        },
+        "fig.zbot": {
+            "verified": false,
+            "versions": [
+                "3.0.0-beta.1",
+                "3.0.0-beta.2",
+                "3.0.0-beta.3"
+            ]
+        },
+        "dankmeme.globed": {
+            "verified": false,
+            "versions": [
+                "0.1.2",
+                "0.1.3",
+                "0.2.0",
+                "0.2.1",
+                "0.3.0",
+                "0.3.1",
+                "0.3.2",
+                "0.4.0",
+                "0.4.1",
+                "0.4.2"
+            ]
+        },
+        "chs000.cobaltmenu": {
+            "verified": false,
+            "versions": [
+                "0.1.3"
+            ]
+        },
+        "gdutilsdevs.gdutils": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.21",
+                "1.2.0",
+                "1.2.1",
+                "1.2.11",
+                "1.2.12",
+                "1.2.13",
+                "1.2.14",
+                "1.2.15",
+                "1.2.16",
+                "1.2.17",
+                "1.2.18",
+                "1.2.19",
+                "1.2.20"
+            ]
+        },
+        "cgytrus.menu-shaders": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "tpdea.betterpause-Better": {
+            "verified": false,
+            "versions": [
+                "1.5.2",
+                "1.5.3",
+                "1.5.5",
+                "1.5.6",
+                "1.6.0",
+                "1.6.2",
+                "1.6.6",
+                "1.6.8"
+            ]
+        },
+        "alphalaneous.integrated_loquibot": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "hjfod.volumescrollwheel": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "camila314.song-randomizer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "mat.ffmt": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "nef.iconsave": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "muhammadgames.bettermenu": {
+            "verified": false,
+            "versions": [
+                "1.0.4-beta.8",
+                "1.0.4-beta.9",
+                "1.0.4-beta.10",
+                "1.0.4-beta.11",
+                "1.0.4-beta.12",
+                "1.0.4-beta.13",
+                "1.0.4-beta.14",
+                "2.0.0",
+                "2.0.0-beta.1",
+                "2.0.1-beta.1",
+                "2.0.1-beta.2",
+                "2.0.2",
+                "2.0.3",
+                "2.0.4-beta.1",
+                "2.0.4-beta.2",
+                "2.0.4-beta.3"
+            ]
+        },
+        "cvolton.lists": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0"
+            ]
+        },
+        "n.level_pronouns": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "endrei.mappacksremover": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "capeling.demons_in_garage": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "capeling.icon_profile": {
+            "verified": false,
+            "versions": [
+                "1.1.0"
+            ]
+        },
+        "capeling.simple_icon_hack": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "be_team.betteredit": {
+            "verified": false,
+            "versions": [
+                "5.0.0-alpha.10"
+            ]
+        },
+        "be_team.editorapi": {
+            "verified": false,
+            "versions": [
+                "1.1.0"
+            ]
+        },
+        "hjfod.custom-keybinds": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "kolyah35.clipboardfix": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "iandyhd3.abbreviated_labels": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "iandyhd3.check_steam": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "camila314.editor-hitbox-fix": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "alphalaneous.projectedstars": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "alphalaneous.extraicons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5"
+            ]
+        },
+        "techstudent10.hidepause": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "iandyhd3.custom_object_workshop": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cgytrus.8star-antianticheat": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "TheSillyDoggo.DiscordWebhook": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "TheSillyDoggo.GradientPages": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "2.1.0",
+                "2.2.3",
+                "2.2.4"
+            ]
+        },
+        "techstudent10.discord_rich_presence": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.3.0",
+                "2.0.0",
+                "2.2.0",
+                "2.3.0",
+                "2.4.0",
+                "2.5.0",
+                "2.6.0",
+                "2.7.0",
+                "2.8.0",
+                "2.9.0",
+                "2.10.0",
+                "2.10.1",
+                "2.10.2",
+                "2.11.0"
+            ]
+        },
+        "uproxide.quick_quit": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "alphalaneous.customsplash": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "colon.gd_in_2019": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "2.0.0",
+                "2.0.1",
+                "2.0.2",
+                "2.0.3"
+            ]
+        },
+        "user95401.swing": {
+            "verified": false,
+            "versions": [
+                "1.1.0"
+            ]
+        },
+        "geode.node-ids": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.3.0",
+                "1.4.0",
+                "1.5.0",
+                "1.5.1",
+                "1.6.0",
+                "1.6.1",
+                "1.7.0",
+                "1.7.1",
+                "1.8.0",
+                "1.8.1",
+                "1.9.0",
+                "1.9.1",
+                "1.10.0",
+                "1.10.1",
+                "1.10.2",
+                "1.11.0"
+            ]
+        },
+        "mat.draw-divide": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "bitz.customprofiles": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9",
+                "1.1.0"
+            ]
+        },
+        "itzkiba.grandpa_demon": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.0"
+            ]
+        },
+        "firee.PrismMenu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.41",
+                "1.1.5",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.5.0",
+                "1.5.1",
+                "1.6.0",
+                "1.6.1",
+                "1.6.2",
+                "1.6.3",
+                "1.6.4"
+            ]
+        },
+        "alphalaneous.integratedloquibot": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.2.0",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
+                "1.3.6",
+                "1.3.7",
+                "1.3.8",
+                "1.3.9",
+                "1.3.10",
+                "1.3.11",
+                "1.3.12",
+                "1.3.13",
+                "1.3.14",
+                "1.3.15"
+            ]
+        },
+        "capeling.icon_profile_2.2": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4"
+            ]
+        },
+        "capeling.goodbye_unnecessary_buttons": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.1.0"
+            ]
+        },
+        "capeling.demons_in_garage_2.2": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4"
+            ]
+        },
+        "coopeeo.customname": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.1.3",
+                "1.1.5",
+                "1.2.2",
+                "1.3.0",
+                "1.3.1",
+                "1.4.0",
+                "1.4.1",
+                "1.4.3",
+                "1.4.4",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2"
+            ]
+        },
+        "beat.click-sound": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.7",
+                "1.1.8",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.4.4",
+                "1.4.5",
+                "1.4.6",
+                "1.4.7",
+                "1.4.8",
+                "1.4.9",
+                "1.4.10",
+                "1.4.11",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3",
+                "1.6.0",
+                "1.7.0",
+                "1.7.1",
+                "1.8.0"
+            ]
+        },
+        "colon.bumpscosity": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "alphalaneous.hide": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "redlime.koreanleaderboard": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "TheSillyDoggo.Cheats": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7",
+                "1.2.8",
+                "1.2.9",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
+                "1.3.6",
+                "1.3.7",
+                "1.3.8",
+                "1.3.9",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3"
+            ]
+        },
+        "alphalaneous.deathlink": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7",
+                "1.2.8",
+                "1.2.9",
+                "1.2.10"
+            ]
+        },
+        "adyagd.godlikefaces": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "alphalaneous.happy_textures": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.6",
+                "1.1.7",
+                "1.1.8",
+                "1.1.9",
+                "1.1.10",
+                "1.1.11",
+                "1.1.12",
+                "1.1.13",
+                "1.1.14",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3"
+            ]
+        },
+        "kevadroz.nocontrollerglyphs": {
+            "verified": false,
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2",
+                "0.2.0"
+            ]
+        },
+        "skyward.no_robtop_logo": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6"
+            ]
+        },
+        "redlime.statchanges": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "zilko.xdbot": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.12",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0",
+                "1.2.1",
+                "1.3.0",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
+                "1.3.6",
+                "1.3.8",
+                "1.3.10",
+                "1.4.0",
+                "1.4.1",
+                "1.4.3",
+                "1.4.4",
+                "1.4.5",
+                "1.4.6",
+                "1.4.7",
+                "1.4.8",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3",
+                "1.5.4",
+                "1.5.5"
+            ]
+        },
+        "undefined0.gdtweaks": {
+            "verified": false,
+            "versions": [
+                "1.2.1",
+                "1.3.0",
+                "1.4.0",
+                "1.5.0",
+                "1.5.1",
+                "1.6.0",
+                "1.6.1",
+                "1.6.2",
+                "1.7.1",
+                "1.8.0",
+                "1.8.1",
+                "1.9.0",
+                "1.9.1",
+                "1.9.2",
+                "1.9.3",
+                "1.9.4",
+                "1.10.0",
+                "1.11.0",
+                "1.11.1",
+                "1.12.0",
+                "1.12.1",
+                "1.12.2",
+                "1.12.3"
+            ]
+        },
+        "izzy.practice_sync": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "abb2k.backup": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6"
+            ]
+        },
+        "itzkiba.elegant_rankings": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "weebify.randomizecreatorlayer-geode": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "adyagd.ingamelistmod": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.6"
+            ]
+        },
+        "weebify.restartbtn": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "weebify.jumpscare": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.0",
+                "1.2.1",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "sanes.daily-transfer": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.1",
+                "1.2.0"
+            ]
+        },
+        "shineua.minecraft_splash": {
+            "verified": false,
+            "versions": [
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.2.1-beta",
+                "1.2.1",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.7",
+                "1.2.8",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "prevter.openhack": {
+            "verified": false,
+            "versions": [
+                "1.6.0",
+                "1.6.1",
+                "2.0.0",
+                "2.0.1",
+                "2.1.0",
+                "2.2.0",
+                "2.2.1",
+                "2.2.2",
+                "2.3.0",
+                "2.3.1",
+                "2.3.2"
+            ]
+        },
+        "b1rtek.gddlintegration": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.6",
+                "1.1.7"
+            ]
+        },
+        "thesillydoggo.better_startpos_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "uproxide.evilgd": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "sse2.gj-music-manager": {
+            "verified": false,
+            "versions": [
+                "0.0.1",
+                "0.0.2",
+                "0.1.0"
+            ]
+        },
+        "coderqc.gdswearfilter": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "izzy.i_hate_you_top_lists": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "blackholemx.nomoregames": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.1.0"
+            ]
+        },
+        "thesillydoggo.moretags": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0"
+            ]
+        },
+        "maxnu.gd_mega_overlay": {
+            "verified": false,
+            "versions": [
+                "2.2.0",
+                "2.2.1",
+                "2.2.2",
+                "2.2.3",
+                "2.2.5",
+                "2.2.6",
+                "2.2.7",
+                "2.2.8",
+                "2.2.9",
+                "2.3.0",
+                "2.4.0",
+                "2.4.1",
+                "2.4.2",
+                "2.4.3",
+                "2.4.4",
+                "2.4.5",
+                "2.4.6",
+                "2.4.7",
+                "2.4.8",
+                "2.4.9",
+                "2.5.0",
+                "2.5.1",
+                "2.5.2",
+                "2.5.3",
+                "2.5.4",
+                "2.5.5",
+                "2.5.6",
+                "2.5.7",
+                "2.5.8",
+                "2.6.0",
+                "2.7.0",
+                "2.7.1",
+                "2.7.2",
+                "2.7.3",
+                "2.7.4",
+                "2.8.0",
+                "2.8.1",
+                "2.8.2",
+                "2.8.3",
+                "2.8.4",
+                "2.8.5",
+                "2.8.6",
+                "2.8.7",
+                "2.9.0",
+                "2.10.0",
+                "2.10.1",
+                "2.10.2",
+                "2.11.0",
+                "2.11.1"
+            ]
+        },
+        "TheSillyDoggo.StartposSwitcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "thesillydoggo.entersearch": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.6.9"
+            ]
+        },
+        "uproxide.geodedevelopers": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "techstudent10.hide_locks": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "devcmb.cleanermenu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.2.0",
+                "2.0.0",
+                "2.0.1",
+                "2.1.0",
+                "2.1.1"
+            ]
+        },
+        "firee.GoldenBest": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "asaki_zuki.same_dual_color": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "weebify.coins_in_pause_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.1.0",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "legowiifun.unlisted_objects_in_editor": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2"
+            ]
+        },
+        "polsk.boring_delay_info": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "doom.doomsutils": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "egg.icon_hack": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.4.0",
+                "1.5.0"
+            ]
+        },
+        "adam_729.deathmarkers": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.2",
+                "1.0.3",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "ninxout.crystal_client": {
+            "verified": false,
+            "versions": [
+                "5.0.0-alpha.1",
+                "5.0.0-alpha.2",
+                "5.0.0-alpha.3",
+                "5.0.0-alpha.4"
+            ]
+        },
+        "alphalaneous.playercolorselect": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "iandyhd3.wsliveeditor": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "2.0.0"
+            ]
+        },
+        "raydeeux.hidepausebutton": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "ekv.hidePauseMenuHack": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.1"
+            ]
+        },
+        "xanii.flashlight": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "dogotrigger.roulette": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "itzkiba.formatted_platformer_time": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "endrei.mappacksbegone2point2": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "arkane.dl-team-icons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "shadyiscool.shadypause": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ekv.save_on_level_page": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cdc.more-hints": {
+            "verified": false,
+            "versions": [
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5"
+            ]
+        },
+        "elohmrow.death_tracker": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.3",
+                "1.1.0",
+                "1.2.0",
+                "1.3.2",
+                "1.3.3",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.5.0",
+                "1.5.1",
+                "1.6.1",
+                "1.7.1",
+                "1.7.2",
+                "2.0.0-beta.1",
+                "2.0.0-beta.2",
+                "2.0.0-beta.3",
+                "2.0.0-beta.4",
+                "2.0.0-beta.5",
+                "2.0.0-beta.6"
+            ]
+        },
+        "zohnannor.dark_mode": {
+            "verified": false,
+            "versions": [
+                "0.1.0",
+                "0.1.2"
+            ]
+        },
+        "itzkiba.thomasechnical": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "thesillydoggo.animatedprofiles": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "creo.small-gd-mods": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "oatmealine.nlw_integration": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.2",
+                "1.2.0",
+                "1.3.1",
+                "1.3.2",
+                "1.4.0-beta.1",
+                "1.4.0-beta.2"
+            ]
+        },
+        "undefined0.minecraft_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "polsk.level_quests": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "raydeeux.loadingscreentweaks": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "spaghettdev.gd-roulette": {
+            "verified": false,
+            "versions": [
+                "1.6.0-beta.2",
+                "1.6.0-beta.4",
+                "1.6.1-beta.3",
+                "1.6.2",
+                "2.0.0",
+                "2.0.2",
+                "2.0.3",
+                "2.0.4",
+                "2.0.5"
+            ]
+        },
+        "xanii.youtubers": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "oatmealine.ids_integration": {
+            "verified": false,
+            "versions": [
+                "1.2.0",
+                "1.2.1",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.4.0-beta.1"
+            ]
+        },
+        "colon.gold_user_coins": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "dankmeme.globed2": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.2",
+                "1.0.4",
+                "1.0.5",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.5",
+                "1.3.6",
+                "1.3.7"
+            ]
+        },
+        "polsk.pause_settings": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "minemaker0430.gddp_integration": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.1",
+                "1.0.0-beta.2",
+                "1.0.0-beta.3",
+                "1.0.0-beta.5",
+                "1.0.0-beta.6",
+                "1.0.0-beta.7",
+                "1.0.0-beta.8",
+                "1.0.0-beta.9",
+                "1.0.0-beta.10",
+                "1.0.0-beta.13",
+                "1.0.0-beta.14",
+                "1.0.0-beta.15",
+                "1.0.0-beta.16",
+                "1.0.0-beta.17",
+                "1.0.0-beta.19",
+                "1.0.0-beta.20",
+                "1.0.0-beta.21"
+            ]
+        },
+        "nyakofox.channelviewer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "elnexreal.copy_song_id": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "riley.nogrounds": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "jojo989.main_menu_bg_customizer": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "raydeeux.fuckglow": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3"
+            ]
+        },
+        "raydeeux.antilobotomy": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "weebify.level_info_in_pause_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "raydeeux.nolevelrefresh": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ninkaz.blending_glow": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "capeling.hide_main_menu_ui": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "capeling.colored_level_info_bg": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "blueblock6.cleanstartpos": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0"
+            ]
+        },
+        "hjfod.betteredit": {
+            "verified": false,
+            "versions": [
+                "6.0.0",
+                "6.1.0",
+                "6.1.1",
+                "6.2.0",
+                "6.2.1",
+                "6.3.0",
+                "6.3.1",
+                "6.3.2",
+                "6.3.3",
+                "6.3.4",
+                "6.3.5",
+                "6.4.0",
+                "6.4.1",
+                "6.4.2",
+                "6.4.3"
+            ]
+        },
+        "elsai.pause_menu_zoom": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "raydeeux.junkhider": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "khronophobia.more_settings_button": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "steve.steveutils": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "raydeeux.likebaitexterminator": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "iristraa.spinoffsubtitles": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.1.0"
+            ]
+        },
+        "elsai.copyright_remover_for_main_levels": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "raydeeux.poofshowbutton": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "xanii.freaky_mode": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cvolton.compact_lists": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "tpdea.volume_scroll": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "hjfod.quick-volume-controls": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "mat.reference-image": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "elnexreal.auto_priority": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "raydeeux.moveaudiovisualizer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "iristraa.mainmenuwallpaper": {
+            "verified": false,
+            "versions": [
+                "1.0.3",
+                "1.1.0"
+            ]
+        },
+        "bigmancozmo.hide_profile_button": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.2.0",
+                "1.3.2",
+                "1.3.3"
+            ]
+        },
+        "artoree.enhanced_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta",
+                "1.1.0"
+            ]
+        },
+        "cj_link.fakemoderator": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "tpdea.sceneswitcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "tpdea.scroll_any_input": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "undefined0.autocheckpoint": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2"
+            ]
+        },
+        "creo.color_unlock_hack": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "creo.music_unlock_hack": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "naxrin.transparent": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.3.0"
+            ]
+        },
+        "hiimjustin000.integrated_demonlist": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.3.0",
+                "1.3.2",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.4.3",
+                "1.4.4",
+                "1.4.5",
+                "1.4.6",
+                "1.4.7"
+            ]
+        },
+        "creatorcreepy.unixsync": {
+            "verified": false,
+            "versions": [
+                "1.2.0",
+                "1.2.1",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "thesillydoggo.dialogue_handler": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "slammy333.save_button": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "relative.mininextfree": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "n.friends": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "mat.max-window": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "capeling.gamemode_picker": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4-beta.1",
+                "1.0.5"
+            ]
+        },
+        "xanii.icon_freeze": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "sofabeddd.colored_icon_kit": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.1.0"
+            ]
+        },
+        "lexi.visiblecheckpoints": {
+            "verified": false,
+            "versions": [
+                "0.1.3",
+                "0.1.4",
+                "0.1.5",
+                "0.1.6",
+                "0.1.7",
+                "0.1.8",
+                "0.1.9"
+            ]
+        },
+        "elsai.brightness_mod": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "ml5.treasure-checklist": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0"
+            ]
+        },
+        "uproxide.autosong": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "alphalaneous.transparent_lists": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "raydeeux.camerashadertoggles": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "yellowcat98.gdlite": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2"
+            ]
+        },
+        "uproxide.quotes": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "bulletbot.gamemode_changer": {
+            "verified": false,
+            "versions": [
+                "1.0.3"
+            ]
+        },
+        "thesillydoggo.icon_kit_switcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "user95401.profile_image": {
+            "verified": false,
+            "versions": [
+                "2.0.0",
+                "3.0.0"
+            ]
+        },
+        "elsai.a_daily_shop": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "weebify.high-graphics-android": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "raydeeux.controlvanillasfx": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2"
+            ]
+        },
+        "terma.ambienticons": {
+            "verified": false,
+            "versions": [
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.4.2",
+                "1.4.3",
+                "1.4.4",
+                "1.5.0",
+                "1.5.1"
+            ]
+        },
+        "shineua.geometrize2gd": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.2.0"
+            ]
+        },
+        "capeling.icon_randomizer": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "khronophobia.shortcuts_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "zeozeozeo.zcblive": {
+            "verified": false,
+            "versions": [
+                "1.0.1-beta.1",
+                "1.0.1"
+            ]
+        },
+        "suntle.compactendscreen": {
+            "verified": false,
+            "versions": [
+                "0.1.0",
+                "0.1.1"
+            ]
+        },
+        "alphalaneous_raydeeux.changefont19": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "viper.gamemode_only": {
+            "verified": false,
+            "versions": [
+                "0.0.1",
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "thesillydoggo.comment_emojis": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.1",
+                "1.0.0-beta.2",
+                "1.0.0-beta.3",
+                "1.0.0-beta.4",
+                "1.0.0-beta.5",
+                "1.0.0-beta.7",
+                "1.0.0-beta.8"
+            ]
+        },
+        "uproxide.accupracatt": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "saumondeluxe.rainbow_icon": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4"
+            ]
+        },
+        "capeling.soggy-mod": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.4",
+                "1.0.5"
+            ]
+        },
+        "viper.guwude": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "m336.levelinfo": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.2.0",
+                "1.2.1",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4"
+            ]
+        },
+        "capeling.usable_explorers": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "nytelyte.wave_trail_drag_fix": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.2",
+                "1.1.3",
+                "1.1.4",
+                "1.1.5",
+                "1.1.6",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7"
+            ]
+        },
+        "tastyforreal.google-translate": {
+            "verified": false,
+            "versions": [
+                "2024.229.0"
+            ]
+        },
+        "capeling.main_level_pages": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "kart.heartattack": {
+            "verified": false,
+            "versions": [
+                "1.0.3"
+            ]
+        },
+        "zalphalaneous.minecraft": {
+            "verified": false,
+            "versions": [
+                "0.5.0",
+                "0.5.1",
+                "0.5.2",
+                "0.5.3",
+                "0.5.4",
+                "0.5.5",
+                "0.5.6",
+                "0.5.7",
+                "0.5.8",
+                "0.5.9",
+                "0.5.10",
+                "0.5.11",
+                "0.5.12",
+                "0.5.13",
+                "0.5.14",
+                "0.5.15",
+                "0.5.16",
+                "0.5.17"
+            ]
+        },
+        "itzkiba.id_hyperlinks": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "cdc.level_thumbnails": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "coopeeo.hideplus": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.2.0",
+                "1.2.1"
+            ]
+        },
+        "bitz.moregames": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "viper.newbestcomments": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "rooot.custom-gamemode-colors": {
+            "verified": false,
+            "versions": [
+                "0.1.1",
+                "0.1.2",
+                "0.1.3",
+                "0.1.4",
+                "0.1.5",
+                "0.1.6"
+            ]
+        },
+        "user95401.mainlevelseditor": {
+            "verified": false,
+            "versions": [
+                "4.0.0",
+                "5.0.0",
+                "6.0.0-beta.7"
+            ]
+        },
+        "sofabeddd.geometry_dash": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "naxrin.garage_in_editor": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "adam_729.randdeathsounds": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "xiyxs.confirmpracticerestart": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "cvolton.misc_bugfixes": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "elsai.easing_preview": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "yellowcat98.modifyloadinglayer": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "acaruso.slope": {
+            "verified": false,
+            "versions": [
+                "0.1.2",
+                "0.1.4",
+                "0.1.5",
+                "0.1.6"
+            ]
+        },
+        "azurebluet.azure_utils": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "xanii.super_expert": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.1",
+                "1.0.0-beta.2",
+                "1.0.0-beta.3",
+                "1.0.0-beta.4",
+                "1.0.0-beta.5",
+                "1.0.0"
+            ]
+        },
+        "relative.advanced_song_search": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "relative.custom_endscreen_text": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0"
+            ]
+        },
+        "weebify.separate_dual_icons": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "viper.project-oppenheimer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "uproxide.more_difficulties": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.0",
+                "1.3.0",
+                "1.3.1"
+            ]
+        },
+        "relative.newgrounds_proxy": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.3"
+            ]
+        },
+        "relative.account_statuses": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "kynex7510.lockwindowsize": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "user95401.window-name": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "rynat.better_unlock_info": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "hiimjustin000.more_object_info": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.5",
+                "1.0.6"
+            ]
+        },
+        "tpdea.wavetrailglowy": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "mishpro.comments_in_pause_menu": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "bigmancozmo.skip_editor_save_confirm": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "doublefallings.noonlineleveldelete": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "capeling.coloured-wave-trail": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "jojo989.geometwy_dash": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "statuszer0.drunk_mode": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "capeling.geometry-dash-lunar": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "2.0.0",
+                "2.0.1",
+                "2.0.2"
+            ]
+        },
+        "techstudent10.button_sfx": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "hiimjustin000.level_size": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.1.0"
+            ]
+        },
+        "grian.art_importer": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0"
+            ]
+        },
+        "raydeeux.breakingplatforming": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.2.0"
+            ]
+        },
+        "raydeeux.disturbingnewbests": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.2"
+            ]
+        },
+        "petitfrapo.nomoregrayfilter": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.3",
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "elnexreal.auto_deafen": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.5"
+            ]
+        },
+        "lynxdeer.autodeafen": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "ghrt55.trailer": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "acaruso.horn": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ruhax.indecreaseicons": {
+            "verified": false,
+            "versions": [
+                "0.0.0-beta.4",
+                "0.0.0-beta.5"
+            ]
+        },
+        "raydeeux.wholesomeendtexts": {
+            "verified": false,
+            "versions": [
+                "1.1.1",
+                "1.1.2",
+                "1.1.3"
+            ]
+        },
+        "avscs.noshake": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "tpdea.checkpoint_switcher": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "weebify.disable_black_glow": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "zilko.fps_counter": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "zilko.custom_labels": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "uproxide.user_reviews": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0",
+                "1.2.0",
+                "1.2.1",
+                "1.3.0"
+            ]
+        },
+        "alvy.movecommentdown": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "weebify.congregation_jumpscare": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "hiimjustin000.better_icon_randomizer": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.3.2",
+                "1.3.3",
+                "1.3.4",
+                "1.3.6"
+            ]
+        },
+        "raydeeux.erysedits": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.0"
+            ]
+        },
+        "zilko.literal_level_lengths": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "zilko.always_april_fools": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "polsk.ratinginfo": {
+            "verified": false,
+            "versions": [
+                "1.1.0"
+            ]
+        },
+        "the_bearodactyl.gay-wave-trail": {
+            "verified": false,
+            "versions": [
+                "1.0.7",
+                "1.0.9",
+                "1.0.15",
+                "1.0.16",
+                "1.0.17"
+            ]
+        },
+        "bingy3.auto_delete": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "ninkaz.editor_utils": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "zilko.better_screenshots": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "flafy.autonong": {
+            "verified": false,
+            "versions": [
+                "0.0.2",
+                "0.0.3",
+                "0.1.0"
+            ]
+        },
+        "relative.scroll_faster_with_ctrl": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "raydeeux.replaylastcheckpoint": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "naxrin.progress_bar_color": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "skeletalvirus.featuredlists": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "alphalaneous.random_tab": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "syzzi.click_between_frames": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9"
+            ]
+        },
+        "raydeeux.pausemenuloop": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "iandyhd3.request_logger": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "2.0.0"
+            ]
+        },
+        "zsa.percentage-bugfix": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "nytelyte.garage_utilities": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.4",
+                "1.0.5"
+            ]
+        },
+        "undefined0.buttoneasing": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "itzkiba.better_progression": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.1.0"
+            ]
+        },
+        "prevter.bettercrash": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1",
+                "1.2.0",
+                "1.3.0"
+            ]
+        },
+        "statuszer0.ultra_ldm": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "kittenchilly.randomize_icon_on_death": {
+            "verified": false,
+            "versions": [
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "yellowcat98.profilebio": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "2.0.0",
+                "2.1.1"
+            ]
+        },
+        "raydeeux.skipeditorobjects": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "xiyxs.recolored_music_library_songs": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "rooot.pipebomb": {
+            "verified": false,
+            "versions": [
+                "0.1.0",
+                "0.1.1"
+            ]
+        },
+        "cdc.statuses": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "dogotrigger.deathreplay": {
+            "verified": false,
+            "versions": [
+                "1.2.0-beta.6",
+                "1.2.0-beta.8"
+            ]
+        },
+        "uproxide.all_hail_plankton": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "undefined0.flikk2gd": {
+            "verified": false,
+            "versions": [
+                "1.0.4"
+            ]
+        },
+        "xanii.level_ratings": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "bitz.darkmode_v4": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "undefined0.editormusic": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.0",
+                "1.2.1",
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3"
+            ]
+        },
+        "dogotrigger.level_history": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "gdemerald.custom_icon_colors": {
+            "verified": false,
+            "versions": [
+                "1.1.1"
+            ]
+        },
+        "hiimjustin000.fake_rate": {
+            "verified": false,
+            "versions": [
+                "1.1.1",
+                "1.1.2",
+                "1.1.3",
+                "1.1.5",
+                "1.1.6",
+                "1.1.7"
+            ]
+        },
+        "limegradient.doki-theme-gd": {
+            "verified": false,
+            "versions": [
+                "1.1.0",
+                "1.1.1"
+            ]
+        },
+        "raydeeux_thesillydoggo.evenmoreleveltags": {
+            "verified": false,
+            "versions": [
+                "1.3.0"
+            ]
+        },
+        "iandyhd3.persistent_pickup_ids": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "korshun.quickaccess": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "xanii.pitch_shifter": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2"
+            ]
+        },
+        "thesillydoggo.add_more_icons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "xanii.auto_music_sync": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "raydeeux.leveleditorhack": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "alphalaneous.ezclipboard": {
+            "verified": false,
+            "versions": [
+                "1.0.1"
+            ]
+        },
+        "alphalaneous.editorsounds": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9"
+            ]
+        },
+        "alphalaneous.shiftdeselect": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "cgytrus.smooth-particles": {
+            "verified": false,
+            "versions": [
+                "2.0.0",
+                "2.0.1"
+            ]
+        },
+        "crewly.comboburst": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.2",
+                "1.0.1"
+            ]
+        },
+        "naxrin.rgb_icons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.1"
+            ]
+        },
+        "dogotrigger.nuzlocke": {
+            "verified": false,
+            "versions": [
+                "1.0.3"
+            ]
+        },
+        "bingy3.enter_submit": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "zmx.cbf-lite": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "thesillydoggo.blur_bg": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        },
+        "uproxide.textures": {
+            "verified": false,
+            "versions": [
+                "1.0.0-beta.1",
+                "1.0.0-beta.2",
+                "1.0.0-beta.3",
+                "1.0.0"
+            ]
+        },
+        "iandyhd3.known_players": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "hjfod.bettersave": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.3.0"
+            ]
+        },
+        "hiimjustin000.na_demon": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "xiyxs.daily_and_weekly_levels": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "hiimjustin000.every_key_jumps": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        },
+        "ziegenhainy.xxlify": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.1.2",
+                "1.2.0"
+            ]
+        },
+        "alphalaneous.noedittabswitch": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "xytriza.menu_modifier": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4"
+            ]
+        },
+        "hiimjustin000.demons_in_between": {
+            "verified": false,
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3"
+            ]
+        },
+        "blueblock6.keystrokes": {
+            "verified": false,
+            "versions": [
+                "1.0.2"
+            ]
+        },
+        "the_bearodactyl.next-free-layer": {
+            "verified": false,
+            "versions": [
+                "1.0.2"
+            ]
+        },
+        "sadwave.mod_random": {
+            "verified": false,
+            "versions": [
+                "1.0.0"
+            ]
+        },
+        "limegradient.modprofiles": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.1.0"
+            ]
+        },
+        "the_bearodactyl.ocd-icons": {
+            "verified": false,
+            "versions": [
+                "1.0.0",
+                "1.0.4"
+            ]
+        }
+    }
+}

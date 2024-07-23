@@ -1,0 +1,799 @@
+13:01:34 INFO  [Main] [Geode]: Running Geode v2.0.0-beta.23 in Geometry Dash v2.204
+13:01:34 INFO  [Main] [Geode]: Setting up internal mod
+13:01:34 INFO  [Main] [Geode]: Setting up loader
+13:01:34 DEBUG [Main] [Geode]:   Loading launch arguments
+13:01:34 DEBUG [Main] [Geode]:   Setting up crash handler
+13:01:34 DEBUG [Main] [Geode]:   Loading hooks
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::fullPathForFilename hook at 0x56950f40 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCFileUtils::sharedFileUtils hook at 0x56959770 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenuItem::activate hook at 0x5693e1e0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCMenu::ccTouchEnded hook at 0x5693d260 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled FMOD::System::init hook at 0x56632530 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled FMOD::ChannelControl::setVolume hook at 0x565ab180 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::getUserObject hook at 0x569a31f0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCNode::setUserObject hook at 0x568f15a0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled LevelPage::onPlay hook at 0x122c080 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled LoadingLayer::init hook at 0x1236370 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x1236bd0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled MenuLayer::init hook at 0x123b450 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled ProfilePage::getUserInfoFinished hook at 0x12b1db0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled AchievementNotifier::willSwitchToScene hook at 0xfdc200 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled AppDelegate::trySaveGame hook at 0x101b790 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled cocos2d::CCScheduler::update hook at 0x56996db0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled CCTextInputNode::ccTouchBegan hook at 0xff04f0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:     Enabled LoadingLayer::loadAssets hook at 0x1236bd0 for geode.loader
+13:01:34 DEBUG [Main] [Geode]:   Setting up directories
+13:01:34 INFO  [Main] [Geode]:   Refreshing mod graph
+13:01:34 DEBUG [Main] [Geode]:     Queueing mods
+13:01:34 DEBUG [Main] [Geode]:       Searching E:\SteamLibrary\steamapps\common\Geometry Dash\geode\mods
+13:01:34 DEBUG [Main] [Geode]:         Found bitz.moregames.geode
+13:01:35 DEBUG [Main] [Geode]:           id: bitz.moregames
+13:01:35 DEBUG [Main] [Geode]:           version: v1.0.4
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found cvolton.betterinfo.geode
+13:01:35 DEBUG [Main] [Geode]:           id: cvolton.betterinfo
+13:01:35 DEBUG [Main] [Geode]:           version: v4.1.7
+13:01:35 DEBUG [Main] [Geode]:           early: yes
+13:01:35 DEBUG [Main] [Geode]:         Found cvolton.misc_bugfixes.geode
+13:01:35 DEBUG [Main] [Geode]:           id: cvolton.misc_bugfixes
+13:01:35 DEBUG [Main] [Geode]:           version: v1.1.2
+13:01:35 DEBUG [Main] [Geode]:           early: yes
+13:01:35 DEBUG [Main] [Geode]:         Found dankmeme.globed2.geode
+13:01:35 DEBUG [Main] [Geode]:           id: dankmeme.globed2
+13:01:35 DEBUG [Main] [Geode]:           version: v1.3.7
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found flafy.autonong.geode
+13:01:35 WARN  [Main] [Geode]:           dependencies.0 contains unknown key "required"
+13:01:35 DEBUG [Main] [Geode]:           id: flafy.autonong
+13:01:35 DEBUG [Main] [Geode]:           version: v0.0.2
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found fleym.nongd.geode
+13:01:35 DEBUG [Main] [Geode]:           id: fleym.nongd
+13:01:35 DEBUG [Main] [Geode]:           version: v2.6.0
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found geode.custom-keybinds.geode
+13:01:35 DEBUG [Main] [Geode]:           id: geode.custom-keybinds
+13:01:35 DEBUG [Main] [Geode]:           version: v1.5.2
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found geode.node-ids.geode
+13:01:35 DEBUG [Main] [Geode]:           id: geode.node-ids
+13:01:35 DEBUG [Main] [Geode]:           version: v1.8.1
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found geode.texture-loader.geode
+13:01:35 DEBUG [Main] [Geode]:           id: geode.texture-loader
+13:01:35 DEBUG [Main] [Geode]:           version: v1.5.0
+13:01:35 DEBUG [Main] [Geode]:           early: yes
+13:01:35 DEBUG [Main] [Geode]:         Found n.friends.geode
+13:01:35 DEBUG [Main] [Geode]:           id: n.friends
+13:01:35 DEBUG [Main] [Geode]:           version: v1.0.1
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found syzzi.click_between_frames.geode
+13:01:35 WARN  [Main] [Geode]:           dependencies.0 contains unknown key "imortance"
+13:01:35 DEBUG [Main] [Geode]:           id: syzzi.click_between_frames
+13:01:35 DEBUG [Main] [Geode]:           version: v1.0.2
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found TheSillyDoggo.StartposSwitcher.geode
+13:01:35 DEBUG [Main] [Geode]:           id: TheSillyDoggo.StartposSwitcher
+13:01:35 DEBUG [Main] [Geode]:           version: v1.1.2
+13:01:35 DEBUG [Main] [Geode]:           early: no
+13:01:35 DEBUG [Main] [Geode]:         Found tpdea.betterpause-Better.geode
+13:01:35 DEBUG [Main] [Geode]:           id: tpdea.betterpause-Better
+13:01:35 DEBUG [Main] [Geode]:           version: v1.6.8
+13:01:35 DEBUG [Main] [Geode]:           early: yes
+13:01:35 DEBUG [Main] [Geode]:     Populating mod list
+13:01:35 DEBUG [Main] [Geode]:       bitz.moregames v1.0.4
+13:01:35 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.1.7
+13:01:35 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.1.2
+13:01:35 DEBUG [Main] [Geode]:       dankmeme.globed2 v1.3.7
+13:01:35 DEBUG [Main] [Geode]:       flafy.autonong v0.0.2
+13:01:35 WARN  [Main] [Auto Nong]:     Encountered unknown setting "indexes" while loading settings
+13:01:35 WARN  [Main] [Auto Nong]:     Encountered unknown setting "_blacklistPPClear" while loading settings
+13:01:35 DEBUG [Main] [Geode]:       fleym.nongd v2.6.0
+13:01:36 DEBUG [Main] [Geode]:       geode.custom-keybinds v1.5.2
+13:01:36 DEBUG [Main] [Geode]:       geode.node-ids v1.8.1
+13:01:36 DEBUG [Main] [Geode]:       geode.texture-loader v1.5.0
+13:01:36 DEBUG [Main] [Geode]:       n.friends v1.0.1
+13:01:36 DEBUG [Main] [Geode]:       syzzi.click_between_frames v1.0.2
+13:01:36 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher v1.1.2
+13:01:36 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8
+13:01:36 WARN  [Main] [BetterPause]:   Encountered unknown setting "Quick-Settings-Select" while loading settings
+13:01:36 DEBUG [Main] [Geode]:     Building mod graph
+13:01:36 DEBUG [Main] [Geode]:       fleym.nongd
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       geode.loader
+13:01:36 DEBUG [Main] [Geode]:       geode.custom-keybinds
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       bitz.moregames
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       tpdea.betterpause-Better
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:         geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:       dankmeme.globed2
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:         geode.custom-keybinds
+13:01:36 DEBUG [Main] [Geode]:       flafy.autonong
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:         fleym.nongd
+13:01:36 DEBUG [Main] [Geode]:       cvolton.betterinfo
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:         geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:       n.friends
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       geode.texture-loader
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:       syzzi.click_between_frames
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:         geode.custom-keybinds
+13:01:36 DEBUG [Main] [Geode]:       TheSillyDoggo.StartposSwitcher
+13:01:36 DEBUG [Main] [Geode]:         geode.loader
+13:01:36 DEBUG [Main] [Geode]:     Loading early mods
+13:01:36 DEBUG [Main] [Geode]:       tpdea.betterpause-Better v1.6.8 has unresolved dependencies
+13:01:36 DEBUG [Main] [Geode]:       cvolton.betterinfo v4.1.7 has unresolved dependencies
+13:01:36 DEBUG [Main] [Geode]:       cvolton.misc_bugfixes v1.1.2
+13:01:36 DEBUG [Main] [Geode]:         Unzip
+13:01:36 DEBUG [Main] [Geode]:         Same hash detected, skipping unzip
+13:01:36 DEBUG [Main] [Geode]:         Load
+13:01:36 DEBUG [Main] [Geode]:         Loading binary for mod cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled cocos2d::CCMenuItem::activate hook at 0x5693e1e0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled cocos2d::CCMenu::ccTouchEnded hook at 0x5693d260 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CommentCell::FLAlert_Clicked hook at 0x10463d0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CommentCell::onConfirmDelete hook at 0x10462c0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CommentCell::onLike hook at 0x1046110 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelBrowserLayer::getSearchTitle hook at 0x11f5390 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled ProfilePage::loadPageFromUserInfo hook at 0x12adda0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled EditorPauseLayer::onSaveAndExit hook at 0x1062eb0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled EditorPauseLayer::onSaveAndPlay hook at 0x1062c90 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled GameManager::returnToLastScene hook at 0x10ee110 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJGameLoadingLayer::init hook at 0x118a9d0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJGameLoadingLayer::loadLevel hook at 0x118aab0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJSongBrowser::FLAlert_Clicked hook at 0x11e57d0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CustomSongWidget::deleteSong hook at 0x1053c60 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CustomSongWidget::updateSongInfo hook at 0x1054b80 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled CustomSongCell::onDelete hook at 0x1043410 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::downloadCustomSong hook at 0x1244bc0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::downloadSong hook at 0x1243780 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::isSongDownloaded hook at 0x1243dd0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::limitDownloadedSongs hook at 0x1243550 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled MusicDownloadManager::onDownloadSongCompleted hook at 0x12439b0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::init hook at 0x12116a0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::onPlay hook at 0x12155b0 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched BoomScrollLayer::vfunction2
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched BoomScrollLayer::vfunction4
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched AppDelegate::trySaveGame (patch 1)
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched AppDelegate::trySaveGame (patch 2)
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched ChallengesPage::init
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched ChallengesPage::updateTimers
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched DailyLevelPage::init
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched DailyLevelPage::getDailyTime
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched FUN_0049b120
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched DialogLayer::animateIn
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched FUN_004a34e0
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched EditorUI::init
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched EditorUI::keyDown
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched EditorUI::scrollWheel
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::makeTimeStamp
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::isTimeValid
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::getTimeLeft
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::storeDailyLevelState (patch 1)
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::storeDailyLevelState (patch 2)
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameLevelManager::storeDailyLevelState (patch 3)
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::likeFacebook
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::followTwitter
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::subYouTube
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::followTwitch
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::joinDiscord
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::joinReddit
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameManager::applicationWillEnterForeground
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameStatsManager::storeRewardState
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GameStatsManager::storeChallengeTime
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched GJMultiplayerManager::onJoinLobbyCompleted
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayerObject::updateCheckpointTest
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayLayer::init
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayLayer::levelComplete
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayLayer::updateAttemptTime
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayLayer::pauseGame
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched PlayLayer::resume
+13:01:36 DEBUG [Main] [Misc Bugfixes]: Timer fix: Patched FUN_006f76d0
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for cvolton.misc_bugfixes
+13:01:36 DEBUG [Main] [Geode]:       geode.node-ids v1.8.1
+13:01:36 DEBUG [Main] [Geode]:         Unzip
+13:01:36 DEBUG [Main] [Geode]:         Same hash detected, skipping unzip
+13:01:36 DEBUG [Main] [Geode]:         Load
+13:01:36 DEBUG [Main] [Geode]:         Loading binary for mod geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled ChallengeNode::init hook at 0x101db30 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled ChallengesPage::createChallengeNode hook at 0x101d190 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled ChallengesPage::init hook at 0x101c560 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled CharacterColorPage::init hook at 0x101ea50 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled CommentCell::loadFromComment hook at 0x1044490 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled CreatorLayer::init hook at 0x102f550 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled CustomizeObjectLayer::init hook at 0x10364a0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled CustomizeObjectLayer::toggleVisible hook at 0x1039780 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled DailyLevelNode::init hook at 0x10596c0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled DailyLevelPage::init hook at 0x10576d0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled EditLevelLayer::init hook at 0x105c8e0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled EditorPauseLayer::init hook at 0x1060020 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled EditorUI::init hook at 0x1064260 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled EndLevelLayer::customSetup hook at 0x10a74f0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled EndLevelLayer::showLayer hook at 0x10a8c20 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled FLAlertLayer::init hook at 0xff0f60 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJCommentListLayer::create hook at 0x11c7dc0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJGarageLayer::init hook at 0x11af250 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJGarageLayer::setupPage hook at 0x11b1d70 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GJScoreCell::loadFromScore hook at 0x10465b0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GameToolbox::addBackButton hook at 0x1001910 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled GameToolbox::addRThumbScrollButton hook at 0x10019c0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled InfoLayer::init hook at 0x11e8810 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled InfoLayer::setupCommentsBrowser hook at 0x11eb670 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LeaderboardsLayer::init hook at 0x11edc60 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelAreaInnerLayer::init hook at 0x11f11e0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelBrowserLayer::init hook at 0x11f2e60 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelCell::loadCustomLevelCell hook at 0x103da60 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelCell::loadFromLevel hook at 0x103d8b0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelCell::loadLocalLevelCell hook at 0x10404d0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelEditorLayer::init hook at 0x11f9a70 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::init hook at 0x12116a0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::setupPlatformerStats hook at 0x1213a90 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::setupProgressBars hook at 0x1213e20 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelInfoLayer::updateLabelValues hook at 0x1216d20 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelLeaderboard::init hook at 0x1218060 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled LevelSearchLayer::init hook at 0x1220f10 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled OptionsLayer::customSetup hook at 0x12702d0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled PauseLayer::customSetup hook at 0x12789f0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled PlayLayer::init hook at 0x129c4a0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled PlayerObject::init hook at 0x12824c0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled ProfilePage::init hook at 0x12ad080 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled ProfilePage::loadPageFromUserInfo hook at 0x12adda0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled RewardsPage::init hook at 0x12b67f0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled SecretRewardsLayer::init hook at 0x12bb6b0 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled SetGroupIDLayer::init hook at 0x12d0d80 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:         Enabled UILayer::init hook at 0x137ec10 for geode.node-ids
+13:01:36 DEBUG [Main] [Geode]:       geode.texture-loader v1.5.0
+13:01:36 DEBUG [Main] [Geode]:         Unzip
+13:01:36 DEBUG [Main] [Geode]:         Same hash detected, skipping unzip
+13:01:36 DEBUG [Main] [Geode]:         Load
+13:01:36 DEBUG [Main] [Geode]:         Loading binary for mod geode.texture-loader
+13:01:36 DEBUG [Main] [Geode]:         Enabled MenuLayer::init hook at 0x123b450 for geode.texture-loader
+13:01:36 INFO  [Ma>] [Texture Loader]: Loading texture packs
+13:01:36 WARN  [Ma>] [Texture Loader]: Unable to load pack E:\SteamLibrary\steamapps\common\Geometry Dash\geode\config\geode.texture-loader\packs\feefai ob 1.rar: Expected zip or apk
+13:01:36 INFO  [Ma>] [Texture Loader]: Loaded 1 packs
+13:01:36 INFO  [Main] [Geode]:     Took 1.803s. Continuing next frame...
+13:01:36 DEBUG [Main] [Geode]: Setting up IPC
+13:01:36 DEBUG [Main] [Geode]:   IPC set up
+13:01:36 INFO  [Main] [Geode]: Starting loader update check
+13:01:36 INFO  [Main] [Geode]: Entry took 1.983s
+13:01:42 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:42 DEBUG [Main] [Geode]:   Loading mods
+13:01:42 DEBUG [Main] [Geode]:     cvolton.betterinfo v4.1.7
+13:01:42 ERROR [Main] [Geode]: Failed to fetch updates Empty response
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:42 DEBUG [Main] [Geode]:       Load
+13:01:42 DEBUG [Main] [Geode]:       Loading binary for mod cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ChallengesPage::createChallengeNode hook at 0x101d190 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ChallengesPage::init hook at 0x101c560 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ChallengesPage::updateTimers hook at 0x101d450 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled CommentCell::loadFromComment hook at 0x1044490 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled CreatorLayer::init hook at 0x102f550 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled CreatorLayer::onChallenge hook at 0x1030dd0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled DailyLevelNode::init hook at 0x10596c0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled DailyLevelPage::init hook at 0x10576d0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled DailyLevelPage::updateTimers hook at 0x1059120 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled EditLevelLayer::init hook at 0x105c8e0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled EditLevelLayer::onLevelInfo hook at 0x105db40 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJLevelList::showListInfo hook at 0x10dcef0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJScoreCell::loadFromScore hook at 0x10465b0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameLevelManager::getCompletedLevels hook at 0x10b7790 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameLevelManager::getSavedLevels hook at 0x10b7340 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameLevelManager::limitSavedLevels hook at 0x10b9210 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameLevelManager::onProcessHttpRequestCompleted hook at 0x10b3d70 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameLevelManager::userNameForUserID hook at 0x10b6290 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::init hook at 0x11e8810 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::loadPage hook at 0x11eb340 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::onLevelInfo hook at 0x11eada0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::onMore hook at 0x11eaaa0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::setupCommentsBrowser hook at 0x11eb670 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ItemInfoPopup::init hook at 0x11b5b80 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LeaderboardsLayer::init hook at 0x11edc60 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::init hook at 0x11f11e0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::init hook at 0x11f2e60 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::onGoToPage hook at 0x11f5c40 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::setupPageInfo hook at 0x11f59e0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelCell::loadCustomLevelCell hook at 0x103da60 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelCell::onViewProfile hook at 0x1040f70 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x12116a0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onLevelInfo hook at 0x1216a70 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onViewProfile hook at 0x1216a10 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::updateLabelValues hook at 0x1216d20 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelLeaderboard::init hook at 0x1218060 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelListCell::loadFromList hook at 0x104b570 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelPage::onInfo hook at 0x122c400 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelSearchLayer::getSearchObject hook at 0x1223ba0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::init hook at 0x12256b0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::onSongFilter hook at 0x12269e0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled MoreSearchLayer::onSongMode hook at 0x1226c90 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::destroyPlayer hook at 0x12a6730 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x129c4a0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::levelComplete hook at 0x129db60 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::onQuit hook at 0x12ab480 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::resetLevel hook at 0x12aa130 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ProfilePage::getUserInfoFailed hook at 0x12b1e40 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ProfilePage::init hook at 0x12ad080 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ProfilePage::loadPageFromUserInfo hook at 0x12adda0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled ProfilePage::onClose hook at 0x12b15e0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled RewardsPage::init hook at 0x12b67f0 for cvolton.betterinfo
+13:01:42 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x123b450 for cvolton.betterinfo
+13:01:42 INFO  [Main] [Geode]: Took 0.134s
+13:01:42 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:42 DEBUG [Main] [Geode]:   Loading mods
+13:01:42 DEBUG [Main] [Geode]:     tpdea.betterpause-Better v1.6.8
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:42 DEBUG [Main] [Geode]:       Load
+13:01:42 DEBUG [Main] [Geode]:       Loading binary for mod tpdea.betterpause-Better
+13:01:42 INFO  [BI Manager Loader] [BetterInfo]: Loaded cache.json
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::create hook at 0x1278940 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::keyDown hook at 0x127a310 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onEdit hook at 0x127a020 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onNormalMode hook at 0x1279ed0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onPracticeMode hook at 0x1279e60 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestart hook at 0x1279f80 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestartFull hook at 0x1279fd0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::onResume hook at 0x1279f30 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PauseLayer::tryQuit hook at 0x127a170 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::addObject hook at 0x12a19b0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x129c4a0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::levelComplete hook at 0x129db60 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled PlayLayer::showNewBest hook at 0x129edc0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::update hook at 0x117b780 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled MoreOptionsLayer::addToggle hook at 0x12725f0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled GameOptionsLayer::create hook at 0x11d3050 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJOptionsLayer::addToggleInternal hook at 0x11c6350 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJOptionsLayer::init hook at 0x11c5f80 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongInfo hook at 0x1054b80 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongObject hook at 0x1054280 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CCScrollLayerExt::ccTouchCancelled hook at 0xfe83e0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CCScrollLayerExt::ccTouchEnded hook at 0xfe81c0 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CCScrollLayerExt::ccTouchMoved hook at 0xfe8410 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled CCScrollLayerExt::scrollLayer hook at 0xfe8550 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled InfoLayer::onClose hook at 0x11eb200 for tpdea.betterpause-Better
+13:01:42 DEBUG [Main] [Geode]:       Enabled GJGameLevel::savePercentage hook at 0x10d3d70 for tpdea.betterpause-Better
+13:01:42 INFO  [Main] [Geode]: Took 0.102s
+13:01:42 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:42 DEBUG [Main] [Geode]:   Loading mods
+13:01:42 DEBUG [Main] [Geode]:     cvolton.betterinfo v4.1.7
+13:01:42 INFO  [Main] [Geode]: Took 0.006s
+13:01:42 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:42 DEBUG [Main] [Geode]:   Loading mods
+13:01:42 DEBUG [Main] [Geode]:     fleym.nongd v2.6.0
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:42 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:42 DEBUG [Main] [Geode]:       Load
+13:01:42 DEBUG [Main] [Geode]:       Loading binary for mod fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::init hook at 0x1052c20 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateMultiAssetInfo hook at 0x1055a60 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongInfo hook at 0x1054b80 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongObject hook at 0x1054280 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateWithMultiAssets hook at 0x10556f0 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x12116a0 for fleym.nongd
+13:01:42 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x123b450 for fleym.nongd
+13:01:43 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::getSongInfoObject hook at 0x1243cb0 for fleym.nongd
+13:01:43 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::onGetSongInfoCompleted hook at 0x1242d00 for fleym.nongd
+13:01:43 DEBUG [Main] [Geode]:       Enabled MusicDownloadManager::pathForSong hook at 0x1244070 for fleym.nongd
+13:01:43 INFO  [Main] [Geode]: Took 0.164s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     flafy.autonong v0.0.2
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 DEBUG [Main] [Geode]:       Load
+13:01:43 DEBUG [Main] [Geode]:       Loading binary for mod flafy.autonong
+13:01:43 DEBUG [Main] [Geode]:       Enabled CustomSongWidget::updateSongInfo hook at 0x1054b80 for flafy.autonong
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::init hook at 0x12116a0 for flafy.autonong
+13:01:43 INFO  [Main] [Auto Nong]:   Loading index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+13:01:43 INFO  [Main] [Auto Nong]:   Loading index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+13:01:43 INFO  [Main] [Auto Nong]:   Loading index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+13:01:43 INFO  [Main] [Geode]: Took 0.118s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     geode.custom-keybinds v1.5.2
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 DEBUG [Main] [Geode]:       Load
+13:01:43 DEBUG [Main] [Geode]:       Loading binary for mod geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorPauseLayer::customSetup hook at 0x1060730 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorPauseLayer::keyDown hook at 0x1063080 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorUI::init hook at 0x1064260 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorUI::keyDown hook at 0x109a300 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorUI::keyUp hook at 0x109b210 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorUI::moveObjectCall hook at 0x1094d40 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled EditorUI::transformObjectCall hook at 0x1095380 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x12789f0 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::keyDown hook at 0x127a310 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled UILayer::init hook at 0x137ec10 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled UILayer::keyDown hook at 0x137f930 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled UILayer::keyUp hook at 0x137f950 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG hook at 0x5692be70 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::updateModifierKeys hook at 0x5692ca70 for geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:       Enabled MoreOptionsLayer::onKeybindings hook at 0x10621a0 for geode.custom-keybinds
+13:01:43 INFO  [Main] [Geode]: Took 0.118s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     syzzi.click_between_frames v1.0.2
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 DEBUG [Main] [Geode]:       Load
+13:01:43 DEBUG [Main] [Geode]:       Loading binary for mod syzzi.click_between_frames
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x129c4a0 for syzzi.click_between_frames
+13:01:43 DEBUG [Main] [Geode]:       Enabled cocos2d::CCScheduler::update hook at 0x56996db0 for syzzi.click_between_frames
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::pushButton hook at 0x1291d30 for syzzi.click_between_frames
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::releaseButton hook at 0x1291f70 for syzzi.click_between_frames
+13:01:43 INFO  [Main] [Geode]: Took 0.116s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     dankmeme.globed2 v1.3.7
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 DEBUG [Main] [Geode]:       Load
+13:01:43 DEBUG [Main] [Geode]:       Loading binary for mod dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::incrementJumps hook at 0x12877f0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::playDeathEffect hook at 0x127a470 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::incrementJumps hook at 0x12877f0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::playSpiderDashEffect hook at 0x128f5b0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayerObject::update hook at 0x12841b0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::destroyPlayer hook at 0x12a6730 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::fullReset hook at 0x12a9f80 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::init hook at 0x129c4a0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::levelComplete hook at 0x129db60 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::onQuit hook at 0x12ab480 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::resetLevel hook at 0x12aa130 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::setupHasCompleted hook at 0x129ce40 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::showNewBest hook at 0x129edc0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x12789f0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::goEdit hook at 0x127a0f0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onEdit hook at 0x127a020 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onNormalMode hook at 0x1279ed0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onPracticeMode hook at 0x1279e60 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onQuit hook at 0x127a240 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestart hook at 0x1279f80 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onRestartFull hook at 0x1279fd0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::onResume hook at 0x1279f30 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled PauseLayer::customSetup hook at 0x12789f0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled FLAlertLayer::keyBackClicked hook at 0xff1a10 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GameManager::loadIcon hook at 0x10e7440 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GameManager::reloadAllStep2 hook at 0x10ee540 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GameManager::returnToLastScene hook at 0x10ee110 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GJGameLevel::savePercentage hook at 0x10d3d70 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::checkCollisions hook at 0x115b310 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::init hook at 0x1150290 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled GJBaseGameLayer::loadLevelSettings hook at 0x117d7b0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::init hook at 0x11f11e0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::onBack hook at 0x11f2940 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelAreaInnerLayer::onDoor hook at 0x11f2720 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::LevelBrowserLayer hook at 0x11f2c10 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelBrowserLayer::setupLevelBrowser hook at 0x11f5080 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::onPlay hook at 0x12155b0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelInfoLayer::tryCloneLevel hook at 0x1215f10 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::LevelSelectLayer hook at 0x1227bc0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::init hook at 0x1227d00 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LevelSelectLayer::updatePageWithObject hook at 0x1228790 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled LoadingLayer::loadingFinished hook at 0x1236ae0 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled MenuLayer::init hook at 0x123b450 for dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:       Enabled FMOD::System::init hook at 0x56632530 for dankmeme.globed2
+13:01:43 WARN  [Main] [Globed]:      === Globed v1.3.7 has been loaded in debug mode ===
+13:01:43 INFO  [Main] [Globed]:      Platform: Windows x86 (little-endian)
+13:01:43 INFO  [Main] [Globed]:      FMOD linkage: true, version: 20219
+13:01:43 INFO  [Main] [Globed]:      Voice chat support: true (opus version: libopus unknown)
+13:01:43 INFO  [Main] [Globed]:      Discord RPC support: false
+13:01:43 INFO  [Main] [Globed]:      Libsodium version: 1.0.19 (CryptoBox algorithm: XChaCha20Poly1305)
+13:01:43 INFO  [Main] [Globed]:      cURL version: libcurl/7.26.0 OpenSSL/1.0.1c zlib/1.2.7, with SSL
+13:01:43 INFO  [Main] [Geode]: Took 0.132s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     bitz.moregames v1.0.4
+13:01:43 INFO  [Main] [Auto Nong]: Loaded index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/official.json.gz
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 INFO  [Main] [Auto Nong]: Loaded index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-rooot.json.gz
+13:01:43 INFO  [Main] [Auto Nong]: Loaded index: https://cdn.jsdelivr.net/gh/FlafyDev/auto-nong-indexes@dist/sfh-yt.json.gz
+13:01:43 INFO  [Main] [Geode]: Took 0.096s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     dankmeme.globed2 v1.3.7
+13:01:43 INFO  [Main] [Geode]: Took 0.002s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     flafy.autonong v0.0.2
+13:01:43 INFO  [Main] [Geode]: Took 0.002s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     n.friends v1.0.1
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 INFO  [Main] [Geode]: Took 0.025s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     syzzi.click_between_frames v1.0.2
+13:01:43 INFO  [Main] [Geode]: Took 0.003s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Loading mods
+13:01:43 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher v1.1.2
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Unzip
+13:01:43 DEBUG [Mod Unzip] [Geode]:  Same hash detected, skipping unzip
+13:01:43 DEBUG [Main] [Geode]:       Load
+13:01:43 DEBUG [Main] [Geode]:       Loading binary for mod TheSillyDoggo.StartposSwitcher
+13:01:43 DEBUG [Main] [Geode]:       Enabled cocos2d::CCKeyboardDispatcher::dispatchKeyboardMSG hook at 0x5692be70 for TheSillyDoggo.StartposSwitcher
+13:01:43 DEBUG [Main] [Geode]:       Enabled PlayLayer::create hook at 0x129c3f0 for TheSillyDoggo.StartposSwitcher
+13:01:43 DEBUG [Main] [Geode]:       Enabled UILayer::init hook at 0x137ec10 for TheSillyDoggo.StartposSwitcher
+13:01:43 DEBUG [Main] [Geode]:       Enabled StartPosObject::init hook at 0x1367910 for TheSillyDoggo.StartposSwitcher
+13:01:43 INFO  [Main] [Geode]: Took 0.104s
+13:01:43 INFO  [Main] [Geode]: Continuing mod graph refresh...
+13:01:43 DEBUG [Main] [Geode]:   Finding problems
+13:01:43 DEBUG [Main] [Geode]:     fleym.nongd
+13:01:43 DEBUG [Main] [Geode]:     geode.loader
+13:01:43 DEBUG [Main] [Geode]:     geode.custom-keybinds
+13:01:43 DEBUG [Main] [Geode]:     bitz.moregames is not enabled
+13:01:43 DEBUG [Main] [Geode]:     tpdea.betterpause-Better
+13:01:43 DEBUG [Main] [Geode]:     dankmeme.globed2
+13:01:43 DEBUG [Main] [Geode]:     flafy.autonong
+13:01:43 DEBUG [Main] [Geode]:     cvolton.betterinfo
+13:01:43 DEBUG [Main] [Geode]:     n.friends is not enabled
+13:01:43 DEBUG [Main] [Geode]:     cvolton.misc_bugfixes
+13:01:43 DEBUG [Main] [Geode]:     geode.node-ids
+13:01:43 DEBUG [Main] [Geode]:     geode.texture-loader
+13:01:43 DEBUG [Main] [Geode]:     syzzi.click_between_frames
+13:01:43 DEBUG [Main] [Geode]:     TheSillyDoggo.StartposSwitcher
+13:01:43 INFO  [Main] [Geode]:   Took 0.001s
+13:01:43 DEBUG [Main] [Geode]: Verifying Loader Resources
+13:01:43 DEBUG [Main] [Geode]: Loading Loader Resources
+13:01:43 DEBUG [Main] [Geode]: Loading mod resources
+13:01:43 DEBUG [Main] [Geode]: Adding resources
+13:01:43 DEBUG [Main] [Geode]:   geode.loader
+13:01:43 DEBUG [Main] [Geode]:     Adding sheet geode.loader/LogoSheet
+13:01:43 DEBUG [Main] [Geode]:     Adding sheet geode.loader/APISheet
+13:01:43 DEBUG [Main] [Geode]:     Adding sheet geode.loader/BlankSheet
+13:01:44 DEBUG [Main] [Geode]:   geode.custom-keybinds
+13:01:44 DEBUG [Main] [Geode]:     Adding sheet geode.custom-keybinds/KB_ControllerSheet
+13:01:44 DEBUG [Main] [Geode]:   bitz.moregames
+13:01:44 DEBUG [Main] [Geode]:     Adding sheet bitz.moregames/IconSheet
+13:01:44 DEBUG [Main] [Geode]:   dankmeme.globed2
+13:01:44 DEBUG [Main] [Geode]:     Adding sheet dankmeme.globed2/globedsheet1
+13:01:44 DEBUG [Main] [Geode]:   cvolton.betterinfo
+13:01:44 DEBUG [Main] [Geode]:     Adding sheet cvolton.betterinfo/SearchButtons-410
+13:01:46 INFO  [Main] [Globed]: preloading assets
+13:01:46 DEBUG [Main] [Globed]: preloadAssets stage: 0
+13:01:46 DEBUG [Main] [Globed]: preload: preparing 19 textures
+13:01:46 DEBUG [Main] [Globed]: initialized preload state in 7.474ms
+13:01:46 DEBUG [Main] [Globed]: texture quality: Medium
+13:01:46 DEBUG [Main] [Globed]: texture packs: 0
+13:01:46 DEBUG [Main] [Globed]: game resources path (5): E:\SteamLibrary\steamapps\common\Geometry Dash\Resources/
+13:01:47 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:47 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:47 DEBUG [Main] [Globed]: preloadAssets stage: 1
+13:01:47 DEBUG [Main] [Globed]: preload: preparing 485 textures
+13:01:49 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:50 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:50 DEBUG [Main] [Globed]: preloadAssets stage: 2
+13:01:50 DEBUG [Main] [Globed]: preload: preparing 168 textures
+13:01:51 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:51 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:51 DEBUG [Main] [Globed]: preloadAssets stage: 3
+13:01:51 DEBUG [Main] [Globed]: preload: preparing 119 textures
+13:01:52 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:52 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:52 DEBUG [Main] [Globed]: preloadAssets stage: 4
+13:01:52 DEBUG [Main] [Globed]: preload: preparing 149 textures
+13:01:52 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:53 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:53 DEBUG [Main] [Globed]: preloadAssets stage: 5
+13:01:53 DEBUG [Main] [Globed]: preload: preparing 96 textures
+13:01:53 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:53 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:53 DEBUG [Main] [Globed]: preloadAssets stage: 6
+13:01:53 DEBUG [Main] [Globed]: preload: preparing 185 textures
+13:01:54 DEBUG [Main] [Globed]: preload: initialized textures
+13:01:54 DEBUG [Main] [Globed]: preload: initialized sprite frames. done.
+13:01:54 INFO  [Main] [Globed]: Asset preloading finished in 7.880s.
+13:01:54 DEBUG [Main] [Geode]: Checking updates for index
+13:01:54 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:01:54 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:01:54 DEBUG [Main] [Misc Bugfixes]: Loading song browser lag fix
+13:01:54 DEBUG [Thread #14180] [Misc Bugfixes]: Started populating downloaded songs cache
+13:01:54 INFO  [Main] [Misc Bugfixes]: Adjusted collected orbs by: 0 (125864 -> 125864)
+13:01:55 DEBUG [Thread #15780] [Misc Bugfixes]: Checking for 4GB patch...
+13:01:55 DEBUG [Thread #14180] [Misc Bugfixes]: Finished populating downloaded songs cache
+13:01:55 DEBUG [BI Manager Loader II] [BetterInfo]: Caching 2 rated and 147 unrated levels
+13:01:55 DEBUG [BI Manager Loader II] [BetterInfo]: Caching 0 rated and 0 unrated levels
+13:01:55 DEBUG [Thread #15780] [Misc Bugfixes]: 4GB patch is enabled.
+13:01:55 DEBUG [Main] [Geode]: Downloading index
+13:01:56 DEBUG [Main] [BetterInfo]: Finished caching levels
+13:01:58 DEBUG [Main] [BetterInfo]: Finished caching levels
+13:02:07 DEBUG [Index Update] [Geode]: Unzipping index
+13:02:18 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:02:18 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:02:23 DEBUG [Network (out) Thread] [Globed]: tcp connection successful, sending the handshake
+13:02:24 DEBUG [Network (in) Thread] [Globed]: handshake successful, logging in
+13:02:24 INFO  [Network (in) Thread] [Globed]: Successfully logged into the server!
+13:02:29 DEBUG [Main] [Globed]: collision: false
+13:02:30 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:02:40 DEBUG [Index Update] [Geode]: Updating local index cache
+13:02:40 WARN  [Index Update] [Geode]:   settings.randomise-main-menu-bg contains unknown key "platforms"
+13:02:40 WARN  [Index Update] [Geode]:   settings.force-bg contains unknown key "platforms"
+13:02:40 WARN  [Index Update] [Geode]:   settings.remove-player contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.multiline contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   [spaghettdev.gd-roulette/v2.0.4/mod.json] contains unknown key "links"
+13:02:41 WARN  [Index Update] [Geode]:   settings.mouse-move-on-zoom contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.grid-size-controls contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.show-grid-on-size-change contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.soft-save-enabled contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   [saumondeluxe.rainbow_icon/v1.1.4/mod.json] contains unknown key "links"
+13:02:41 WARN  [Index Update] [Geode]:   [relative.advanced_song_search/v1.0.1/mod.json] contains unknown key "links"
+13:02:41 WARN  [Index Update] [Geode]:   settings.addGameplayHeader contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.pageNavAnywhere contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.refreshAnywhere contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.saveEditorLevel contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.viewCommentsAnywhere contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.likeDislikeShortcut contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   settings.shiftForVault contains unknown key "platforms"
+13:02:41 WARN  [Index Update] [Geode]:   dependencies.0 contains unknown key "required"
+13:02:41 WARN  [Index Update] [Geode]:   settings.scroll-speed-modifier contains unknown key "descriptions"
+13:02:41 WARN  [Index Update] [Geode]:   settings.spacebar contains unknown key "platforms"
+13:02:41 DEBUG [Index Update] [Geode]:   Done
+13:03:13 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:03:13 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:03:31 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:03:31 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:03:33 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:03:33 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:04:17 ERROR [Main] [Geode]: Mod ID 'tpdea.betterpause-Better' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:04:17 ERROR [Main] [Geode]: Mod ID 'TheSillyDoggo.StartposSwitcher' will be rejected in the future - IDs must match the regex `[a-z0-9\-_]+\.[a-z0-9\-_]+`
+13:04:20 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:05:14 INFO  [Main] [Startpos Switcher]: startpos: 0
+13:05:15 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:07:52 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:07:55 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 1040ms, decompress: 86ms, parse: 954ms
+13:07:59 DEBUG [Main] [Globed]: collision: false
+13:07:59 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:08:15 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 933ms, decompress: 92ms, parse: 841ms
+13:08:17 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:08:18 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 12ms, decompress: 1ms, parse: 11ms
+13:08:22 DEBUG [Main] [Globed]: collision: false
+13:08:22 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:08:52 ERROR [Main] [BetterInfo]: Error while getting username for 1221015: error code: 504
+13:09:17 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 35ms, decompress: 3ms, parse: 32ms
+13:09:23 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:09:25 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 338ms, decompress: 31ms, parse: 307ms
+13:09:28 DEBUG [Main] [Globed]: collision: false
+13:09:28 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:33:11 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 447ms, decompress: 47ms, parse: 400ms
+13:33:42 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:33:45 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 304ms, decompress: 30ms, parse: 274ms
+13:33:49 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:33:50 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 79ms, decompress: 9ms, parse: 70ms
+13:33:51 DEBUG [Main] [Globed]: collision: false
+13:33:51 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:34:14 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 68ms, decompress: 9ms, parse: 59ms
+13:34:18 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:34:20 INFO  [Main] [Startpos Switcher]: startpos: 0
+13:34:21 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:34:22 INFO  [Main] [Startpos Switcher]: startpos: 9
+13:34:41 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:36:31 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:36:32 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 56ms, decompress: 5ms, parse: 51ms
+13:36:33 DEBUG [Main] [Globed]: collision: false
+13:36:33 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:37:11 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 61ms, decompress: 7ms, parse: 54ms
+13:37:12 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:37:13 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 55ms, decompress: 6ms, parse: 49ms
+13:37:15 DEBUG [Main] [Globed]: collision: false
+13:37:15 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:37:38 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 59ms, decompress: 7ms, parse: 52ms
+13:40:07 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:40:24 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:41:42 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:41:47 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 153ms, decompress: 20ms, parse: 133ms
+13:41:53 INFO  [Main] [Auto Nong]: Downloaded the song successfully!
+13:42:30 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 0ms, decompress: 0ms, parse: 0ms
+13:42:31 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 6ms, decompress: 0ms, parse: 6ms
+13:42:33 DEBUG [Main] [Globed]: collision: false
+13:42:33 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:43:25 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 19ms, decompress: 1ms, parse: 18ms
+13:43:28 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 142ms, decompress: 14ms, parse: 128ms
+13:43:28 DEBUG [Main] [Globed]: collision: false
+13:43:28 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:43:35 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 145ms, decompress: 17ms, parse: 128ms
+13:43:37 DEBUG [Main] [Globed]: collision: false
+13:43:37 INFO  [Main] [Startpos Switcher]: startpos: -1
+13:45:49 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 168ms, decompress: 22ms, parse: 146ms
+13:45:51 INFO  [Exact Level Length] [BetterInfo]: Time for levelString: 157ms, decompress: 20ms, parse: 137ms
+13:46:30 INFO  [Main] [Geode]: Saving mod data...
+13:46:30 DEBUG [Main] [Geode]:   fleym.nongd
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if fix-empty-size is saved
+13:46:30 DEBUG [Main] [Geode]:   geode.loader
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if auto-check-updates is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if show-platform-console is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-last-crashed-popup is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if auto-update-mods is saved
+13:46:30 DEBUG [Main] [Geode]:   geode.custom-keybinds
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:   bitz.moregames
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:   tpdea.betterpause-Better
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if type-pause is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if level-editor-hack is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if show-comment-button is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if amount-scroll-button is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-arrow-blink is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if tolerance-in-buttons-list is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-arrow-buttons is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-creator-label is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if enabled-info-button is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if enabled-coins-viewer is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if Quick-Settings-Select is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if original-comment-button-sprite is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-rating-plus-label is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-edit-level is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if disable-icon-rating-plus-label is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if remove-exit-hotkey is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-resume-level is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-practice-level is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-normal-level is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-restart-level is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if confirm-restart-full-level is saved
+13:46:30 DEBUG [Main] [Geode]:   dankmeme.globed2
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if force-skip-preload is saved
+13:46:30 DEBUG [Main] [Geode]:   flafy.autonong
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if show-level-popup is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if use-cobalt is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if indexes is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if use-yt-dlp is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if yt-dlp-path is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if _blacklistPPClear is saved
+13:46:30 DEBUG [Main] [Geode]:   cvolton.betterinfo
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if fix-green-users is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if show-comment-ids is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if white-id is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if level-info is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if alt-button is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if auto-submit is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if hide-platformer-time is saved
+13:46:30 DEBUG [Main] [Geode]:   n.friends
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if Disable In Editor is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if Friend Scale is saved
+13:46:30 DEBUG [Main] [Geode]:     Check if Disable In Game is saved
+13:46:30 DEBUG [Main] [Geode]:   cvolton.misc_bugfixes
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if skip-4gb-patch-check is saved
+13:46:30 DEBUG [Main] [Geode]:   geode.node-ids
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:   geode.texture-loader
+13:46:30 INFO  [M>] [Texture Lo>]: Saving texture packs
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:   syzzi.click_between_frames
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:   TheSillyDoggo.StartposSwitcher
+13:46:30 DEBUG [Main] [Geode]:     Check covered
+13:46:30 DEBUG [Main] [Geode]:     Check if show-ui is saved
+13:46:30 INFO  [Main] [Geode]:   Took 0.037s
+13:46:33 DEBUG [Main] [Globed]: cleaning up..
+13:46:33 DEBUG [Main] [Globed]: waiting for output thread to terminate..
+13:46:33 DEBUG [Main] [Globed]: waiting for input thread to terminate..
+13:46:33 DEBUG [Main] [Globed]: disconnecting from the server..
+13:46:33 WARN  [Main] [Globed]: error trying to disconnect: attempting to use a singleton after static destruction
+13:46:33 INFO  [Main] [Globed]: Goodbye!
+13:46:33 INFO  [Main] [Globed]: audio thread halted.

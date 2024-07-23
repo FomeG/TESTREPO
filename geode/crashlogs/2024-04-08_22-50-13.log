@@ -1,0 +1,65 @@
+2024-04-08T22:50:13+0700
+Whoopsies! An unhandled exception has occurred.
+
+== Geode Information ==
+Loader Version: v2.0.0-beta.23
+Loader Commit: b3c0c9f
+Bindings Commit: a4c775b
+Installed mods: 12
+Problems: 0
+
+== Exception Information ==
+Faulty Module: E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll
+Faulty Mod: <Unknown>
+Exception Code: c0000005 (EXCEPTION_ACCESS_VIOLATION)
+Exception Flags: 0
+Exception Address: 56DEB9A4 (libcurl.dll + bb9a4 (curl_version_info + 558052))
+Number Parameters: 2
+
+== Stack Trace ==
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + bb9a4 (curl_version_info + 558052)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 3adeb (curl_version_info + 30763)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + b9e49 (curl_version_info + 551049)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 5e45c (curl_version_info + 175772)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + b9e49 (curl_version_info + 551049)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 5e474 (curl_version_info + 175796)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 41ac6 (curl_version_info + 58630)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 34a33 (curl_version_info + 5235)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 55433 (curl_version_info + 138867)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 34ba3 (curl_version_info + 5603)
+ - C:\WINDOWS\SYSTEM32\MSWSOCK.dll + 1c228 (sethostname + 46040)
+ - C:\WINDOWS\System32\WS2_32.dll + 15a45 (getsockopt + 229)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 4219d (curl_version_info + 60381)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 23f5a (curl_slist_free_all + 16218)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 24f0b (curl_slist_free_all + 20235)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 26bc3 (curl_slist_free_all + 27587)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 26d96 (curl_slist_free_all + 28054)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 2386a (curl_slist_free_all + 14442)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 1296f (curl_getenv + 14463)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 2e04a (curl_share_strerror + 28186)
+ - E:\SteamLibrary\steamapps\common\Geometry Dash\libcurl.dll + 2f463 (curl_share_strerror + 33331)
+
+== Register States ==
+EAX: 425fbd1e
+EBX: b10413ee
+ECX: 80d91df3
+EDX: 99c49287
+EBP: 56e56feb
+ESP: 1463f000
+EDI: 9dd9814a
+ESI: 3cce2494
+EIP: 56deb9a4
+
+== Installed Mods ==
+  | [v1.0.4] bitz.moregames
+x | [v4.1.7] cvolton.betterinfo
+x | [v1.1.2] cvolton.misc_bugfixes
+x | [v1.3.7] dankmeme.globed2
+x | [v0.0.2] flafy.autonong
+x | [v2.6.0] fleym.nongd
+x | [v1.5.2] geode.custom-keybinds
+x | [v2.0.0-beta.23] geode.loader
+x | [v1.8.1] geode.node-ids
+x | [v1.5.0] geode.texture-loader
+x | [v1.1.2] TheSillyDoggo.StartposSwitcher
+x | [v1.6.8] tpdea.betterpause-Better
