@@ -1,0 +1,131 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// There are four lights!
+
+Time: 2/16/24 7:58 PM
+Description: Updating screen events
+
+java.lang.IndexOutOfBoundsException: Index: 58, Size: 45
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at net.minecraft.inventory.Container.func_75144_a(Container.java:372)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78753_a(PlayerControllerMP.java:488)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146984_a(GuiContainer.java:629)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146983_a(GuiContainer.java:662)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73869_a(GuiContainer.java:639)
+	at net.minecraft.client.gui.GuiScreen.func_146282_l(GuiScreen.java:578)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:534)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1674)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at net.minecraft.inventory.Container.func_75144_a(Container.java:372)
+	at net.minecraft.client.multiplayer.PlayerControllerMP.func_78753_a(PlayerControllerMP.java:488)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146984_a(GuiContainer.java:629)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146983_a(GuiContainer.java:662)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73869_a(GuiContainer.java:639)
+	at net.minecraft.client.gui.GuiScreen.func_146282_l(GuiScreen.java:578)
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:534)
+
+-- Affected screen --
+Details:
+	Screen name: ~~ERROR~~ NullPointerException: null
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 3 total; [EntityPlayerSP['Ngoc_Cutee'/993967, l='MpServer', x=68.12, y=63.00, z=-0.90], EntityOtherPlayerMP['nguyensg91'/993915, l='MpServer', x=56.70, y=78.14, z=-0.54], EntityOtherPlayerMP['giahuybucu'/993916, l='MpServer', x=61.86, y=77.99, z=-4.11]]
+	Chunk stats: MultiplayerChunkCache: 439, 439
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0.00,103.00,0.00 - World: (0,103,0), Chunk: (at 0,6,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 17168 game time, 1 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 90 total; [EntityArmorStand['§eS?n xu?t trong §c38 §egiây'/994703, l='MpServer', x=9.50, y=63.69, z=-8.50], EntityItem['item.item.ingotIron'/1005071, l='MpServer', x=74.78, y=62.50, z=0.31], EntityArmorStand['§eC?p §cI'/994702, l='MpServer', x=9.50, y=64.28, z=-8.50], EntityItem['item.item.ingotIron'/1005070, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005069, l='MpServer', x=74.78, y=62.50, z=0.31], EntityArmorStand['Armor Stand'/994697, l='MpServer', x=42.50, y=60.78, z=-41.50], EntityArmorStand['§b§lDiamond'/994696, l='MpServer', x=42.50, y=63.00, z=-41.50], EntityArmorStand['§c§lB?o v? gi??ng c?a b?n!'/1002631, l='MpServer', x=59.50, y=64.00, z=0.50], EntityArmorStand['§eS?n xu?t trong §c11 §egiây'/994695, l='MpServer', x=42.50, y=62.69, z=-41.50], EntityArmorStand['§eC?p §cII'/994694, l='MpServer', x=42.50, y=63.28, z=-41.50], EntityArmorStand['Armor Stand'/994693, l='MpServer', x=42.50, y=60.78, z=42.50], EntityArmorStand['§b§lDiamond'/994692, l='MpServer', x=42.50, y=63.00, z=42.50], EntityArmorStand['§eS?n xu?t trong §c11 §egiây'/994691, l='MpServer', x=42.50, y=62.69, z=42.50], EntityArmorStand['§eC?p §cII'/994690, l='MpServer', x=42.50, y=63.28, z=42.50], EntityItem['item.item.ingotIron'/1004830, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004829, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004828, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004952, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004951, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004950, l='MpServer', x=74.78, y=62.50, z=0.31], EntityArmorStand['Armor Stand'/994705, l='MpServer', x=9.50, y=61.78, z=-8.50], EntityArmorStand['§a§lEmerald'/994704, l='MpServer', x=9.50, y=64.00, z=-8.50], EntityItem['item.item.ingotGold'/1005072, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005100, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005099, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotGold'/1004714, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005098, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['T0biLmaoo'/994027, l='MpServer', x=57.69, y=65.00, z=0.28], EntityItem['item.item.ingotIron'/1004713, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004712, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004711, l='MpServer', x=74.78, y=62.50, z=0.31], EntityArmorStand['§e§lCHU?T PH?I'/994362, l='MpServer', x=68.81, y=64.84, z=-3.72], EntityArmorStand['§bNÂNG C?P'/994361, l='MpServer', x=68.81, y=65.09, z=-3.72], EntityOtherPlayerMP['giahuybucu'/993916, l='MpServer', x=78.42, y=71.00, z=-0.22], EntityItem['item.item.ingotIron'/1004857, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotGold'/1005241, l='MpServer', x=74.77, y=62.50, z=0.30], EntityVillager['Villager'/994360, l='MpServer', x=68.81, y=63.00, z=-3.72], EntityItem['item.item.ingotIron'/1004856, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['Neyu123'/992917, l='MpServer', x=52.84, y=68.00, z=-27.58], EntityItem['item.item.ingotIron'/1004855, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['nguyensg91'/993915, l='MpServer', x=67.32, y=63.00, z=0.21], EntityItem['item.item.ingotGold'/1004981, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['huyakazzz'/993936, l='MpServer', x=58.29, y=64.41, z=-21.55], EntityItem['item.item.ingotIron'/1004980, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004979, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004978, l='MpServer', x=74.78, y=62.50, z=0.31], EntityPlayerSP['Ngoc_Cutee'/993967, l='MpServer', x=68.12, y=63.00, z=-0.90], EntityOtherPlayerMP['T0biLmaoo'/994027, l='MpServer', x=23.47, y=66.83, z=3.86], EntityArmorStand['§c§lB?o v? gi??ng c?a b?n!'/1003847, l='MpServer', x=59.50, y=64.00, z=0.50], EntityItem['item.item.ingotIron'/1005127, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005126, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005125, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004739, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004738, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004737, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['yunzei'/993812, l='MpServer', x=46.38, y=-8.21, z=-1.31], EntityItem['item.tile.cloth.red'/1003712, l='MpServer', x=59.69, y=71.00, z=-0.09], EntityItem['item.item.ingotIron'/1004767, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005151, l='MpServer', x=74.78, y=62.50, z=0.31], EntityArmorStand['§e§lCHU?T PH?I'/994393, l='MpServer', x=71.94, y=64.84, z=-3.72], EntityArmorStand['§bSHOP'/994392, l='MpServer', x=71.94, y=65.09, z=-3.72], EntityVillager['Villager'/994391, l='MpServer', x=71.94, y=63.00, z=-3.72], EntityArmorStand['§c§lB?o v? gi??ng c?a b?n!'/1004885, l='MpServer', x=59.50, y=64.00, z=0.50], EntityItem['item.item.ingotGold'/1004883, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005011, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004882, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005010, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004881, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005009, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004880, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['cube159'/992844, l='MpServer', x=-47.28, y=67.84, z=0.03], EntityOtherPlayerMP['nguyensg91'/993915, l='MpServer', x=56.70, y=78.14, z=-0.54], EntityOtherPlayerMP['Neyu123'/992917, l='MpServer', x=38.33, y=61.66, z=-36.91], EntityOtherPlayerMP['huyakazzz'/993936, l='MpServer', x=18.74, y=63.32, z=-47.10], EntityItem['item.item.ingotIron'/1005037, l='MpServer', x=74.78, y=62.50, z=0.31], EntityOtherPlayerMP['giahuybucu'/993916, l='MpServer', x=61.86, y=77.99, z=-4.11], EntityItem['item.item.ingotIron'/1005036, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005035, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotGold'/1005154, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004769, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005153, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004768, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1005152, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotGold'/1004796, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004795, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004794, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004793, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004914, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004913, l='MpServer', x=74.78, y=62.50, z=0.31], EntityItem['item.item.ingotIron'/1004912, l='MpServer', x=74.78, y=62.50, z=0.31]]
+	Retry entities: 0 total; []
+	Server brand: TacoSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:402)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2536)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:370)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 552656896 bytes (527 MB) / 1174405120 bytes (1120 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_M5 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	craftpresence{2.3.0} [CraftPresence] (CraftPresence-2.3.0+1.8.9.jar) 
+	UCHIJA	FpsReducer{mc1.8.9-1.10.3} [FPS Reducer] (FpsReducer-mc1.8.9-1.10.3.jar) 
+	UCHIJA	ias{D7.29 :P} [In-Game Account Switcher] (InGameAccountSwitcher-Forge-1.8-8.0.1.jar) 
+	UCHIJA	MouseTweaks{2.6.2} [Mouse Tweaks] (MouseTweaks-2.6.2-mc1.8.9.jar) 
+	UCHIJA	mpkmod{1.3.0} [MPK Mod] (mpkmod-1.3.0.jar) 
+	UCHIJA	oldinput{1.1.3} [OldInput] (oldinput-1.1.3+1.8.9.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7372' Renderer: 'Intel(R) UHD Graphics'
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics GL version 4.6.0 - Build 26.20.100.7372, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: !    §b Dewier §f20k.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M5
+	OptiFine Build: 20210124-163719
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 26.20.100.7372
+	OpenGlRenderer: Intel(R) UHD Graphics
+	OpenGlVendor: Intel
+	CpuCount: 8

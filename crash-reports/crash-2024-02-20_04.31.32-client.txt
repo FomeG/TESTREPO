@@ -1,0 +1,106 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 2/20/24 4:31 AM
+Description: Ticking screen
+
+java.lang.NullPointerException: Ticking screen
+	at net.minecraft.network.NetworkManager$InboundHandlerTuplePacketListener.access$100(NetworkManager.java:468)
+	at net.minecraft.network.NetworkManager.func_150733_h(NetworkManager.java:273)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.client.network.OldServerPinger.func_147223_a(OldServerPinger.java:290)
+	at net.minecraft.client.gui.GuiMultiplayer.func_73876_c(GuiMultiplayer.java:108)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1694)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.network.NetworkManager$InboundHandlerTuplePacketListener.access$100(NetworkManager.java:468)
+	at net.minecraft.network.NetworkManager.func_150733_h(NetworkManager.java:273)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285)
+	at net.minecraft.client.network.OldServerPinger.func_147223_a(OldServerPinger.java:290)
+	at net.minecraft.client.gui.GuiMultiplayer.func_73876_c(GuiMultiplayer.java:108)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.GuiMultiplayer
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1694)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 589309712 bytes (562 MB) / 939524096 bytes (896 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_M5 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	cpsdisplay{2.2.2} [CPSDisplay] (cpsdisplay-mc1.8.9-2.2.2.jar) 
+	UCHIJA	cpstracker{1.0} [CPS Tracker] (CPSTracker-1.0.jar) 
+	UCHIJA	craftpresence{2.3.0} [CraftPresence] (CraftPresence-2.3.0+1.8.9.jar) 
+	UCHIJA	FpsReducer{mc1.8.9-1.10.3} [FPS Reducer] (FpsReducer-mc1.8.9-1.10.3.jar) 
+	UCHIJA	ias{D7.29 :P} [In-Game Account Switcher] (InGameAccountSwitcher-Forge-1.8-8.0.1.jar) 
+	UCHIJA	MouseTweaks{2.6.2} [Mouse Tweaks] (MouseTweaks-2.6.2-mc1.8.9.jar) 
+	UCHIJA	mpkmod{1.3.0} [MPK Mod] (mpkmod-1.3.0.jar) 
+	UCHIJA	oldinput{1.1.3} [OldInput] (oldinput-1.1.3+1.8.9.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7372' Renderer: 'Intel(R) UHD Graphics'
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics GL version 4.6.0 - Build 26.20.100.7372, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: !    §b Dewier §f20k.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M5
+	OptiFine Build: 20210124-163719
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 26.20.100.7372
+	OpenGlRenderer: Intel(R) UHD Graphics
+	OpenGlVendor: Intel
+	CpuCount: 8

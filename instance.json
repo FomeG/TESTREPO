@@ -1,0 +1,3733 @@
+{
+  "uuid": "f2bc2e1b-6272-47a0-ad04-a57f94aece87",
+  "launcher": {
+    "name": "Minecraft 1.8.9 with Forge",
+    "pack": "Minecraft",
+    "description": "Minecraft 1.8.9 with Forge",
+    "packId": 0,
+    "externalPackId": 0,
+    "version": "1.8.9",
+    "enableCurseForgeIntegration": true,
+    "enableEditingMods": true,
+    "loaderVersion": {
+      "version": "11.15.1.2318",
+      "rawVersion": "1.8.9-11.15.1.2318-1.8.9",
+      "recommended": true,
+      "type": "Forge",
+      "downloadables": {
+        "installer": {
+          "left": "ec0293ff0776b8831f2ed90511bab76e635dda0c",
+          "right": 4485999
+        },
+        "universal": {
+          "left": "beda619c465af293e63952dd573c137c17c0a4cd",
+          "right": 3805686
+        }
+      }
+    },
+    "requiredMemory": 0,
+    "requiredPermGen": 0,
+    "isDev": false,
+    "isPlayable": true,
+    "assetsMapToResources": false,
+    "checkForUpdates": true,
+    "mods": [
+      {
+        "name": "OptiFine 1.8.x/1.19.x",
+        "version": "Unknown",
+        "optional": true,
+        "file": "OptiFine_1.8.9_HD_U_M5.jar",
+        "type": "mods",
+        "description": "OptiFine versions",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 737449,
+        "curseForgeFileId": 4178295,
+        "curseForgeProject": {
+          "id": 737449,
+          "name": "OptiFine 1.8.x/1.19.x",
+          "authors": [
+            {
+              "id": 103606625,
+              "name": "sonomremi",
+              "url": "https://www.curseforge.com/members/103606625-sonomremi?username=sonomremi"
+            }
+          ],
+          "gameId": 432,
+          "summary": "OptiFine versions",
+          "categories": [
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Addons",
+              "slug": "mc-addons",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons",
+              "dateModified": "2014-05-08T17:09:48.63Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 426,
+              "iconUrl": "https://media.forgecdn.net/avatars/5/998/635351477886290676.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 2,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "optifine-1-8-x-1-19-x",
+          "isFeatured": false,
+          "dateModified": "2022-12-15T20:48:48.883Z",
+          "dateCreated": "2022-12-15T20:21:23.197Z",
+          "dateReleased": "2022-12-15T20:21:23.197Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/optifine-1-8-x-1-19-x"
+          },
+          "logo": {
+            "id": 676360,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/676/360/256/256/638067324832617041.jpeg",
+            "title": "638067324832617041.jpeg",
+            "url": "https://media.forgecdn.net/avatars/676/360/638067324832617041.jpeg",
+            "modId": 737449
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 0
+        },
+        "curseForgeFile": {
+          "id": 4178295,
+          "gameId": 432,
+          "isAvailable": false,
+          "displayName": "OptiFine 1.8.9",
+          "fileName": "OptiFine_1.8.9_HD_U_M5.jar",
+          "releaseType": 1,
+          "fileStatus": 3,
+          "fileDate": "2022-12-15T20:26:23.917Z",
+          "fileLength": 2585014,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2254295617,
+              "name": "patch"
+            },
+            {
+              "fingerprint": 2123311636,
+              "name": "Config.class"
+            },
+            {
+              "fingerprint": 1898314328,
+              "name": "javax"
+            },
+            {
+              "fingerprint": 618823751,
+              "name": "net"
+            },
+            {
+              "fingerprint": 2509935630,
+              "name": "optifine"
+            },
+            {
+              "fingerprint": 2932534560,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 3325804262,
+              "name": "doc"
+            },
+            {
+              "fingerprint": 4147486993,
+              "name": "patch.cfg"
+            },
+            {
+              "fingerprint": 2481574716,
+              "name": "buildof.txt"
+            },
+            {
+              "fingerprint": 2698317367,
+              "name": "changelog.txt"
+            },
+            {
+              "fingerprint": 1988942569,
+              "name": "files.txt"
+            },
+            {
+              "fingerprint": 153751597,
+              "name": "launchwrapper-of.txt"
+            },
+            {
+              "fingerprint": 749652810,
+              "name": "ToCheck.txt"
+            },
+            {
+              "fingerprint": 1581158406,
+              "name": "launchwrapper-of-2.2.jar"
+            },
+            {
+              "fingerprint": 1031938021,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "d362d58a28f5373b141b9e426e8e160638bfafcd",
+              "algo": 1
+            },
+            {
+              "value": "0765dc1bcbe5baa83f7c261ac2c133ed",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "Client",
+            "Forge",
+            "Server",
+            "1.8.9"
+          ],
+          "fileFingerprint": 2062432763,
+          "modId": 737449
+        }
+      },
+      {
+        "name": "MPKMod",
+        "version": "1.3.0",
+        "optional": true,
+        "file": "mpkmod-1.3.0.jar",
+        "type": "mods",
+        "description": "A Mod adding features for parkour to minecraft",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 444903,
+        "curseForgeFileId": 3272952,
+        "curseForgeProject": {
+          "id": 444903,
+          "name": "MPKMod",
+          "authors": [
+            {
+              "id": 101925670,
+              "name": "kurrycat",
+              "url": "https://www.curseforge.com/members/101925670-kurrycat?username=kurrycat"
+            }
+          ],
+          "gameId": 432,
+          "summary": "A Mod adding features for parkour to minecraft",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "mpkmod",
+          "isFeatured": false,
+          "dateModified": "2021-04-11T21:26:34.43Z",
+          "dateCreated": "2021-02-09T11:44:33.02Z",
+          "dateReleased": "2021-04-11T21:22:04.933Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mpkmod",
+            "wikiUrl": "https://github.com/kurrycat2004/MpkMod"
+          },
+          "logo": {
+            "id": 341606,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/341/606/256/256/637484678730495769.png",
+            "title": "637484678730495769.png",
+            "url": "https://media.forgecdn.net/avatars/341/606/637484678730495769.png",
+            "modId": 444903
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 3272952
+        },
+        "curseForgeFile": {
+          "id": 3272952,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "mpkmod-1.3.0",
+          "fileName": "mpkmod-1.3.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2021-04-11T21:22:04.933Z",
+          "fileLength": 1894048,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2464251221,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2160826405,
+              "name": "io"
+            },
+            {
+              "fingerprint": 713331152,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 805581902,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 498666874,
+              "name": "mpkmod_logo.png"
+            },
+            {
+              "fingerprint": 992335501,
+              "name": "club"
+            },
+            {
+              "fingerprint": 303702188,
+              "name": "com"
+            },
+            {
+              "fingerprint": 1714382561,
+              "name": "win32-x86"
+            },
+            {
+              "fingerprint": 1948685191,
+              "name": "win32-x86-64"
+            },
+            {
+              "fingerprint": 35998981,
+              "name": "linux-x86-64"
+            },
+            {
+              "fingerprint": 1811848468,
+              "name": "darwin"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "6ef317835d3b9d84e5bdf2f079c2d9313467e047",
+              "algo": 1
+            },
+            {
+              "value": "a048405b7cda7a6206bdef4ea6467329",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000009.0000000001",
+              "gameVersion": "1.9.1",
+              "gameVersionReleaseDate": "2016-03-29T05:00:00Z",
+              "gameVersionName": "1.9.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000009.0000000003",
+              "gameVersion": "1.9.3",
+              "gameVersionReleaseDate": "2016-05-09T05:00:00Z",
+              "gameVersionName": "1.9.3"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000009.0000000004",
+              "gameVersion": "1.9.4",
+              "gameVersionReleaseDate": "2016-05-10T05:00:00Z",
+              "gameVersionName": "1.9.4"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000009.0000000002",
+              "gameVersion": "1.9.2",
+              "gameVersionReleaseDate": "2016-03-30T05:00:00Z",
+              "gameVersionName": "1.9.2"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000012.0000000001",
+              "gameVersion": "1.12.1",
+              "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+              "gameVersionName": "1.12.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000012",
+              "gameVersion": "1.12",
+              "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+              "gameVersionName": "1.12"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000010.0000000002",
+              "gameVersion": "1.10.2",
+              "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+              "gameVersionName": "1.10.2"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000011",
+              "gameVersion": "1.11",
+              "gameVersionReleaseDate": "2016-11-14T06:00:00Z",
+              "gameVersionName": "1.11"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000010",
+              "gameVersion": "1.10",
+              "gameVersionReleaseDate": "2016-06-08T05:00:00Z",
+              "gameVersionName": "1.10"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000010.0000000001",
+              "gameVersion": "1.10.1",
+              "gameVersionReleaseDate": "2016-06-22T05:00:00Z",
+              "gameVersionName": "1.10.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000011.0000000001",
+              "gameVersion": "1.11.1",
+              "gameVersionReleaseDate": "2016-12-20T06:00:00Z",
+              "gameVersionName": "1.11.1"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000011.0000000002",
+              "gameVersion": "1.11.2",
+              "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+              "gameVersionName": "1.11.2"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000009",
+              "gameVersion": "1.9",
+              "gameVersionReleaseDate": "2016-02-29T06:00:00Z",
+              "gameVersionName": "1.9"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000012.0000000002",
+              "gameVersion": "1.12.2",
+              "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+              "gameVersionName": "1.12.2"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "1.9.1",
+            "1.9.3",
+            "1.9.4",
+            "1.9.2",
+            "1.12.1",
+            "1.12",
+            "1.10.2",
+            "1.11",
+            "Forge",
+            "1.10",
+            "1.10.1",
+            "1.11.1",
+            "1.11.2",
+            "1.9",
+            "1.12.2",
+            "1.8.9"
+          ],
+          "fileFingerprint": 2754458213,
+          "modId": 444903
+        }
+      },
+      {
+        "name": "Mouse Tweaks",
+        "version": "[1.8.9] Mouse Tweaks 2.6.2",
+        "optional": true,
+        "file": "MouseTweaks-2.6.2-mc1.8.9.jar",
+        "type": "mods",
+        "description": "Enhances inventory management by adding various functions to the mouse buttons.",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 60089,
+        "curseForgeFileId": 2287384,
+        "curseForgeProject": {
+          "id": 60089,
+          "name": "Mouse Tweaks",
+          "authors": [
+            {
+              "id": 7495712,
+              "name": "YaLTeR",
+              "url": "https://www.curseforge.com/members/7495712-yalter?username=yalter"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Enhances inventory management by adding various functions to the mouse buttons.",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Storage",
+              "slug": "storage",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/storage",
+              "dateModified": "2014-05-08T17:41:17.203Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 420,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/35/635351496772023801.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "mouse-tweaks",
+          "isFeatured": false,
+          "dateModified": "2023-12-21T09:07:45.393Z",
+          "dateCreated": "2013-06-25T13:13:55.087Z",
+          "dateReleased": "2023-10-01T09:38:49.203Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/YaLTeR/MouseTweaks/issues",
+            "sourceUrl": "https://github.com/YaLTeR/MouseTweaks"
+          },
+          "logo": {
+            "id": 467691,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/467/691/256/256/637749969243449870.png",
+            "title": "637749969243449870.png",
+            "url": "https://media.forgecdn.net/avatars/467/691/637749969243449870.png",
+            "modId": 60089
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 10571,
+              "description": "A default image for Mouse Tweaks.",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/10/571/310/172/cursebanner.png",
+              "title": "Default Image",
+              "url": "https://media.forgecdn.net/attachments/10/571/cursebanner.png",
+              "modId": 60089
+            }
+          ],
+          "mainFileId": 4776995
+        },
+        "curseForgeFile": {
+          "id": 2287384,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "[1.8.9] Mouse Tweaks 2.6.2",
+          "fileName": "MouseTweaks-2.6.2-mc1.8.9.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2016-03-16T20:38:00.347Z",
+          "fileLength": 54367,
+          "dependencies": [],
+          "alternateFileId": 2287385,
+          "modules": [
+            {
+              "fingerprint": 2464251221,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2194753223,
+              "name": "yalter"
+            },
+            {
+              "fingerprint": 3955761454,
+              "name": "litemod.json"
+            },
+            {
+              "fingerprint": 3518459123,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 523611981,
+              "name": "mousetweaks_logo.png"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "46d91769523458413000cd1f5f9fe7824eb30187",
+              "algo": 1
+            },
+            {
+              "value": "5a3762243dc0b152c000ca838c63136c",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "1.8.9"
+          ],
+          "fileFingerprint": 841933077,
+          "modId": 60089
+        }
+      },
+      {
+        "name": "FPS Reducer",
+        "version": "FpsReducer-mc1.8.9-1.10.3.jar",
+        "optional": true,
+        "file": "FpsReducer-mc1.8.9-1.10.3.jar",
+        "type": "mods",
+        "description": "Reduce GPU and CPU usage automatically when no user operation exists.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 280294,
+        "curseForgeFileId": 2627304,
+        "curseForgeProject": {
+          "id": 280294,
+          "name": "FPS Reducer",
+          "authors": [
+            {
+              "id": 34993322,
+              "name": "bre2el",
+              "url": "https://www.curseforge.com/members/34993322-bre2el?username=bre2el"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Reduce GPU and CPU usage automatically when no user operation exists.",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "fps-reducer",
+          "isFeatured": false,
+          "dateModified": "2023-12-27T23:47:27.497Z",
+          "dateCreated": "2017-10-20T15:19:56.06Z",
+          "dateReleased": "2023-12-20T09:44:16.643Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fps-reducer",
+            "wikiUrl": ""
+          },
+          "logo": {
+            "id": 127648,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/127/648/256/256/636440915960912895.png",
+            "title": "636440915960912895.png",
+            "url": "https://media.forgecdn.net/avatars/127/648/636440915960912895.png",
+            "modId": 280294
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4970820
+        },
+        "curseForgeFile": {
+          "id": 2627304,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "FpsReducer-mc1.8.9-1.10.3.jar",
+          "fileName": "FpsReducer-mc1.8.9-1.10.3.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2018-10-13T06:42:07.99Z",
+          "fileLength": 43481,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2464251221,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1085825438,
+              "name": "bre"
+            },
+            {
+              "fingerprint": 1341218887,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 2657025551,
+              "name": "assets"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "3f668578543aaea62195890b7a5a9c6c1272317e",
+              "algo": 1
+            },
+            {
+              "value": "b6889b7460ff2f66b6841dfdf30496a3",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "1.8.9"
+          ],
+          "fileFingerprint": 2048504711,
+          "modId": 280294
+        },
+        "modrinthProject": {
+          "id": "iZ10HXDj",
+          "slug": "fps-reducer",
+          "project_type": "mod",
+          "team": "nlZ5ReeL",
+          "title": "FPS Reducer",
+          "description": "Reduce GPU and CPU usage automatically when no user operation exists.",
+          "body": "## Description\nThis mod reduces unnecessary GPU and CPU load by reducing the frame rate automatically when the client window is inactive or you are not operating the Minecraft for a certain period of time (optional from v2.0). As soon as the user performs any operation, it returns to the original frame rate.\n\n## Features\n- Reduce FPS automatically under the following conditions.\n    - No user operation for the specified time.\n    - The game window is inactive or minimized.\n- Suppress sound volume if the game window is inactive or minimized.\n- Display the current FPS on the screen edge.\\\n    ![Current FPS indication](https://i.imgur.com/Yc2EwAH.jpg)\n- Display CPU usage of client thread. (v1.14~)\\\n    ![CPU usage indication](https://i.imgur.com/CkuuwJj.png)\n\n## Recommended in the following cases\n- When leaving the game running without the operation, for example with automated agriculture and/or industry.\n- When doing other work concurrently with running Minecraft in background.\n- When you want to extend the lifespan of your PC even a little.\n- When you want to save unnecessary power.\n- When the room is hot...\n\n## Usage\nBy default, if there is no operation for 5 minutes the frame rate will drop to 10.\\\nPressing [PAUSE] key reduces FPS manually. (new feature in v1.16)\\\nPressing [END] key opens the configuration GUI by default.\\\n![Mod configuration GUI](https://i.imgur.com/aHob2HN.jpg)\n\n## Note\nThis is a client-side mod, so it is not necessary to install it on the server.\n\n## Modpacks\nFeel free to use this mod in any modpacks.\n\n## Special Thanks\n- Thanks to RoCoKo for Turkish translations.\n- Thanks to Grreg21 for Polish translations.\n- Thanks to cutedobe and StarsShine17423 for Simplified Chinese translation.\n- Thanks to cutedobe and StarsShine17423 for Traditional Chinese translation.\n- Thanks to agent_rby_ for Russian translation.\n- Thanks to b14st0 for French translation.\n- Thanks to Kazuya79H for Brazilian Portuguese translation.\n- Thanks to AlexDerProGamer_mc for German translation.\n- Thanks to 귤러리 for Korean translation.\n- Thanks to AceDragoonOfficial for Ukrainian translation.\n- Thanks to Giedo for Dutch translation.\n- Thanks to iwafflebro for Spanish translation.",
+          "published": "2023-09-06T12:46:51.493326Z",
+          "updated": "2023-12-20T09:45:52.228089Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "optimization"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/iZ10HXDj/76035bb35978b1ffc16394ffe4ee6edf58c292ac.png",
+          "issues_url": "https://legacy.curseforge.com/minecraft/mc-mods/fps-reducer/issues",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "zbiYRGSH",
+          "project_id": "iZ10HXDj",
+          "author_id": "c9EEp7Fr",
+          "name": "FPS Reducer 1.8.9-1.10.3",
+          "version_number": "1.8.9-1.10.3",
+          "changelog": "v1.10.3\n- Removed overhead due to debugging code.\n- Changed to get maxFPS from GameSettings class.\n\nv1.10.2\n- Fixed a crash caused by NPE while checking key event.\n- Fixed a possibility of crash when player entity is null.\n\nv1.10.1\n- Fixed a problem that frame rate might not decrease when a window is inactive.\n- Added HUD scale option.\n- Added some HUD color and text configurations.\n- Modified a default config mode to Global config mode.\n- [1.8.9~1.12.2] Added clientSideOnly property.\n- Disabled debug log.\n\nv1.9\n- Added per-player config for some parameters other than HUD related parameters in order to avoid re-config by players due to modpack update.\n- Added an initial easy configuration in chat. (disabled by default)\n- Added Turkish lang file.(Thanks to RoCoKo)\n\nv1.8\n- Changed a suppression volume control to a relative ratio to the current sound volume.",
+          "date_published": "2023-09-06T13:16:45.243190Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "f832d41a4c8fc1baca6107a711638f007e2974960cdb07e9a7d9f5df4e58dce81c362f12a2bb55436a8d3b75eea2f966d85930bf8162bd0787e2cace0293db22",
+                "sha1": "3f668578543aaea62195890b7a5a9c6c1272317e"
+              },
+              "url": "https://cdn.modrinth.com/data/iZ10HXDj/versions/zbiYRGSH/FpsReducer-mc1.8.9-1.10.3.jar",
+              "filename": "FpsReducer-mc1.8.9-1.10.3.jar",
+              "primary": true,
+              "size": 43481
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "BetterFps",
+        "version": "v1.2.0",
+        "optional": true,
+        "file": "BetterFps-1.2.0.jar",
+        "type": "mods",
+        "description": "Performance Improvements",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 229876,
+        "curseForgeFileId": 2271480,
+        "curseForgeProject": {
+          "id": 229876,
+          "name": "BetterFps",
+          "authors": [
+            {
+              "id": 8344787,
+              "name": "Guichaguri",
+              "url": "https://www.curseforge.com/members/8344787-guichaguri?username=guichaguri"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Performance Improvements",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Server Utility",
+              "slug": "server-utility",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/server-utility",
+              "dateModified": "2014-05-08T17:44:55.057Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 435,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/48/635351498950580836.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "betterfps",
+          "isFeatured": false,
+          "dateModified": "2017-09-24T01:04:47.013Z",
+          "dateCreated": "2015-04-26T00:55:25.117Z",
+          "dateReleased": "2017-09-24T01:00:21.883Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/betterfps",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/Guichaguri/BetterFps/issues",
+            "sourceUrl": "https://github.com/Guichaguri/BetterFps"
+          },
+          "logo": {
+            "id": 16988,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/16/988/256/256/635655885251312698.png",
+            "title": "635655885251312698.png",
+            "url": "https://media.forgecdn.net/avatars/16/988/635655885251312698.png",
+            "modId": 229876
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 21297,
+              "description": "The screenshot was taken by SliceOfMeat",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/21/297/310/172/before.png",
+              "title": "PC 2 - BEFORE (Sent by SliceOfMeat)",
+              "url": "https://media.forgecdn.net/attachments/21/297/before.png",
+              "modId": 229876
+            },
+            {
+              "id": 21298,
+              "description": "The screenshot was taken by SliceOfMeat",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/21/298/310/172/after.png",
+              "title": "PC 2 - AFTER (Sent by SliceOfMeat)",
+              "url": "https://media.forgecdn.net/attachments/21/298/after.png",
+              "modId": 229876
+            },
+            {
+              "id": 21281,
+              "description": "Without BetterFps",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/21/281/310/172/2015-04-25_22.png",
+              "title": "PC 1 - Before",
+              "url": "https://media.forgecdn.net/attachments/21/281/2015-04-25_22.png",
+              "modId": 229876
+            },
+            {
+              "id": 22299,
+              "description": "The screenshot was taken by Fungamer",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/22/299/310/172/iscremshot1.jpg",
+              "title": "PC 3 - Before (Sent by Fungamer) ",
+              "url": "https://media.forgecdn.net/attachments/22/299/iscremshot1.jpg",
+              "modId": 229876
+            },
+            {
+              "id": 22300,
+              "description": "The screenshot was taken by Fungamer",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/22/300/310/172/iscremshot2.jpg",
+              "title": "PC 3 - After (Sent by Fungamer) ",
+              "url": "https://media.forgecdn.net/attachments/22/300/iscremshot2.jpg",
+              "modId": 229876
+            },
+            {
+              "id": 21282,
+              "description": "Using Riven's \"Full\" Algorithm",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/21/282/310/172/2015-04-25_22.png",
+              "title": "PC 1 - After",
+              "url": "https://media.forgecdn.net/attachments/21/282/2015-04-25_22.png",
+              "modId": 229876
+            }
+          ],
+          "mainFileId": 2429881
+        },
+        "curseForgeFile": {
+          "id": 2271480,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "v1.2.0",
+          "fileName": "BetterFps-1.2.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2015-12-19T12:24:59.603Z",
+          "fileLength": 62916,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3555496330,
+              "name": "me"
+            },
+            {
+              "fingerprint": 3082847532,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "ca71e5563ab5880ba6603f60d02350c83c827151",
+              "algo": 1
+            },
+            {
+              "value": "751b60ae5792402a140ad180e1df06e0",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000008",
+              "gameVersion": "1.8.8",
+              "gameVersionReleaseDate": "2015-07-28T05:00:00Z",
+              "gameVersionName": "1.8.8"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "1.8.8",
+            "1.8.9"
+          ],
+          "fileFingerprint": 2846522807,
+          "modId": 229876
+        }
+      },
+      {
+        "name": "In-Game Account Switcher",
+        "version": "InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+        "optional": true,
+        "file": "InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+        "type": "mods",
+        "description": "This mod allows you to change your logged in account in-game, without restarting Minecraft",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 232676,
+        "curseForgeFileId": 3993182,
+        "curseForgeProject": {
+          "id": 232676,
+          "name": "In-Game Account Switcher",
+          "authors": [
+            {
+              "id": 17806578,
+              "name": "The_Fireplace",
+              "url": "https://www.curseforge.com/members/17806578-the_fireplace?username=the_fireplace"
+            },
+            {
+              "id": 46091307,
+              "name": "VidTu",
+              "url": "https://www.curseforge.com/members/46091307-vidtu?username=vidtu"
+            }
+          ],
+          "gameId": 432,
+          "summary": "This mod allows you to change your logged in account in-game, without restarting Minecraft",
+          "categories": [
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "in-game-account-switcher",
+          "isFeatured": false,
+          "dateModified": "2023-12-18T20:02:27.813Z",
+          "dateCreated": "2015-07-13T02:24:08.297Z",
+          "dateReleased": "2023-12-18T19:46:20.41Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/in-game-account-switcher",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher/issues",
+            "sourceUrl": "https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher"
+          },
+          "logo": {
+            "id": 540804,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/540/804/256/256/637866988360940386.png",
+            "title": "637866988360940386.png",
+            "url": "https://media.forgecdn.net/avatars/540/804/637866988360940386.png",
+            "modId": 232676
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 24433,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/24/433/310/172/4esmetz.png",
+              "title": "Main Menu with IAS",
+              "url": "https://media.forgecdn.net/attachments/24/433/4esmetz.png",
+              "modId": 232676
+            },
+            {
+              "id": 25827,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/25/827/310/172/2015-08-18_19.png",
+              "title": "The Account Selector",
+              "url": "https://media.forgecdn.net/attachments/25/827/2015-08-18_19.png",
+              "modId": 232676
+            }
+          ],
+          "mainFileId": 4967040
+        },
+        "curseForgeFile": {
+          "id": 3993182,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+          "fileName": "InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+          "releaseType": 2,
+          "fileStatus": 4,
+          "fileDate": "2022-09-17T02:00:39.783Z",
+          "fileLength": 191081,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1135789122,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1889485898,
+              "name": "ru"
+            },
+            {
+              "fingerprint": 603667605,
+              "name": "the_fireplace"
+            },
+            {
+              "fingerprint": 999335262,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 1051067926,
+              "name": "authPage.html"
+            },
+            {
+              "fingerprint": 2592330279,
+              "name": "iasjavafix.jks"
+            },
+            {
+              "fingerprint": 2832334456,
+              "name": "iaslogo.png"
+            },
+            {
+              "fingerprint": 2172900729,
+              "name": "mcmod.info"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "96f6dbe18a3d926708e296fcec5c4f5983cc020e",
+              "algo": 1
+            },
+            {
+              "value": "0ac4a8f6ae2b773f7e64aa1c91a3f6e6",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Forge",
+            "1.8.9"
+          ],
+          "fileFingerprint": 1862050277,
+          "modId": 232676
+        },
+        "modrinthProject": {
+          "id": "cudtvDnd",
+          "slug": "in-game-account-switcher",
+          "project_type": "mod",
+          "team": "C6hAkScZ",
+          "title": "In-Game Account Switcher",
+          "description": "This mod allows you to change your logged in account in-game, without restarting Minecraft",
+          "body": "### Overview:\nIn-Game Account Switcher allows you to change which account you are logged in to in-game, without having to restart Minecraft.\n### Dependencies:\n**Forge**: (none)  \n**Fabric**:\n[Fabric API](https://modrinth.com/mod/fabric-api) (Required),\n[ModMenu](https://modrinth.com/mod/modmenu) (Optional).  \n**Quilt** <sup>(isn't supported directly, but it can load Fabric mods)</sup>:\n[Quilted Fabric API](https://modrinth.com/mod/qsl) (Required),\n[ModMenu](https://modrinth.com/mod/modmenu) (Optional).  \n![](https://i.imgur.com/Y66Qx9n.png)\n![](https://i.imgur.com/6h1sMRS.png)\n### Other Locations:\n[In-Game Account Switcher on Planet Minecraft](https://www.planetminecraft.com/mod/in-game-account-switcher/)  \n[In-Game Account Switcher on CurseForge](https://www.curseforge.com/minecraft/mc-mods/in-game-account-switcher)",
+          "published": "2021-04-25T16:03:01.468727Z",
+          "updated": "2023-12-18T19:40:43.339982Z",
+          "status": "approved",
+          "license": {
+            "id": "LGPL-3.0-only",
+            "name": "GNU Lesser General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/cudtvDnd/4f2f65f4b3b9b6c7c3fcc265d651a1814ae80075.png",
+          "issues_url": "https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher/issues",
+          "source_url": "https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher",
+          "discord_url": "https://discord.gg/TpU2nEkSPk",
+          "donation_urls": [
+            {
+              "id": "ko-fi",
+              "platform": "Ko-fi",
+              "url": "https://ko-fi.com/the_fireplace"
+            }
+          ],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "fytQEqFH",
+          "project_id": "cudtvDnd",
+          "author_id": "7nbTzIvd",
+          "name": "InGameAccountSwitcher-Forge-1.8-8.0.1",
+          "version_number": "8.0.1-forge1.8",
+          "changelog": "Fixed [#85](https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher/issues/85)",
+          "date_published": "2022-09-17T02:12:40.109799Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "b31fe9fa6b7b5f79e6ac299ebd46e55eee53c549b81c57a1395ccec1a666d5f068e230804310131622d6a341627a210189309955cd5a323b9da7081e9ead441b",
+                "sha1": "96f6dbe18a3d926708e296fcec5c4f5983cc020e"
+              },
+              "url": "https://cdn.modrinth.com/data/cudtvDnd/versions/fytQEqFH/InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+              "filename": "InGameAccountSwitcher-Forge-1.8-8.0.1.jar",
+              "primary": true,
+              "size": 191081
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Polished GUI",
+        "version": "1.0.0",
+        "optional": true,
+        "file": "Polished-GUI-1.0.0.jar",
+        "type": "mods",
+        "description": "Fixes various GUI-bugs aswell as improves the performance",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "mR1LCArJ",
+          "slug": "polished-gui",
+          "project_type": "mod",
+          "team": "v0A822Yq",
+          "title": "Polished GUI",
+          "description": "Fixes various GUI-bugs aswell as improves the performance",
+          "body": "# Polished GUI\nPolished GUI is a project that aims to enhance the user experience by fixing a wide range of UI-related bugs and improving the overall GUI.\n\nSome of the main features include:\n* Faster language loading:\n> It optimizes resource loading by only loading new language resources when changing languages. This feature significantly reduces the game's load time, making it faster and more responsive\n\n* Various layout / inconsistency fixes\n> Fixes the button layout in the multiplayer screen, fixes the sound volume display aswell as fixes the chat getting cleared when resizing\n\n* More seamless and streamlined experience with improved GUI-widgets\n> Sliders and scrollbars are smoother with improved accessibility\n---\n### Checkout more quality-of-life mods:\n<a href=\"https://modrinth.com/mod/modern-sound\">\n<img src=\"https://cdn.modrinth.com/data/RhIs71uV/bc3938877b6a3156441bd232d86412ca6826f938.png\" alt=\"Modern Sound Mod Icon\" width=\"100\" />\n</a>",
+          "published": "2023-05-06T09:05:12.439311Z",
+          "updated": "2023-05-07T11:54:21.412813Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-All-Rights-Reserved",
+            "name": ""
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "optimization",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/mR1LCArJ/84c6fc6f21106332db60978f4bdf50cd0699290f.png",
+          "discord_url": "https://discord.gg/QFn7hwvsxd",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "j8wnkeFX",
+          "project_id": "mR1LCArJ",
+          "author_id": "hUYOOjyq",
+          "name": "1.0.0",
+          "version_number": "1.0.0",
+          "changelog": "No changelog was specified.",
+          "date_published": "2023-05-07T11:54:22.897273Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "501c062e1f83d1e6873bbcfa86b0199c190671fe68e32c6bbb87d2367885199651d951e6b792c20285bfc77c1b2e76469317d6eb8f34e2dd97d641882993ac42",
+                "sha1": "38e142ba16ab0cafc5f8c53703467a0f6c55b693"
+              },
+              "url": "https://cdn.modrinth.com/data/mR1LCArJ/versions/j8wnkeFX/Polished-GUI-1.0.0.jar",
+              "filename": "Polished-GUI-1.0.0.jar",
+              "primary": true,
+              "size": 991237
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "Foam​Fix",
+        "version": "FoamFix 0.6.3a (1.8.9)",
+        "optional": true,
+        "file": "foamfix-0.6.3a-anarchy-1.8.x.jar",
+        "type": "mods",
+        "description": "Simple, targetted optimizations for a popular block game",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 278494,
+        "curseForgeFileId": 4856293,
+        "curseForgeProject": {
+          "id": 278494,
+          "name": "Foam​Fix",
+          "authors": [
+            {
+              "id": 8658828,
+              "name": "asiekierka",
+              "url": "https://www.curseforge.com/members/8658828-asiekierka?username=asiekierka"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Simple, targetted optimizations for a popular block game",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "foamfix-optimization-mod",
+          "isFeatured": false,
+          "dateModified": "2023-11-10T21:38:57.697Z",
+          "dateCreated": "2017-09-21T16:45:00.797Z",
+          "dateReleased": "2023-11-10T05:51:55.737Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/asiekierka/FoamFix/issues",
+            "sourceUrl": "https://github.com/asiekierka/FoamFix"
+          },
+          "logo": {
+            "id": 401238,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/401/238/256/256/637607183569439478.png",
+            "title": "637607183569439478.png",
+            "url": "https://media.forgecdn.net/avatars/401/238/637607183569439478.png",
+            "modId": 278494
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 4856293
+        },
+        "curseForgeFile": {
+          "id": 4856293,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "FoamFix 0.6.3a (1.8.9)",
+          "fileName": "foamfix-0.6.3a-anarchy-1.8.x.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-11-10T05:51:55.737Z",
+          "fileLength": 86043,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3633922574,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 966084704,
+              "name": "pl"
+            },
+            {
+              "fingerprint": 2591933232,
+              "name": "foamfix_at.cfg"
+            },
+            {
+              "fingerprint": 1313476515,
+              "name": "mcmod.info"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "58f4f9165f1c91222e33493175c805879e75db6b",
+              "algo": 1
+            },
+            {
+              "value": "8f5c066d62f22e6eebc4161d59c4d159",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Server"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "Forge",
+            "Server",
+            "1.8.9"
+          ],
+          "fileFingerprint": 2166595812,
+          "modId": 278494
+        },
+        "modrinthProject": {
+          "id": "jupr7Bf5",
+          "slug": "foamfix",
+          "project_type": "mod",
+          "team": "6ABOSFKg",
+          "title": "FoamFix",
+          "description": "FoamFix is a mod designed to improve modded Minecraft memory usage using simple, targeted optimizations.",
+          "body": "FoamFix is a mod designed to optimize certain aspects of a modded Minecraft experience using simple, targeted optimizations.\n\n### Features\n\nFoamFix focuses on the following aspects of modded Minecraft in particular:\n\n* Memory usage (in Minecraft 1.8+). This is the original reason FoamFix was made for, and the most important reason for it being adopted in modpacks today. Observations show that, on particularly heavy modpacks, Java heap usage (as measured on the main menu, after the game has finished loading, with VisualVM) can fall by as much as 50%!\n* TPS usage, particularly on larger servers - ghost chunk-loading and network improvements will not help the single-player experience much, but can be incredibly beneficial when trying to scale up a multiplayer world.\n\nThere are also other, more minor optimizations, but they will probably not have a significant impact on your gameplay directly. Check your foamfix.cfg file for a complete list!\n\n<img src=\"http://asie.pl/img/foamfix/stats.png\" alt=\"(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧\"></img>\n\n### FAQ\n\n* Q: I'm having performance issues, and removing FoamFix fixes them!\n* A: Make sure you have updated to the latest version. It is impossible for me to test FoamFix on the thousands of computer hardware configurations out there with my own resources, and sometimes issues specific to some of them can occur. If you have updated to the latest version and are still experiencing issues, contact me!\n* Q: Can I run FoamFix on the server/client side if it's not present on the client/server side?\n* A: Yes.\n* Q: Can I mix versions of FoamFix between the server and client side?\n* A: Similarly, yes.\n* Q: Why is there a FoamFix to 1.7.10?\n* A: FoamFix primarily targets 1.8+ modded Minecraft. However, some of its later optimizations - particularly ghost chunkloading fixes - in combination with some abandoned bugfixing/optimization projects (BugfixMod, Minecraft Forkage) have led me to create an optimization mod under the same name for 1.7.10, which shares some of the functionality. As always, check foamfix.cfg to learn more!\n* Q: Can you make a FoamFix for vanilla?\n* A: Almost all of FoamFix focuses on optimizations particular to modded environments. Porting it to vanilla would have very few benefits, as vanilla by itself is more efficient than even Forge+FoamFix. If you're running a large vanilla server, it might be a better idea to use a dedicated solution for that.\n* Q: Can you run FoamFix in a development environment?\n* A: Yes, but you must manually deobfuscate it with BON2 or a similar tool.\n\n### Bug Reporting\n\nPlease try to reproduce the bug without FoamFix first - if it is still present without FoamFix, it is most likely not a FoamFix issue.\n\nWhen you report a bug that only appears with FoamFix installed,\n\n* Please ONLY report them here! This helps me keep track of existing issues.\n* In particular, please do not report them to the other mod developers! If I get to the conclusion that the issue is caused by a different mod, I'll do my best to contact the other author myself and discuss the fix with them; however, unnecessary bug reports are a bit of a nuisance.\n\n### Additional Tips\n\n(Note that this section will be rewritten as a more comprehensive optimization guide at some point)\n\n* Enable alwaysSetupTerrainOffThread in forge.cfg. (Since 0.6.3, FoamFix will automatically do this for you on new instances!)\n* If you're experiencing \"ghost chunk loading\"-related lag (a noticeable lag spike every ~30 seconds), a way to partially work around the problem is to increase the value of dormantChunkCacheSize in forgeChunkLoading.cfg.\n* For some GPU/driver configurations (in particular, certain AMD driver/card pairs), disabling mipmaps (setting Mipmap Levels to 0) will boost FPS considerably. This is due to lag caused by animated texture updates being much higher with increasing amounts of textures to update, which scales linearly with the amount of mipmap levels.\n* On dedicated servers, setting max-tick-time=0 can solve crashes related to \"java.lang.Error: Watching server\". Still looking into why this happens!\n\n### Common Crashes\n\n* java.lang.NoSuchMethodError: net.minecraftforge.common.model.TRSRTransformation.isIdentity()Z on FoamFix 0.9.6+ - Update Forge to the latest recommended version, or downgrade FoamFix to 0.9.5.\n* java.lang.IllegalArgumentException: Cannot set property [...], it is not an allowed value - The codepath causing this error mimics vanilla behaviour very closely, and should cause the same crash without FoamFix. Make sure it cannot be reproduced without FoamFix.\n* If you're using SpongeForge alongside FoamFix (keep in mind that I do not support it), a common crash related to MixinMutableBlockPos can be fixed by disabling coremod.optimizedBlockPos in config/foamfix.cfg.\n\n### Support\n\n* Please only use the GitHub issue tracker for bug reports. Makes it easier to keep track of them.\n* Please note that \"not supported\" does not mean \"won't work at all\" - rather, it means \"things can break and I might be unable to help you for various reasons\". Be careful!\n\nThe following mods are not supported and I cannot guarantee satisfactory fixes related to interactions with them:\n\n* FastCraft 2. The licensing is very strict and debugging impossible without relying on the developer as an oracle.\n* NotEnoughIDs. Not maintained since September 2017.\n* OptiFine. The licensing is very strict and debugging impossible without relying on the developer as an oracle.\n* Sponge. Some of our engine changes conflict. (Note that, even if you have Sponge on the server side, using FoamFix on the client side while connecting to a Sponge server is supported!)\n* TexFix.\n* most other proprietary optimization mods. If I can't see the source code, I'm not likely to work on fixing it.\n\n \n",
+          "published": "2021-11-12T18:19:15.882877Z",
+          "updated": "2023-11-10T05:51:14.100551Z",
+          "status": "approved",
+          "license": {
+            "id": "LicenseRef-Custom",
+            "name": "",
+            "url": "https://github.com/asiekierka/FoamFix/blob/0.9.x-1.12.2/docs/licenses/COPYING"
+          },
+          "client_side": "optional",
+          "server_side": "optional",
+          "categories": [
+            "optimization"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/jupr7Bf5/icon.png",
+          "issues_url": "https://github.com/asiekierka/FoamFix/issues",
+          "source_url": "https://github.com/asiekierka/FoamFix",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "MqLKfrk2",
+          "project_id": "jupr7Bf5",
+          "author_id": "SAx1s2ap",
+          "name": "FoamFix 0.6.3a (1.8.9)",
+          "version_number": "0.6.3a",
+          "changelog": "Add missing mcmod.info file.",
+          "date_published": "2023-11-10T05:51:15.247460Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "58f4f9165f1c91222e33493175c805879e75db6b",
+                "sha512": "d66854ac4680e7b7677a8cc43588dbe01d29724a36c66cbfa0808a110f6d96377918e831606a765358cd7d6ead0b7363bd0c62cb3b0d7941697d328dee9fc7be"
+              },
+              "url": "https://cdn.modrinth.com/data/jupr7Bf5/versions/MqLKfrk2/foamfix-0.6.3a-anarchy-1.8.x.jar",
+              "filename": "foamfix-0.6.3a-anarchy-1.8.x.jar",
+              "primary": true,
+              "size": 86043
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "!    §b Dewier §f20k.zip",
+        "version": "Unknown",
+        "optional": true,
+        "file": "!    §b Dewier §f20k.zip",
+        "type": "resourcepack",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false
+      },
+      {
+        "name": "CPS Display",
+        "version": "CPSDisplay v2.2.2 (1.8.9)",
+        "optional": true,
+        "file": "cpsdisplay-mc1.8.9-2.2.2.jar",
+        "type": "mods",
+        "description": "CPSDisplay (can be called CPS Mod) shows your in-game cps and allows you to customize many things",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 618222,
+        "curseForgeFileId": 4810586,
+        "curseForgeProject": {
+          "id": 618222,
+          "name": "CPS Display",
+          "authors": [
+            {
+              "id": 102154724,
+              "name": "Dams4K",
+              "url": "https://www.curseforge.com/members/dams4k"
+            }
+          ],
+          "gameId": 432,
+          "summary": "CPSDisplay (can be called CPS Mod) shows your in-game cps and allows you to customize many things",
+          "categories": [
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 423,
+          "classId": 6,
+          "slug": "cpsdisplay",
+          "isFeatured": false,
+          "dateModified": "2023-12-18T17:19:02.28Z",
+          "dateCreated": "2022-04-26T16:36:29.273Z",
+          "dateReleased": "2023-12-18T17:17:15.887Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cpsdisplay",
+            "wikiUrl": "",
+            "issuesUrl": "https://github.com/CPSDisplay/cpsdisplay/issues",
+            "sourceUrl": "https://github.com/CPSDisplay/cpsdisplay"
+          },
+          "logo": {
+            "id": 793118,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/793/118/256/256/638150818846195429.png",
+            "title": "638150818846195429.png",
+            "url": "https://media.forgecdn.net/avatars/793/118/638150818846195429.png",
+            "modId": 618222
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 621684,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/621/684/310/172/example.png",
+              "title": "In Game Example",
+              "url": "https://media.forgecdn.net/attachments/621/684/example.png",
+              "modId": 618222
+            },
+            {
+              "id": 696902,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/696/902/310/172/settings.png",
+              "title": "Settings",
+              "url": "https://media.forgecdn.net/attachments/696/902/settings.png",
+              "modId": 618222
+            }
+          ],
+          "mainFileId": 4810586
+        },
+        "curseForgeFile": {
+          "id": 4810586,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "CPSDisplay v2.2.2 (1.8.9)",
+          "fileName": "cpsdisplay-mc1.8.9-2.2.2.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2023-10-22T09:43:44.47Z",
+          "fileLength": 165380,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 668607238,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3487439389,
+              "name": "fr"
+            },
+            {
+              "fingerprint": 1594264562,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 2225140161,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 252873620,
+              "name": "assets"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "8b6b2ad651a14eb5b83aae252381605fef51d40d",
+              "algo": 1
+            },
+            {
+              "value": "79be0cf61eca877236c1f7f1c3d5991f",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "Forge",
+            "1.8.9"
+          ],
+          "fileFingerprint": 1456162289,
+          "modId": 618222
+        },
+        "modrinthProject": {
+          "id": "CplYGlnU",
+          "slug": "cpsdisplay",
+          "project_type": "mod",
+          "team": "mPKxlTor",
+          "title": "CPSDisplay",
+          "description": "CPSDisplay (or CPSMod) shows your in-game cps and allows you to customize many things",
+          "body": "# CPS Display [1.8.9 - 1.12.2] & 1.20.2\n\n**1.20+ are in alpha, there's almost none of the features shown below, development takes time, and it takes even more time when forge mixes up its system to make a worse one. But the mod is working, you can change the text and the color**\n\n**CPS Display/CPS Mod** is a forge mod for displaying your Clicks Per Seconds.\n\n## Links\n- [**Discord**](https://discord.gg/DU2VDerhde)\n- [Website](https://cpsdisplay.github.io)\n- [Github](https://github.com/CPSDisplay/cpsdisplay)\n\nI am making this mod in my **free time**, so if you want to help me, [**pay me a drink**](https://www.paypal.com/donate/?hosted_button_id=ZZ2T95G9H72YE).\n\n## What you NEED to know\n\nTo **configurate** the mod hit `P` key (can be changed) or execute `/cpsdisplay`\n\n![Settings image](https://cpsdisplay.github.io/assets/images/mod/settings.png)\n\nThe mod offers a high level of **customization** and is **automatically updated**\n\n![Update manager settings](https://cpsdisplay.github.io/assets/images/mod/update_manager_settings.png)\n\nThe mod features a built-in **color selector** for easy choice of the **ideal** color in the style of minecraft, but you can use resource packs for change its appearence.\n\n![Color picker image](https://cpsdisplay.github.io/assets/images/mod/colorpicker.png)\n\n## More about all the settings\n\n### Move\nTo move the text you simply need to hold click on the text and drag our mouse where you want.\n\n![Text In Settings](https://cpsdisplay.github.io/assets/images/mod/text_in_settings.png)\n\nThe GUI background is cut out around the text, so you can see what the text will look like during play.\n\n### Text shadow\n\nYou can enable or disable it\n\n### Text scale\n\nFrom `10%` to `400%`\n\n### Text color\n\nClick on the button to open the color selector and select the color you want (no opacity available, minecraft limitation). \n\n### Text mode\n\nThere are 4 different modes:\n- Left\n- Right\n- Left & Right\n- Custom\n\nThe first 3 modes have a default text, but can be redefined in the mod's lang files using resource packs.\n\n### Custom text\n\nYou have 999 characters available. `{0}` will be replaced by left clicks, `{1}` by right clicks.\n\nYou can use minecraft formatting (instead of `§` use `&`) and do things like this\n\n![Custom Text Example](https://cpsdisplay.github.io/assets/images/mod/custom_text_example.png)\n\n### Rainbow\n\nI usually call this the \"epileptic mode\" - the text color changes over time. Custom color is therefore not available, but you can use minecraft formatting as a workaround.\n\n### Background color\n\nSame as [text color](#text-color), but this time alpha channel is available.\n\n### Background margin\n\nHow big is the background. Min: `0`; Max: `99`\n\n## And that's it\n\nThere is nothing more, but if you want more, you have **2** solutions:\n- Join the discord server and create a new post about the idea you have in the suggestion channel\n- If you have programming skills, feel free to fork the github project to add what you want and create a pull request for everyone to enjoy\n\n\nThanks",
+          "published": "2023-02-12T18:54:10.101857Z",
+          "updated": "2023-12-18T17:21:41.505137Z",
+          "status": "approved",
+          "license": {
+            "id": "GPL-3.0-only",
+            "name": "GNU General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "decoration",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/CplYGlnU/eba0009cd1878769288e186fcca2f3d718cd85da.png",
+          "issues_url": "https://github.com/CPSDisplay/cpsdisplay/issues",
+          "source_url": "https://github.com/CPSDisplay/cpsdisplay",
+          "discord_url": "https://discord.gg/DU2VDerhde",
+          "donation_urls": [
+            {
+              "id": "paypal",
+              "platform": "Paypal",
+              "url": "https://www.paypal.com/donate/?hosted_button_id=ZZ2T95G9H72YE"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/CplYGlnU/images/e8463d252e37508facb00cd6a00d154d0cf0e205.png",
+              "featured": false,
+              "title": "All Settings",
+              "created": "2023-02-13T11:41:34.858313Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "NTjtfHJ5",
+          "project_id": "CplYGlnU",
+          "author_id": "8yJfXYow",
+          "name": "CPSDisplay v2.2.2 (1.8.9)",
+          "version_number": "2.2.2",
+          "changelog": "",
+          "date_published": "2023-10-22T09:46:17.489941Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "8f47ecdcaeab5e448f42b2bd70c01c77bb208a0a47082d26d8f8a5eed86a5463e80873b7943bd7a2cdcadd33d239e004a45bcb3e90348ba5efc0ffd95f384b43",
+                "sha1": "8b6b2ad651a14eb5b83aae252381605fef51d40d"
+              },
+              "url": "https://cdn.modrinth.com/data/CplYGlnU/versions/NTjtfHJ5/cpsdisplay-mc1.8.9-2.2.2.jar",
+              "filename": "cpsdisplay-mc1.8.9-2.2.2.jar",
+              "primary": true,
+              "size": 165380
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "CPS Tracker [FORGE]",
+        "version": "CPSTracker 1.0 [1.8.9]",
+        "optional": true,
+        "file": "CPSTracker-1.0.jar",
+        "type": "mods",
+        "description": "Fastest way to track your CPS (clicks per second)",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 971070,
+        "curseForgeFileId": 5082671,
+        "curseForgeProject": {
+          "id": 971070,
+          "name": "CPS Tracker [FORGE]",
+          "authors": [
+            {
+              "id": 105400722,
+              "name": "awesome_hippo",
+              "url": "https://www.curseforge.com/members/awesome_hippo"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Fastest way to track your CPS (clicks per second)",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Utility & QoL",
+              "slug": "utility-qol",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
+              "dateModified": "2021-11-17T11:45:09.143Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5191,
+              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5191,
+          "classId": 6,
+          "slug": "cps-tracker-forge",
+          "isFeatured": false,
+          "dateModified": "2024-02-05T14:51:28.443Z",
+          "dateCreated": "2024-02-05T13:21:38.683Z",
+          "dateReleased": "2024-02-05T13:23:54.56Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cps-tracker-forge",
+            "wikiUrl": ""
+          },
+          "logo": {
+            "id": 943838,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/943/838/256/256/638427363640460472.png",
+            "title": "638427363640460472.png",
+            "url": "https://media.forgecdn.net/avatars/943/838/638427363640460472.png",
+            "modId": 971070
+          },
+          "allowModDistribution": false,
+          "screenshots": [
+            {
+              "id": 802743,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/802/743/310/172/capture-decran-du-2024-02-05-14-04-33.png",
+              "title": "ingame settings option",
+              "url": "https://media.forgecdn.net/attachments/802/743/capture-decran-du-2024-02-05-14-04-33.png",
+              "modId": 971070
+            },
+            {
+              "id": 802742,
+              "description": "",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/802/742/310/172/capture-decran-du-2024-02-05-14-05-02.png",
+              "title": "ingame render",
+              "url": "https://media.forgecdn.net/attachments/802/742/capture-decran-du-2024-02-05-14-05-02.png",
+              "modId": 971070
+            }
+          ],
+          "mainFileId": 5082671
+        },
+        "curseForgeFile": {
+          "id": 5082671,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "CPSTracker 1.0 [1.8.9]",
+          "fileName": "CPSTracker-1.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-02-05T13:23:54.56Z",
+          "fileLength": 14819,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 917726,
+              "relationType": 1
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 2464251221,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 335802474,
+              "name": "com"
+            },
+            {
+              "fingerprint": 683069613,
+              "name": "mcmod.info"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "9a802f39426ed601699e69210cf767628d054794",
+              "algo": 1
+            },
+            {
+              "value": "913cc011d8eaf8c92523b22998fc30e8",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "Forge",
+            "1.8.9"
+          ],
+          "fileFingerprint": 3375233995,
+          "modId": 971070
+        }
+      },
+      {
+        "name": "TickrateChanger",
+        "version": "Unknown",
+        "optional": true,
+        "file": "TickrateChanger-1.0.4.jar",
+        "type": "mods",
+        "description": "Change the speed that your game will run",
+        "disabled": true,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 230233,
+        "curseForgeFileId": 2284997,
+        "curseForgeProject": {
+          "id": 230233,
+          "name": "TickrateChanger",
+          "authors": [
+            {
+              "id": 8344787,
+              "name": "Guichaguri",
+              "url": "https://www.curseforge.com/members/guichaguri"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Change the speed that your game will run",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "tickratechanger",
+          "isFeatured": false,
+          "dateModified": "2017-09-24T01:35:13.46Z",
+          "dateCreated": "2015-05-06T23:04:41.203Z",
+          "dateReleased": "2017-09-24T01:33:05.5Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tickratechanger",
+            "wikiUrl": "",
+            "sourceUrl": "https://github.com/Guichaguri/TickrateChanger"
+          },
+          "logo": {
+            "id": 17556,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/17/556/256/256/635665322812189806.png",
+            "title": "635665322812189806.png",
+            "url": "https://media.forgecdn.net/avatars/17/556/635665322812189806.png",
+            "modId": 230233
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 2483406
+        },
+        "curseForgeFile": {
+          "id": 2284997,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "v1.0.4",
+          "fileName": "TickrateChanger-1.0.4.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2016-03-02T21:33:45.447Z",
+          "fileLength": 21130,
+          "dependencies": [],
+          "alternateFileId": 2284998,
+          "modules": [
+            {
+              "fingerprint": 977790327,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 3670383184,
+              "name": "me"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "0249fe90c6609daea1fc6f7fae15044d0fb2e030",
+              "algo": 1
+            },
+            {
+              "value": "e0798e6ef3e57847ac58d2b971f13dff",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000008",
+              "gameVersion": "1.8.8",
+              "gameVersionReleaseDate": "2015-07-28T05:00:00Z",
+              "gameVersionName": "1.8.8"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "1.8.8",
+            "1.8.9"
+          ],
+          "fileFingerprint": 715455341,
+          "modId": 230233
+        }
+      },
+      {
+        "name": "!   §aamethyst §8[§a16§7x§8].zip",
+        "version": "Unknown",
+        "optional": true,
+        "file": "!   §aamethyst §8[§a16§7x§8].zip",
+        "type": "resourcepack",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false
+      },
+      {
+        "name": "OldInput",
+        "version": "1.2.0 - 1.8.9",
+        "optional": true,
+        "file": "oldinput-1.2.0+1.8.9.jar",
+        "type": "mods",
+        "description": "raw input backport to old minecraft versions",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "modrinthProject": {
+          "id": "VAUfigu2",
+          "slug": "oldinput",
+          "project_type": "mod",
+          "team": "WqMtxZhR",
+          "title": "OldInput",
+          "description": "raw input backport to old minecraft versions",
+          "body": "![banner](https://raw.githubusercontent.com/uku3lig/oldinput/1.12.2/banner.png)\n\n**OldInput** is a very simple mod that ports raw mouse input back to old minecraft versions!\\\nIt is heavily inspired by [the Raw Input mod](https://www.curseforge.com/minecraft/mc-mods/raw-input), big thanks to xCuri0 for the base mod.\n\n### Warning: this mod is ✨ *experimental* ✨, there could be issues with it. Please report them if any occur.",
+          "published": "2022-07-27T22:47:58.954609Z",
+          "updated": "2024-06-06T21:08:14.951623Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/VAUfigu2/5be2fdc746932d8fd89cad12a67753134cb29c51.png",
+          "source_url": "https://github.com/uku3lig/oldinput",
+          "discord_url": "https://uku3lig.net/discord",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "NOoQJ3Fx",
+          "project_id": "VAUfigu2",
+          "author_id": "HiuxcjYJ",
+          "name": "1.2.0 - 1.8.9",
+          "version_number": "1.2.0+1.8.9",
+          "changelog": "* rewrote a few things that should _hopefully_ make the mod work better",
+          "date_published": "2024-06-06T21:07:49.014054Z",
+          "version_type": "beta",
+          "files": [
+            {
+              "hashes": {
+                "sha512": "ad61f1faf503426faa6b1651b644d7d549f7284c059ca81ea240eb87c35bedc6e5cc5365310b89bc0cc35182a34ccdc698baa9b6d0f26452c292d606909c2ff2",
+                "sha1": "a02df272674393aea4d696927dfd0941e5dca4c3"
+              },
+              "url": "https://cdn.modrinth.com/data/VAUfigu2/versions/NOoQJ3Fx/oldinput-1.2.0%2B1.8.9.jar",
+              "filename": "oldinput-1.2.0+1.8.9.jar",
+              "primary": true,
+              "size": 7075
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "CraftPresence",
+        "version": "CraftPresence v2.4.3 (1.8.9)",
+        "optional": true,
+        "file": "CraftPresence-2.4.3+1.8.9.jar",
+        "type": "mods",
+        "description": "Completely Customize the way others see you play in Discord!",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 297038,
+        "curseForgeFileId": 5480954,
+        "curseForgeProject": {
+          "id": 297038,
+          "name": "CraftPresence",
+          "authors": [
+            {
+              "id": 30881044,
+              "name": "CDAGaming_",
+              "url": "https://www.curseforge.com/members/cdagaming_"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Completely Customize the way others see you play in Discord!",
+          "categories": [
+            {
+              "name": "Twitch Integration",
+              "slug": "twitch-integration",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/twitch-integration",
+              "dateModified": "2018-04-17T19:53:25.39Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 4671,
+              "iconUrl": "https://media.forgecdn.net/avatars/150/336/636595916053434614.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "API and Library",
+              "slug": "library-api",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/library-api",
+              "dateModified": "2014-05-23T03:21:44.06Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 421,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/36/635351496947765531.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "Cosmetic",
+              "slug": "cosmetic",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic",
+              "dateModified": "2014-05-08T17:42:35.597Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 424,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/39/635351497555976928.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 424,
+          "classId": 6,
+          "slug": "craftpresence",
+          "isFeatured": false,
+          "dateModified": "2024-06-28T07:38:44.443Z",
+          "dateCreated": "2018-06-29T03:59:38.017Z",
+          "dateReleased": "2024-06-27T23:30:02.267Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/craftpresence",
+            "wikiUrl": "https://gitlab.com/CDAGaming/CraftPresence/wikis/home",
+            "issuesUrl": "https://gitlab.com/CDAGaming/CraftPresence/issues",
+            "sourceUrl": "https://gitlab.com/CDAGaming/CraftPresence"
+          },
+          "logo": {
+            "id": 159374,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/159/374/256/256/636658415780463602.png",
+            "title": "636658415780463602.png",
+            "url": "https://media.forgecdn.net/avatars/159/374/636658415780463602.png",
+            "modId": 297038
+          },
+          "allowModDistribution": true,
+          "screenshots": [
+            {
+              "id": 231730,
+              "description": "Hypixel Display with Small Icon Modified. Server\nServer MSG Config: mc.hypixel.net;Playing on Hypixel!;hypixel",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/231/730/310/172/serverexample_hypixel.png",
+              "title": "Example Server Display (Hypixel)",
+              "url": "https://media.forgecdn.net/attachments/231/730/serverexample_hypixel.png",
+              "modId": 297038
+            },
+            {
+              "id": 231726,
+              "description": "Display for when on the Main Menu, using Default Settings",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/231/726/310/172/mainmenu.png",
+              "title": "Main Menu Display",
+              "url": "https://media.forgecdn.net/attachments/231/726/mainmenu.png",
+              "modId": 297038
+            },
+            {
+              "id": 231727,
+              "description": "Default Config; In a Singleplayer Game in the Overworld",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/231/727/310/172/sp_overworld.png",
+              "title": "Overworld Display",
+              "url": "https://media.forgecdn.net/attachments/231/727/sp_overworld.png",
+              "modId": 297038
+            },
+            {
+              "id": 231728,
+              "description": "Default Config; In a Singleplayer Game in the Nether",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/231/728/310/172/sp_nether.png",
+              "title": "Nether Display",
+              "url": "https://media.forgecdn.net/attachments/231/728/sp_nether.png",
+              "modId": 297038
+            },
+            {
+              "id": 231729,
+              "description": "Default Config; In a Singleplayer Game in the End",
+              "thumbnailUrl": "https://media.forgecdn.net/attachments/thumbnails/231/729/310/172/sp_end.png",
+              "title": "The End Display",
+              "url": "https://media.forgecdn.net/attachments/231/729/sp_end.png",
+              "modId": 297038
+            }
+          ],
+          "mainFileId": 5481011
+        },
+        "curseForgeFile": {
+          "id": 5480954,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "CraftPresence v2.4.3 (1.8.9)",
+          "fileName": "CraftPresence-2.4.3+1.8.9.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-06-27T23:15:37.523Z",
+          "fileLength": 2331173,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 1209705347,
+              "name": "lib"
+            },
+            {
+              "fingerprint": 2625406249,
+              "name": "org"
+            },
+            {
+              "fingerprint": 2158335651,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 4011663959,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2410619454,
+              "name": "mappings-fabric.srg"
+            },
+            {
+              "fingerprint": 118629613,
+              "name": "unknown-refmap.json"
+            },
+            {
+              "fingerprint": 990667546,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 427808319,
+              "name": "io"
+            },
+            {
+              "fingerprint": 3085525226,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 2022754699,
+              "name": "external"
+            },
+            {
+              "fingerprint": 213189848,
+              "name": "fabric"
+            },
+            {
+              "fingerprint": 525272029,
+              "name": "fabric-craftpresence.accesswidener"
+            },
+            {
+              "fingerprint": 372107200,
+              "name": "com"
+            },
+            {
+              "fingerprint": 3512144273,
+              "name": "mappings-forge.srg"
+            },
+            {
+              "fingerprint": 3041381440,
+              "name": "logo.png"
+            },
+            {
+              "fingerprint": 172193889,
+              "name": "forge"
+            },
+            {
+              "fingerprint": 201079270,
+              "name": "craftpresence"
+            },
+            {
+              "fingerprint": 1210394107,
+              "name": "META-INF"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "9ea486d63bfb3cc721c544baf05cb0a4fcd53f15",
+              "algo": 1
+            },
+            {
+              "value": "334fc1afb9d3156ce9b7f43bce328a1b",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+              "gameVersionName": "Fabric"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Fabric",
+            "Client",
+            "Forge",
+            "1.8.9"
+          ],
+          "fileFingerprint": 3790801379,
+          "modId": 297038
+        },
+        "modrinthProject": {
+          "id": "DFqQfIBR",
+          "slug": "craftpresence",
+          "project_type": "mod",
+          "team": "G0fROR7V",
+          "title": "CraftPresence",
+          "description": "Completely Customize the way others see you play in Discord!",
+          "body": "# CraftPresence\n\nCompletely customize the way others see you play Minecraft via Discord's Rich Presence API & the DiscordIPC API\nby [jagrosh](https://github.com/jagrosh)!\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Crowdin](https://badges.crowdin.net/craftpresence/localized.svg)](https://crowdin.com/project/craftpresence)\n[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e0667f7208b49ecab1a6affbfa6cbf7)](https://app.codacy.com/gl/CDAGaming/CraftPresence/dashboard?utm_source=gl&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)\n[![Pipeline Status](https://github.com/CDAGaming/CraftPresence-Mirror/actions/workflows/build.yml/badge.svg?branch=master)](https://gitlab.com/CDAGaming/CraftPresence/commits/master)\n\n[![CurseForge-Downloads](https://cf.way2muchnoise.eu/full_craftpresence_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/craftpresence)\n[![CurseForge-Availability](https://cf.way2muchnoise.eu/versions/craftpresence.svg)](https://www.curseforge.com/minecraft/mc-mods/craftpresence)\n\n[![Modrinth-Downloads](https://img.shields.io/modrinth/dt/DFqQfIBR)](https://modrinth.com/mod/craftpresence)\n[![Modrinth-Availability](https://img.shields.io/modrinth/game-versions/DFqQfIBR)](https://modrinth.com/mod/craftpresence)\n\n## General Notes\n\n* CraftPresence identifies as a **Client Side-only** mod\n    * This means it **will not run** on the Server's side.\n    * Fabric and Quilt mod loaders will simply ignore the\n      mod, while other mod loaders may crash.\n* Some versions of CraftPresence for Minecraft 1.14.x and above require\n  the [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)\n  and the [Fabric mod loader](https://fabricmc.net/use/installer)\n* Some versions of CraftPresence for Minecraft 1.13.x require\n  the [Rift API](https://www.curseforge.com/minecraft/mc-mods/rift)\n  and the [Rift mod loader](https://github.com/DimensionalDevelopment/Rift/releases)\n* Versions of CraftPresence for Minecraft 1.1.0 and below\n  require [Risugami's ModLoader](https://mcarchive.net/mods/modloader)\n\n## Features\n\nIn addition to having the ability to change your discord status from \"Playing Minecraft\",\nThis mod offers plenty of customization options to specify entirely how others see you play.\nFrom having your current biome show up, to which dimension your in, as well as which server you're in, and more.\nThe customization possibilities are limitless, with the only real limit being how creative you customize your display.\n\n### Launcher and Pack Integration Support\n\nCraftPresence will detect whether your Launch Directory contains:\n\n* A ATLauncher Instance (instance.json)\n* A valid Twitch/Overwolf/Curse/GDLauncher Manifest (manifest.json, minecraftinstance.json)\n* A MCUpdater Instance (instance.json)\n* A Modrinth Instance (profile.json)\n* A MultiMC Instance (instance.cfg)\n* A Technic installedPacks File (installedPacks)\n\nIf using any of these launchers, note the following:\n\n* Prior to v1.6.0, it'll put the packs name in your display as well as show its icon (when not in a\n  server)\n* From v1.6.0 until v2.0.0, it'll instead parse the Pack's name into the `&PACK&` placeholder, that you can configure\n  for\n  usage in the RPC\n* In v2.0, the pack's info is instead parsed into the `pack.name` and `pack.icon` placeholders, that you can configure\n  for\n  usage in the RPC\n\nAs an example, this is how the mod will convert a pack's name to an iconKey:\n\nExample: `All the Mods 7` would parse as `allthemods7`\n\nNote: MultiMC natively has an Icon Key Property that is used instead of converting from the Pack's Display Name\n\n## Commands\n\nCraftPresence currently offers the following Commands:\n\nKeep in mind the following:\n\n* Commands must be prefixed by either `/craftpresence` or `/cp`\n* In v1.5.0 and above, these commands are only usable via the Commands Gui, found within the Config Gui\n\n___\n\n* `/cp compile \"[expr]\"` - Test the output of a placeholder expression, via Starscript\n* `/cp search (type:typeName, [searchTerm], all)` - Search for valid placeholders available to use with Rich Presence\n* `/cp reload` - Reloads mod data\n* `/cp request` - View Join Request Info\n* `/cp export` - View export commands for mod data\n* `/cp view` - Help command to display the commands available to view and control a variety of display data\n    * `/cp view placeholders` - Displays all available placeholders for use in the RPC\n    * `/cp view currentData` - Displays your Current RPC Data, in text form\n    * `/cp view assets (custom | all)` - Displays all asset icon keys available to you\n    * `/cp view dimensions` - Displays all Dimension Names available for use, requires `Show Current Dimension` to be\n      enabled\n    * `/cp view biomes` - Displays all Biome Names available for use, requires `Show Current Biome` to be enabled\n    * `/cp view servers` - Displays all Server Addresses available for use, requires `Show Game State` to be enabled\n    * `/cp view screens` - Displays all Gui Names available for use, if Per-Gui is enabled\n    * `/cp view items` - Displays all Item Names available for use, if Per-Item is enabled\n    * `/cp view entities` - Displays all Entity Names available for use, if Per-Entity is enabled\n* `/cp reboot` - Reboots the RPC\n* `/cp shutdown` - Shutdown the RPC (Can be turned on from `/cp reboot`)\n* `/cp (help | ?)` - Help Command to display the above commands and these explanations\n\n## KeyBinds\n\nCraftPresence currently contains the following KeyBinds:\n\nNotes:\n\n* In v1.5.5 up to v1.8.0, KeyBinds are now customized in the Accessibility Settings in the Config Gui, and not the\n  normal controls menu\n* In v1.8.0 and above, KeyBinds can now be customized in either the dedicated menu in the Config Gui or the normal\n  control menu on applicable versions\n\n___\n\n* `Open Config Gui` - KeyBind to open the CraftPresence Config Gui (Default: GRAVE/TILDE Key)\n\n## About Placeholders and Functions\n\nIn some configuration areas, CraftPresence provides some placeholders and functions to make things easier:\n\nKeep in mind the following:\n\n* In v2.0.0, placeholders have been rewritten to be compatible\n  with [Starscript](https://github.com/MeteorDevelopment/starscript)\n    * The older list of this section can be\n      viewed [here](https://gitlab.com/CDAGaming/CraftPresence/-/wikis/Legacy-Placeholders-(v1.x))\n    * All Placeholders, functions, and code expressions must be surrounded with curly brackets (Example: `{foo.bar}`)\n    * In the event that you need to combine a placeholder with other data in a function argument, use the `getResult`\n      function\n    * Additional functions and standard variables are available\n      within [StandardLib](https://github.com/MeteorDevelopment/starscript/wiki)\n\n___\n\n### Placeholder List\n\nThe following placeholders are available for use anywhere in CraftPresence:\n\n* General Placeholders:\n    * `general.brand` - The Minecraft branding label\n    * `general.icon` - The default display icon\n    * `general.mods` - The amount of mods currently in your mods folder\n    * `general.title` - The Minecraft title label\n    * `general.version` - The Minecraft version label\n    * `general.protocol` - The Minecraft version protocol label\n* Menu Event Placeholders (Loading and Main Menu):\n    * `menu.message` - The main menu's display data, while applicable\n    * `menu.icon` - The main menu's display icon, while applicable\n* Pack Placeholders:\n    * `pack.name` - The currently detected pack's name\n    * `pack.icon` - The currently detected pack's icon\n    * `pack.type` - The currently detected pack's type\n* Player Placeholders:\n    * `player.name` - Your username\n    * `player.uuid.short` - Your UUID (Trimmed Format)\n    * `player.uuid.full` - Your UUID (Full Format, if valid UUID)\n    * `player.icon` - Your player head icon, while applicable\n    * `player.position.x` - Your current in-game X position\n    * `player.position.y` - Your current in-game Y position\n    * `player.position.z` - Your current in-game Z position\n    * `player.health.current` - Your current in-game health\n    * `player.health.max` - Your current in-game maximum health\n* Gui Placeholders:\n    * `screen.message` - The current Gui Screen's display data, while applicable\n    * `screen.name` - The current Gui Screen name\n    * `screen.icon` - The current Gui Screen icon\n    * `screen.default.icon` - The default Gui Screen icon\n* Biome Placeholders:\n    * `biome.message` - The current biome's display data, while in-game\n    * `biome.name` - The current biome name\n    * `biome.identifier` - The current biome identifier\n    * `biome.icon` - The current biome icon\n    * `biome.default.icon` - The default biome icon\n* Dimension Placeholders:\n    * `dimension.message` - The current dimension's display data, while in-game\n    * `dimension.name` - The current dimension name\n    * `dimension.identifier` - The current dimension identifier\n    * `dimension.icon` - The current dimension icon\n    * `dimension.default.icon` - The default dimension icon\n* Entity Placeholders:\n    * `entity.default.icon` - The default entity icon\n    * `entity.target.message` - The currently targeted entity's display data, while applicable\n    * `entity.target.name` - The currently targeted entity's name\n    * `entity.target.icon` - The currently targeted entity's icon\n    * `entity.riding.message` - The currently riding entity's display data, while applicable\n    * `entity.riding.name` - The currently riding entity's name\n    * `entity.riding.icon` - The currently riding entity's icon\n* World Placeholders:\n    * `world.difficulty` - The current world's difficulty\n    * `world.weather.name` - The current world's weather name\n    * `world.name` - The name of the current world\n    * `world.time.format_24` - The current world's in-game time (24-hour format)\n    * `world.time.format_12` - The current world's in-game time (12-hour format)\n    * `world.time.day` - The current world's in-game day count\n* Server Placeholders:\n    * `server.message` - The current server's display data, while in-game\n    * `server.icon` - The current server icon\n    * `server.default.icon` - The default server icon\n    * `server.players.current` - The server's current player count\n    * `server.players.max` - The server's maximum player count\n    * `server.address.full` - (MP) The raw current server address\n    * `server.address.short` - (MP) The formatted current server address\n    * `server.name` - (MP) The current server name\n    * `server.motd.raw` - (MP) The current raw server motd\n* Item Placeholders:\n    * `item.message.default` - The default item display data, while applicable\n    * `item.message.holding` - The held item(s) display data, while applicable\n    * `item.message.equipped` - The equipped item(s) display data, while applicable\n    * `item.[slotId].name` - Current `slotId` item name\n    * `item.[slotId].message` - Current `slotId` item message\n* Integration - Replay Mod:\n    * `replaymod.time.current` - When in the Video Renderer, retrieves the `renderTimeTaken` field\n    * `replaymod.time.remaining` - When in the Video Renderer, retrieves the `renderTimeLeft` field\n* Extra Placeholders (Advanced Usage):\n    * `_general.instance` - The `Minecraft` Instance\n    * `_general.player` - The `Minecraft` Player Instance\n    * `_general.world` - The `Minecraft` World Instance\n    * `_config.instance` - The Mod Config Instance\n    * `_[moduleName].instance` - An instance of one of the modules CraftPresence has\n        * Module Order: `biome, dimension, entity, item, screen, server, <...>`\n    * `data.biome.instance` - An instance of the player's current biome\n    * `data.biome.class` - The class object for the player's current biome\n    * `data.dimension.instance` - An instance of the player's current dimension\n    * `data.dimension.class` - The class object for the player's current dimension\n    * `data.entity.target.instance` - An instance of the currently targeted entity\n    * `data.entity.target.class` - The class object for the currently targeted entity\n    * `data.entity.riding.instance` - An instance of the currently riding entity\n    * `data.entity.riding.class` - The class object for the currently riding entity\n    * `data.item.[slotId].instance` - An instance of the current `slotId`\n    * `data.item.[slotId].class` - The class object for the current `slotId`\n    * `data.screen.instance` - An instance of the current Gui Screen\n    * `data.server.motd.line_[number]` - Retrieves a specific line of `server.motd.raw`\n    * `data.[moduleName].time` - The timestamp at which a module has changed its primary state\n        * Use `data.general.time` for the current RPC Starting Timestamp\n\n### Function List\n\nThe following functions are available for use anywhere in CraftPresence:\n\n* `asIcon(input, whitespaceIndex ?: '')` - Converts a String into a Valid and Acceptable Icon Format\n* `asIdentifier(target, formatToId ?: false, avoid ?: false)` - Converts an Identifier into a properly formatted and\n  interpretable Name\n* `asProperWord(input, avoid ?: false, skipSymbolReplacement ?: false, caseCheckTimes ?: -1)` - Converts input into a\n  Properly Readable String\n* `capitalizeWords(input, timesToCheck ?: -1)` - Capitalizes the words within a specified string\n* `clampDouble(num, min, max)` - Clamps the Specified Number between a minimum and maximum limit\n* `clampFloat(num, min, max)` - Clamps the Specified Number between a minimum and maximum limit\n* `clampInt(num, min, max)` - Clamps the Specified Number between a minimum and maximum limit\n* `clampLong(num, min, max)` - Clamps the Specified Number between a minimum and maximum limit\n* `convertTime(input, originalPattern, newPattern)` - Convert the specified string into the specified date format, if\n  able\n* `convertTimeFormat(dateString, fromFormat, toFormat)` - Convert a Date String from one format to another format\n* `convertTimeZone(dateString, fromFormat, fromTimeZone, toTimeZone)` - Convert a Date String from one timezone to\n  another timezone\n* `dateToEpochMilli(dateString, format, timeZone ?: null)` - Convert Date String to Epoch Timestamp in milliseconds\n* `dateToEpochSecond(dateString, format, timeZone ?: null)` - Convert Date String to Epoch Timestamp in seconds\n* `epochMilliToDate(epochMilli, format, timeZone ?: null)` - Convert Epoch Timestamp to Date String in the given format\n  and\n  timezone\n* `epochSecondToDate(epochSecond, format, timeZone ?: null)` - Convert Epoch Timestamp to Date String in the given\n  format and\n  timezone\n* `executeMethod(classToAccess=Object|String|Class, instance=Object, methodName=String, <parameterType, parameter>...)` -\n  Invokes the specified Method in the Target Class via Reflection\n* `format(input=String, args=Object...)` - Returns a formatted string using the specified format string and arguments\n* `formatAddress(input, returnPort ?: false)` - Formats an IP Address based on Input\n* `getArrayElement(content=Array, index)` - Retrieves the array element from the specified content, or null if unable\n* `getAsset(input)` - Retrieves the Specified DiscordAsset data from an Icon Key, if present\n* `getAssetId(input)` - Retrieves the Parsed Icon ID from the specified key, if present\n* `getAssetKey(input)` - Retrieves the Parsed Icon Key from the specified key, if present\n* `getAssetType(input)` - Retrieves the Parsed Image Type from the specified key, if present\n* `getAssetUrl(input)` - Retrieves the Parsed Image Url from the specified key, if present\n* `getClass(reference=Object|String)` - Attempt to retrieve a class object, via the string path or object reference\n* `getComponent(data=DataComponentHolder, path=String)` - (MC 1.20.5+) Attempt to retrieve the Component Data with the\n  specified path\n* `getCurrentTime()` - Retrieve the current time, as an Instant\n* `getElapsedMillis()` - Retrieve the elapsed time, in milliseconds\n* `getElapsedNanos()` - Retrieve the elapsed time, in nanoseconds\n* `getElapsedSeconds()` - Retrieve the elapsed time, in seconds\n* `getField(classToAccess=Object|String|Class, instance=Object, fieldName=String...)` - Retrieves the\n  Specified Field(s) via Reflection\n* `getFields(classObj=Object|String|Class)` - Retrieve the available field names for a class object\n* `getFirst(args)` - Retrieve the first non-null string from the specified arguments, or return null\n* `getJsonElement(url|jsonString, path=Object...)` - Retrieves the json element from the specified content, or null if\n  unable\n* `getMethods(classObj=Object|String|Class)` - Retrieve the available method names for a class object\n* `getNamespace(input)` - Retrieve the namespace portion of an Identifier-Style Object\n* `getNbt(data=Entity|ItemStack, path=String...)` - Attempt to retrieve the NBT Tag with the specified path\n* `getOrDefault(target, alternative ?: '')` - Retrieve the primary value if non-empty; Otherwise, use the secondary\n  value\n* `getPath(input)` - Retrieve the path portion of an Identifier-Style Object\n* `getResult(input)` - Perform recursive conversion on the specified input\n* `hasField(classObj=Object|String|Class, fieldName)` - Retrieves whether the specified class contains the specified\n  field name\n* `isColor(input)` - Determines whether an inputted String classifies as a valid Color Code\n* `isCustomAsset(input)` - Determines if the Specified Icon Key is present under the Custom Assets List\n* `isUuid(input)` - Checks via Regex whether the specified String classifies as a valid Uuid\n* `isValidAsset(input)` - Determines if the Specified Icon Key is present under the Current Client ID\n* `isValidId(input)` - Determines if the specified Client ID is valid\n* `isWithinValue(value, min, max, contains_min ?: false, contains_max ?: false, check_sanity ?: true)` - Determines\n  whether the specified value is within the specified range\n* `length(input)` - Returns the length of the specified string\n* `lerpDouble(num, min, max)` - Linearly Interpolate between the specified values\n* `lerpFloat(num, min, max)` - Linearly Interpolate between the specified values\n* `mcTranslate(input=String, args=Object...)` - Translates an Unlocalized String, based on the game translations\n  retrieved for\n  the current language\n* `minify(input, length)` - Reduces the Length of a String to the Specified Length\n* `nullOrEmpty(input, allowWhitespace ?: false)` - Determines whether a String classifies as NULL or EMPTY\n* `randomAsset()` - Attempts to retrieve a Random Icon Key from the available assets\n* `randomString(args)` - Retrieves a random element from the specified arguments, as a string\n* `removeRepeatWords(input)` - Removes Duplicated Words within an inputted String\n* `roundDouble(num, places ?: 0)` - Rounds a Double to the defined decimal place, if possible\n* `snapToStep(num, valueStep)` - Rounds the Specified Value to the nearest value, using the Step Rate Value\n* `split(input, regex, limit ?: 0)` - Splits this string around matches of the given regular expression\n* `stripAllFormatting(input)` - Strips Color and Formatting Codes from the inputted String\n* `stripColors(input)` - Strips Color Codes from the inputted String\n* `stripFormatting(input)` - Strips Formatting Codes from the inputted String\n* `timeFromEpochMilli(epochMilli)` - Retrieve a Time Instant from the specified epoch time\n* `timeFromEpochSecond(epochSecond)` - Retrieve a Time Instant from the specified epoch time\n* `timeFromString(dateString, fromFormat, fromTimeZone ?: null)` - Format a Date String from one timezone and format\n  into a valid Instant instance\n* `timeToEpochMilli(data)` - Gets the number of milliseconds from the Java Epoch, derived from specified args\n* `timeToEpochSecond(data)` - Gets the number of seconds from the Java Epoch, derived from specified args\n* `timeToString(date, toFormat, toTimeZone ?: null)` - Format a Date String using the specified timezone and format.\n* `toCamelCase(input)` - Converts a String into a Valid and Acceptable Camel-Case Format\n* `translate(input=String, args=Object...)` - Translates an Unlocalized String, based on the mod translations retrieved\n  for\n  the current language\n\n## Disclaimers & Additional Info\n\n### Minecraft Issues + Additional Build Info\n\nDespite best efforts, issues can occur due to the state of Mojang's Codebase.\n\nThese issues can hinder certain portions of the backend in addition to cause certain parts of the mod to not work.\n\nWith this in mind, please note the following:\n\n* **Minecraft 1.16 and above**\n    * As more parts of the game become data-driven, modded data is no longer able to be automatically retrieved without\n      first being in the world.\n    * So far, Biome and Dimension Modules are effected by this change and only display default data, with extra data\n      needing to be discovered first.\n* **Minecraft 1.15 and below**\n    * `MC-112292`: When interacting with the `RenderUtils#drawItemStack` method, used in the v2 Item Renderer, blocks\n      using certain renderers may fail to display properly.\n    * Additionally, on 1.15.x exclusively, z-level issues may occur on Screens using this method\n* **Minecraft a1.1.2_01 and below**\n    * On these versions, the Biome and Dimension Modules are **stubbed** with default data, due to the logic for these\n      methods being missing (Having been initially implemented in Alpha 1.2.6)\n* **Miscellaneous Issues**\n    * Due to obfuscation issues in earlier versions of Minecraft, the Biome and Dimension Modules may fail to\n      auto-detect some necessary information.\n        * As a fallback, the mod is also designed to add selectable Module Data when said biome/dimension is first\n          discovered.\n        * The \"Add New\" option found in some of the module lists can also be used to work around this issue.\n\nAdditionally, in select Minecraft Versions, the following config settings are effected:\n\n* `guiBackground` (`RenderUtils#DEFAULT_GUI_BACKGROUND`)\n    * MC 1.20.5 and above: `minecraft:textures/gui/menu_background.png`\n    * MC 1.6 until 1.20.5: `minecraft:textures/gui/options_background.png`\n    * MC 1.5.2 until a1.1.2_01: `/gui/background.png`\n    * MC a1.1.2_01 and below: `/dirt.png`\n* `altGuiBackground` (`RenderUtils#DEFAULT_GUI_BACKGROUND_ALT`)\n    * MC 1.20.5 and above: `minecraft:textures/gui/menu_list_background.png`\n    * MC 1.20.4 and below: `ColorData(start=[16,16,16,192],end=[16,16,16,208])`\n* `stripTranslationFormatting` (`ModUtils#IS_TEXT_FORMATTING_BLOCKED`)\n    * This option is forcefully disabled on MC 1.1.0 and below due to various issues regarding combined TextColor usage,\n      including possible crashes\n    * This change is also auto-applied to existing configs trying to bypass this, unlike the background colors, since\n      resource packs can re-implement those textures\n\n### Icon Requesting\n\nNot seeing an Icon you like or have a suggestion for an Icon to add/modify on the default Client ID?\n\nIf so, you can make a request on my [Issue Tracker](https://gitlab.com/CDAGaming/CraftPresence/issues/), with the\nfollowing requirements:\n\n* If adding an Icon from a dimension, specify the Mod's link that the dimension derives from\n    * This is because specific Icon IDs must be used, which can be found by the mod or from checking your Logs/Chat\n      after entering the dimension as CraftPresence will tell you the ID expected\n* An Icon of size between `512x512` and `1024x1024` to be used (Either minimum or recommended size for best quality)\n    * Icons between these sizes can be used, but may not give a great final quality\n* If requesting an icon to be modified or removed from the Default Client ID, please specify a reason why\n    * Mostly just so it can be logged why it was changed for future reference\n\nAdditionally, you can also create your own Set of Icons by\nfollowing [this guide](https://gitlab.com/CDAGaming/CraftPresence/-/wikis/Making-your-Own-Client-ID-+-Using-your-own-Images)\n\n### Support\n\nNeed some assistance with one of my mods or wish to provide feedback?\n\nI can be contacted via the following methods:\n\n* [Email](mailto:cstack2011@yahoo.com)\n* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/craftpresence)\n* [Discord :: ![Discord Chat](https://img.shields.io/discord/455206084907368457.svg)](https://discord.com/invite/BdKkbpP)\n\nAdditionally, codebase documentation for this mod is\navailable [here](https://cdagaming.gitlab.io/craftpresence-documentation/) with further guides available\non [the wiki](https://gitlab.com/CDAGaming/CraftPresence/-/wikis/Home)\n\n#### Licensing\n\nThis Mod is under the MIT License as well as the Apache 2.0 License\n\nThis project makes usage of the following dependencies internally:\n\n* [Starscript](https://github.com/MeteorDevelopment/starscript)\n  by [MeteorDevelopment](https://github.com/MeteorDevelopment) on v2.0 and above\n* [DiscordIPC API](https://github.com/jagrosh/DiscordIPC) by [jagrosh](https://github.com/jagrosh)\n    * [JUnixSocket](https://github.com/kohlschutter/junixsocket) by [kohlschutter](https://github.com/kohlschutter)\n* [Classgraph](https://github.com/classgraph/classgraph) by [lukehutch](https://github.com/lukehutch) on v2.0 and above\n* [Lenni Reflect](https://github.com/Lenni0451/Reflect) by [Lenni0451](https://github.com/Lenni0451) on v2.2.3 and above\n* [Google's Guava Api](https://github.com/google/guava) by [Google](https://github.com/google/) on v1.9.x and below\n* [Java Native Access (JNA) API](https://github.com/java-native-access/jna) on v1.5.x and below\n\n#### Discord Terms of Service\n\nAs with other RPC Mods, this Mod uses your in-game data to send display information to a 3rd party service (In this\nCase, Discord).\n\nThe terms of service relating to Creating a Discord ID for icons can be\nfound [here](https://discord.com/developers/docs/legal)\n\nThe terms of service for using Discord as a service can additionally be located [here](https://discord.com/terms)\n",
+          "published": "2022-08-08T16:27:11.909915Z",
+          "updated": "2024-06-27T23:30:06.253993Z",
+          "status": "approved",
+          "license": {
+            "id": "MIT",
+            "name": "MIT License"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "library",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/DFqQfIBR/icon.png",
+          "issues_url": "https://gitlab.com/CDAGaming/CraftPresence/issues",
+          "source_url": "https://gitlab.com/CDAGaming/CraftPresence",
+          "wiki_url": "https://gitlab.com/CDAGaming/CraftPresence/wikis/home",
+          "discord_url": "https://discord.com/invite/BdKkbpP",
+          "donation_urls": [
+            {
+              "id": "paypal",
+              "platform": "Paypal",
+              "url": "https://www.paypal.com/cgi-bin/webscr?return=https://modrinth.com/mod/craftpresence&cn=Add+special+instructions+to+the+addon+author()&business=cstack2011%40yahoo.com&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&cancel_return=https://modrinth.com/mod/craftpresence&lc=US&item_name=CraftPresence+(from+modrinth.com)&cmd=_donations&rm=1&no_shipping=1&currency_code=USD"
+            }
+          ],
+          "gallery": [
+            {
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/images/197bbd5158cb5ddf43bf1d64be1aa650d8482e4d.png",
+              "featured": false,
+              "title": "Overworld Display",
+              "description": "Default Config; In a Singleplayer Game in the Overworld",
+              "created": "2022-08-08T16:27:11.075410Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/images/40ce05eb588f87f83593eff6ff29567f1b92629d.png",
+              "featured": false,
+              "title": "Main Menu Display",
+              "description": "Display for when on the Main Menu, using Default Settings",
+              "created": "2022-08-08T16:27:11.075410Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/images/ac40602b01b61db45f23e81a9630e12652d36217.png",
+              "featured": false,
+              "title": "Nether Display",
+              "description": "Default Config; In a Singleplayer Game in the Nether",
+              "created": "2022-08-08T16:27:11.075410Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/images/ee6b1a34105e8a4f725ab7d8341e47ef4ec915cc.png",
+              "featured": false,
+              "title": "The End Display",
+              "description": "Default Config; In a Singleplayer Game in the End",
+              "created": "2022-08-08T16:27:11.075410Z",
+              "ordering": 0.0
+            },
+            {
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/images/f6c3d3083e6fb279f02f553a83e61e14ab2e7cbe.png",
+              "featured": false,
+              "title": "Example Server Display (Hypixel)",
+              "description": "Hypixel Display with Small Icon Modified. Server Server MSG Config: mc.hypixel.net;Playing on Hypixel!;hypixel",
+              "created": "2022-08-08T16:27:11.075410Z",
+              "ordering": 0.0
+            }
+          ]
+        },
+        "modrinthVersion": {
+          "id": "C0vvGTAe",
+          "project_id": "DFqQfIBR",
+          "author_id": "99RdWNq1",
+          "name": "CraftPresence v2.4.3 (1.8.9)",
+          "version_number": "2.4.3+1.8.9",
+          "changelog": "# CraftPresence Changes\n\n## v2.4.3 (06/27/2024)\n\n_A Detailed Changelog from the last release is\navailable [here](https://gitlab.com/CDAGaming/CraftPresence/-/compare/release%2Fv2.4.2...release%2Fv2.4.3)_\n\nSee the Mod Description or [README](https://gitlab.com/CDAGaming/CraftPresence) for more info regarding the mod.\n\n### Changes\n\n* (Backend) Updated Build Dependencies (Please see the appropriate repositories for changes)\n    * Unimined (`1.2.12` -> `1.2.14`)\n    * SpotBugs Annotations (`4.8.5` -> `4.8.6`)\n    * ClassGraph (`4.8.173` -> `4.8.174`)\n    * UniCore (`1.1.10` -> `1.1.11`)\n* Improved `Controls` UI functionality for MC 1.6.4 and below\n    * The UI now appears the same as modern versions of MC\n* Misc. Improvements to consolidate API calls and overall file size\n\n### Fixes\n\n* Fixed a visual error where the `Reset to Default` button can appear incorrectly in certain areas of `Status Messages`\n* Fixed an issue where `PresenceData` would not be marked as changed if `enabled` or `useAsMain` was modified\n* Fixed an issue where a `not implemented` message would appear when using Icon Selectors\n* Fixed an issue where false-positive save indicators could occur if metadata differs between `Config` instances\n* Fixed an issue where the default language was incorrectly setup on certain MC versions\n\n___\n\n### More Information\n\n#### Known Issues\n\nDespite configuration compatibility often being ensured between versions,\ncaution is advised to ensure the best experience, while also baring in mind that features can be adjusted, removed, or\nadded/iterated upon between releases.\n\nPlease refer to the Mod Description or [README](https://gitlab.com/CDAGaming/CraftPresence) to view more info relating\nto known issues.\n\n#### Snapshot Build Info\n\nSome Versions of this Mod are for Minecraft Snapshots or Experimental Versions, and as such, caution should be noted.\n\nAny Snapshot Build released will be marked as **ALPHA** to match its Snapshot Status depending on tests done before\nrelease\nand issues found.\n\nSnapshot Builds, depending on circumstances, may also contain changes for a future version of the mod, and will be noted\nas so if this is the case with the `-Staging` label.\n",
+          "date_published": "2024-06-27T23:15:42.057813Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "9ea486d63bfb3cc721c544baf05cb0a4fcd53f15",
+                "sha512": "d1e0df9efb35b7f3aa3ea5229141152ebde22251f5a484b1c24533865fe0ed39dc21a987b999f27b3a11a723b5acf76366b7fea99d79cfe666521feeaf8a770e"
+              },
+              "url": "https://cdn.modrinth.com/data/DFqQfIBR/versions/C0vvGTAe/CraftPresence-2.4.3%2B1.8.9.jar",
+              "filename": "CraftPresence-2.4.3+1.8.9.jar",
+              "primary": true,
+              "size": 2331173
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "fabric",
+            "forge"
+          ]
+        }
+      },
+      {
+        "name": "ViaForge",
+        "version": "ViaForge 3.7.0",
+        "optional": true,
+        "file": "viaforge-mc189-3.7.0.jar",
+        "type": "mods",
+        "description": "Client-side ViaVersion implementation for Forge",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 418933,
+        "curseForgeFileId": 5446165,
+        "curseForgeProject": {
+          "id": 418933,
+          "name": "ViaForge",
+          "authors": [
+            {
+              "id": 101557583,
+              "name": "EnZaXD",
+              "url": "https://www.curseforge.com/members/enzaxd"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Client-side ViaVersion implementation for Forge",
+          "categories": [
+            {
+              "name": "Miscellaneous",
+              "slug": "mc-miscellaneous",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-miscellaneous",
+              "dateModified": "2014-06-15T04:27:14.543Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 425,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/40/635351497693711265.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 425,
+          "classId": 6,
+          "slug": "viaforge",
+          "isFeatured": false,
+          "dateModified": "2024-06-20T07:43:58.73Z",
+          "dateCreated": "2020-11-10T16:48:46.697Z",
+          "dateReleased": "2024-06-19T18:15:38.47Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/viaforge",
+            "wikiUrl": ""
+          },
+          "logo": {
+            "id": 870275,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/870/275/256/256/638286662511405087.png",
+            "title": "638286662511405087.png",
+            "url": "https://media.forgecdn.net/avatars/870/275/638286662511405087.png",
+            "modId": 418933
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 5446193
+        },
+        "curseForgeFile": {
+          "id": 5446165,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "ViaForge 3.7.0",
+          "fileName": "viaforge-mc189-3.7.0.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-06-19T18:11:35.153Z",
+          "fileLength": 11324945,
+          "dependencies": [],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3184926228,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 2428496678,
+              "name": "de"
+            },
+            {
+              "fingerprint": 2159131943,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 2186671667,
+              "name": "mcmod.info"
+            },
+            {
+              "fingerprint": 4089481866,
+              "name": "mixins.viaforge-mc189.json"
+            },
+            {
+              "fingerprint": 615754147,
+              "name": "mixins.viaforge-mc189.refmap.json"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "LICENSE_ViaAprilFools"
+            },
+            {
+              "fingerprint": 2963598517,
+              "name": "net"
+            },
+            {
+              "fingerprint": 1121630839,
+              "name": "plugin.yml"
+            },
+            {
+              "fingerprint": 2015250106,
+              "name": "velocity-plugin.json"
+            },
+            {
+              "fingerprint": 752613275,
+              "name": "fabric.mod.json"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "LICENSE"
+            },
+            {
+              "fingerprint": 2980295844,
+              "name": "com"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "LICENSE_ViaLegacy"
+            },
+            {
+              "fingerprint": 2226923820,
+              "name": "LICENSE_ViaLoader"
+            },
+            {
+              "fingerprint": 2218278353,
+              "name": "mcstructs"
+            },
+            {
+              "fingerprint": 4231787116,
+              "name": "org"
+            },
+            {
+              "fingerprint": 3933732671,
+              "name": "LICENSE.txt"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "546d93e3d58d29d86a7aab1f23833aa8d67dc093",
+              "algo": 1
+            },
+            {
+              "value": "feb5e5c81ddecbf1a0dbfeb4e31ca767",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000008.0000000009",
+              "gameVersion": "1.8.9",
+              "gameVersionReleaseDate": "2015-12-09T06:00:00Z",
+              "gameVersionName": "1.8.9"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "Forge",
+            "1.8.9"
+          ],
+          "fileFingerprint": 2579321557,
+          "modId": 418933
+        },
+        "modrinthProject": {
+          "id": "Z6se2s8f",
+          "slug": "viaforge",
+          "project_type": "mod",
+          "team": "asiZ4Uyk",
+          "title": "ViaForge",
+          "description": "Client-side Implementation of the Via* projects for Minecraft Forge",
+          "body": "# ViaForge\nClientside Implementation of ViaVersion for Forge\n\n## Contact\nIf you encounter any issues, please report them on the\n[issue tracker](https://github.com/FlorianMichael/ViaForge/issues).  \nIf you just want to talk or need help with ViaForge feel free to join the ViaVersion\n[Discord](https://discord.gg/viaversion).\n\n## For users\n### Can you add new textures and blocks from higher versions?\nNo, because it is too time-consuming\n\n### ViaVersion throws an error, or I can't access a server, what should I do?\nFirst of all see if it's because of an installed mod, otherwise come to my Discord and tell me logs, mc version etc.\n\n### Certain collisions or other items bug, can you fix it?\nNo\n\n### I want ViaForge in my own utility mod\nJust take a look at my other Project called `ViaMCP`: https://github.com/FlorianMichael/ViaMCP\n\n## Other ViaVersion Mods / Platforms\n- ViaFabric - https://modrinth.com/mod/viafabric \n- ViaFabricPlus - https://github.com/ViaVersion/ViaFabricPlus#readme (Includes additional modifications to make the experience better)\n- ViaProxy (App) - https://github.com/ViaVersion/ViaProxy/#readme\n- ViaaaS (Proxy) - https://github.com/ViaVersion/ViaaaS#readme \n",
+          "published": "2023-04-20T20:29:50.846371Z",
+          "updated": "2024-06-19T18:10:26.082767Z",
+          "status": "approved",
+          "license": {
+            "id": "GPL-3.0-only",
+            "name": "GNU General Public License v3.0 only"
+          },
+          "client_side": "required",
+          "server_side": "unsupported",
+          "categories": [
+            "cursed",
+            "utility"
+          ],
+          "icon_url": "https://cdn.modrinth.com/data/Z6se2s8f/d05fafe556958bca278ee6ec512e40fd965e9239.png",
+          "issues_url": "https://github.com/FlorianMichael/ViaForge/issues",
+          "source_url": "https://github.com/FlorianMichael/ViaForge",
+          "wiki_url": "https://github.com/FlorianMichael/ViaForge",
+          "discord_url": "https://discord.gg/BwWhCHUKDf",
+          "donation_urls": [],
+          "gallery": []
+        },
+        "modrinthVersion": {
+          "id": "YgtfLF5x",
+          "project_id": "Z6se2s8f",
+          "author_id": "rwEkdtka",
+          "name": "ViaForge 3.7.0",
+          "version_number": "3.7.0+1.8.9",
+          "changelog": "- ViaVersion/ViaBackwards 5.0.0 and ViaRewind 4.0.0\n- Added support to join 1.21 servers\n- Cleanup mod metadata files (@HowardZHY)",
+          "date_published": "2024-06-19T18:06:44.308268Z",
+          "version_type": "release",
+          "files": [
+            {
+              "hashes": {
+                "sha1": "546d93e3d58d29d86a7aab1f23833aa8d67dc093",
+                "sha512": "d9ecfa3232b5ed10eae62b6f6b95099c585dbbc7c60feb3ae721e408856e733cc27626ae708a66dbb2d603e4072ac6c3793c5ee9f5c6c2f215e24d7caf335625"
+              },
+              "url": "https://cdn.modrinth.com/data/Z6se2s8f/versions/YgtfLF5x/viaforge-mc189-3.7.0.jar",
+              "filename": "viaforge-mc189-3.7.0.jar",
+              "primary": true,
+              "size": 11324945
+            }
+          ],
+          "dependencies": [],
+          "game_versions": [
+            "1.8.9"
+          ],
+          "loaders": [
+            "forge"
+          ]
+        }
+      }
+    ],
+    "ignoredUpdates": [],
+    "ignoreAllUpdates": false,
+    "vanillaInstance": true,
+    "lastPlayed": 1720382941029,
+    "numPlays": 118
+  },
+  "id": "1.8.9",
+  "complianceLevel": 0,
+  "javaVersion": {
+    "component": "jre-legacy",
+    "majorVersion": 8
+  },
+  "arguments": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--userProperties",
+      "${user_properties}",
+      "--userType",
+      "${user_type}",
+      "--tweakClass",
+      "net.minecraftforge.fml.common.launcher.FMLTweaker"
+    ],
+    "jvm": []
+  },
+  "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
+  "type": "release",
+  "time": "2015-12-03T09:24:39+00:00",
+  "releaseTime": "2015-12-03T09:24:39+00:00",
+  "minimumLauncherVersion": "14",
+  "assetIndex": {
+    "id": "1.8",
+    "sha1": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
+    "size": 78494,
+    "url": "https://launchermeta.mojang.com/v1/packages/f6ad102bcaa53b1a58358f16e376d548d44933ec/1.8.json",
+    "totalSize": 114885064
+  },
+  "assets": "1.8",
+  "downloads": {
+    "client": {
+      "sha1": "3870888a6c3d349d3771a3e9d16c9bf5e076b908",
+      "size": 8461484,
+      "url": "https://launcher.mojang.com/v1/objects/3870888a6c3d349d3771a3e9d16c9bf5e076b908/client.jar"
+    },
+    "server": {
+      "sha1": "b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd",
+      "size": 8320755,
+      "url": "https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar"
+    },
+    "windows_server": {
+      "sha1": "5143618265b8a2d1d28bcadf206b7327738c2670",
+      "size": 8714995,
+      "url": "https://launcher.mojang.com/v1/objects/5143618265b8a2d1d28bcadf206b7327738c2670/windows_server.exe"
+    }
+  },
+  "logging": {
+    "client": {
+      "argument": "-Dlog4j.configurationFile=${path}",
+      "file": {
+        "id": "client-1.7.xml",
+        "sha1": "50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82",
+        "size": 966,
+        "url": "https://launcher.mojang.com/v1/objects/50c9cc4af6d853d9fc137c84bcd153e2bd3a9a82/client-1.7.xml"
+      },
+      "type": "log4j2-xml"
+    }
+  },
+  "libraries": [
+    {
+      "name": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar",
+          "sha1": "beda619c465af293e63952dd573c137c17c0a4cd",
+          "size": 3805686,
+          "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+          "size": 32999,
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.0.3",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+          "sha1": "4333508b8dd8ee72aa4e39afa713b3a74579b773",
+          "size": 241639,
+          "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "2d9530d0a25daffaffda7c35037b046b627bb171"
+      ],
+      "clientreq": false,
+      "serverreq": true,
+      "name": "jline:jline:2.13",
+      "downloads": {
+        "artifact": {
+          "path": "jline/jline/2.13/jline-2.13.jar",
+          "sha1": "2d9530d0a25daffaffda7c35037b046b627bb171",
+          "size": 248566,
+          "url": "https://download.nodecdn.net/containers/atl/maven/jline/jline/2.13/jline-2.13.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+        "25a86ccfdb6f6dfe08971f4825d0a01be83a6f2e"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+      "downloads": {
+        "artifact": {
+          "path": "com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
+          "sha1": "ed62e9fc709ca0f2ff1a3220daa8b70a2870078e",
+          "size": 2514991,
+          "url": "https://download.nodecdn.net/containers/atl/maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+        "7d7bc36df0989d72f2d5d057309675777acc528b"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "com.typesafe:config:1.2.1",
+      "downloads": {
+        "artifact": {
+          "path": "com/typesafe/config/1.2.1/config-1.2.1.jar",
+          "sha1": "f771f71fdae3df231bcd54d5ca2d57f0bf93f467",
+          "size": 219554,
+          "url": "https://download.nodecdn.net/containers/atl/maven/com/typesafe/config/1.2.1/config-1.2.1.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+        "8c9aaeeb68487ca519411a14068e1b4d69739207"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+          "sha1": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+          "size": 58018,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+        "1444992390544ba3780867a13ff696a89d7d1639"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-compiler:2.11.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+          "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+          "size": 13449765,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
+          "sha1": "87213338cd5a153a7712cb574c0ddd2edfee0386",
+          "size": 25364,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
+          "sha1": "1f7371605d4ba42aa26d3443440c0083c587b4e9",
+          "size": 206574,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+        "1e4df76e835201c6eabd43adca89ab11f225f134"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-library:2.11.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+          "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+          "size": 5538130,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+        "a1cbbcbde1dcc614f4253ed1aa0b320bc78d8f1d"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+          "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+          "size": 419701,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+        "91ce0f0be20f4a536321724b4b3bbc6530ddcd88"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-reflect:2.11.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+          "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+          "size": 4372892,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+        "d77152691dcf5bbdb00529af37aa7d3d887b3e63"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+          "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+          "size": 726500,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+        }
+      }
+    },
+    {
+      "checksums": [
+        "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+        "62736b01689d56b6d09a0164b7ef9da2b0b9633d"
+      ],
+      "clientreq": true,
+      "serverreq": true,
+      "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+      "downloads": {
+        "artifact": {
+          "path": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+          "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+          "size": 648679,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+        }
+      }
+    },
+    {
+      "name": "lzma:lzma:0.0.1",
+      "downloads": {
+        "artifact": {
+          "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+          "sha1": "521616dc7487b42bef0e803bd2fa3faf668101d7",
+          "size": 5762,
+          "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:4.6",
+      "downloads": {
+        "artifact": {
+          "path": "net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+          "sha1": "306816fb57cf94f108a43c95731b08934dcae15c",
+          "size": 62477,
+          "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+        }
+      }
+    },
+    {
+      "name": "java3d:vecmath:1.5.2",
+      "downloads": {
+        "artifact": {
+          "path": "java3d/vecmath/1.5.2/vecmath-1.5.2.jar",
+          "sha1": "79846ba34cbd89e2422d74d53752f993dcc2ccaf",
+          "size": 318956,
+          "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.trove4j:trove4j:3.0.3",
+      "downloads": {
+        "artifact": {
+          "path": "net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar",
+          "sha1": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd",
+          "size": 2523218,
+          "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:netty:1.8.8",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/netty/1.8.8/netty-1.8.8.jar",
+          "sha1": "0a796914d1c8a55b4da9f4a8856dd9623375d8bb",
+          "size": 15966,
+          "url": "https://libraries.minecraft.net/com/mojang/netty/1.8.8/netty-1.8.8.jar"
+        }
+      }
+    },
+    {
+      "name": "oshi-project:oshi-core:1.1",
+      "downloads": {
+        "artifact": {
+          "path": "oshi-project/oshi-core/1.1/oshi-core-1.1.jar",
+          "sha1": "9ddf7b048a8d701be231c0f4f95fd986198fd2d8",
+          "size": 30973,
+          "url": "https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:jna:3.4.0",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar",
+          "sha1": "803ff252fedbd395baffd43b37341dc4a150a554",
+          "size": 1008730,
+          "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.dev.jna:platform:3.4.0",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar",
+          "sha1": "e3f70017be8100d3d6923f50b3d2ee17714e9c13",
+          "size": 913436,
+          "url": "https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.ibm.icu:icu4j-core-mojang:51.2",
+      "downloads": {
+        "artifact": {
+          "path": "com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
+          "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
+          "size": 1634692,
+          "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar"
+        }
+      }
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:4.6",
+      "downloads": {
+        "artifact": {
+          "path": "net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar",
+          "sha1": "306816fb57cf94f108a43c95731b08934dcae15c",
+          "size": 62477,
+          "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:codecjorbis:20101023",
+      "downloads": {
+        "artifact": {
+          "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+          "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
+          "size": 103871,
+          "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:codecwav:20101023",
+      "downloads": {
+        "artifact": {
+          "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+          "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+          "size": 5618,
+          "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:libraryjavasound:20101123",
+      "downloads": {
+        "artifact": {
+          "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+          "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+          "size": 21679,
+          "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:librarylwjglopenal:20100824",
+      "downloads": {
+        "artifact": {
+          "path": "com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar",
+          "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+          "size": 18981,
+          "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar"
+        }
+      }
+    },
+    {
+      "name": "com.paulscode:soundsystem:20120107",
+      "downloads": {
+        "artifact": {
+          "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+          "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+          "size": 65020,
+          "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
+        }
+      }
+    },
+    {
+      "name": "io.netty:netty-all:4.0.23.Final",
+      "downloads": {
+        "artifact": {
+          "path": "io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar",
+          "sha1": "0294104aaf1781d6a56a07d561e792c5d0c95f45",
+          "size": 1779991,
+          "url": "https://libraries.minecraft.net/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.guava:guava:17.0",
+      "downloads": {
+        "artifact": {
+          "path": "com/google/guava/guava/17.0/guava-17.0.jar",
+          "sha1": "9c6ef172e8de35fd8d4d8783e4821e57cdef7445",
+          "size": 2243036,
+          "url": "https://libraries.minecraft.net/com/google/guava/guava/17.0/guava-17.0.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-lang3:3.3.2",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
+          "sha1": "90a3822c38ec8c996e84c16a3477ef632cbc87a3",
+          "size": 412739,
+          "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-io:commons-io:2.4",
+      "downloads": {
+        "artifact": {
+          "path": "commons-io/commons-io/2.4/commons-io-2.4.jar",
+          "sha1": "b1b6ea3b7e4aa4f492509a4952029cd8e48019ad",
+          "size": 185140,
+          "url": "https://libraries.minecraft.net/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-codec:commons-codec:1.9",
+      "downloads": {
+        "artifact": {
+          "path": "commons-codec/commons-codec/1.9/commons-codec-1.9.jar",
+          "sha1": "9ce04e34240f674bc72680f8b843b1457383161a",
+          "size": 263965,
+          "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput:2.0.5",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+          "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+          "size": 208338,
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+        }
+      }
+    },
+    {
+      "name": "net.java.jutils:jutils:1.0.0",
+      "downloads": {
+        "artifact": {
+          "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+          "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+          "size": 7508,
+          "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+        }
+      }
+    },
+    {
+      "name": "com.google.code.gson:gson:2.2.4",
+      "downloads": {
+        "artifact": {
+          "path": "com/google/code/gson/gson/2.2.4/gson-2.2.4.jar",
+          "sha1": "a60a5e993c98c864010053cb901b7eab25306568",
+          "size": 190432,
+          "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:authlib:1.5.21",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/authlib/1.5.21/authlib-1.5.21.jar",
+          "sha1": "aefba0d5b53fbcb70860bc8046ab95d5854c07a5",
+          "size": 64412,
+          "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.21/authlib-1.5.21.jar"
+        }
+      }
+    },
+    {
+      "name": "com.mojang:realms:1.7.59",
+      "downloads": {
+        "artifact": {
+          "path": "com/mojang/realms/1.7.59/realms-1.7.59.jar",
+          "sha1": "9c6c59b742d8e038a15f64c1aa273a893a658424",
+          "size": 1198123,
+          "url": "https://libraries.minecraft.net/com/mojang/realms/1.7.59/realms-1.7.59.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.commons:commons-compress:1.8.1",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
+          "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
+          "size": 365552,
+          "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient:4.3.3",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar",
+          "sha1": "18f4247ff4572a074444572cee34647c43e7c9c7",
+          "size": 589512,
+          "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar"
+        }
+      }
+    },
+    {
+      "name": "commons-logging:commons-logging:1.1.3",
+      "downloads": {
+        "artifact": {
+          "path": "commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+          "sha1": "f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f",
+          "size": 62050,
+          "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore:4.3.2",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+          "sha1": "31fbbff1ddbf98f3aa7377c94d33b0447c646b6e",
+          "size": 282269,
+          "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.0-beta9-fixed",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/logging/log4j/log4j-api/2.0-beta9-fixed/log4j-api-2.0-beta9-fixed.jar",
+          "sha1": "b61eaf2e64d8b0277e188262a8b771bbfa1502b3",
+          "size": 107347,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/apache/logging/log4j/log4j-api/2.0-beta9-fixed/log4j-api-2.0-beta9-fixed.jar"
+        }
+      }
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.0-beta9-fixed",
+      "downloads": {
+        "artifact": {
+          "path": "org/apache/logging/log4j/log4j-core/2.0-beta9-fixed/log4j-core-2.0-beta9-fixed.jar",
+          "sha1": "677991ea2d7426f76309a73739cecf609679492c",
+          "size": 677588,
+          "url": "https://download.nodecdn.net/containers/atl/maven/org/apache/logging/log4j/log4j-core/2.0-beta9-fixed/log4j-core-2.0-beta9-fixed.jar"
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar",
+          "sha1": "697517568c68e78ae0b4544145af031c81082dfe",
+          "size": 1047168,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar",
+          "sha1": "d51a7c040a721d13efdfbd34f8b257b2df882ad0",
+          "size": 173887,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar",
+          "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+          "size": 22,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209.jar"
+        },
+        "classifiers": {
+          "natives-linux": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar",
+            "sha1": "931074f46c795d2f7b30ed6395df5715cfd7675b",
+            "size": 578680,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar",
+            "sha1": "bcab850f8f487c3f4c4dbabde778bb82bd1a40ed",
+            "size": 426822,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar",
+            "sha1": "b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0",
+            "size": 613748,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4-nightly-20150209/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar"
+          }
+        }
+      },
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
+          "sha1": "7707204c9ffa5d91662de95f0a224e2f721b22af",
+          "size": 1045632,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822",
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
+          "sha1": "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
+          "size": 173887,
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar"
+        }
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
+            "sha1": "d898a33b5d0a6ef3fed3a4ead506566dce6720a5",
+            "size": 578539,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
+            "sha1": "79f5ce2fea02e77fe47a3c745219167a542121d7",
+            "size": 468116,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
+            "sha1": "78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341",
+            "size": 613680,
+            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar"
+          }
+        }
+      },
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+            "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+            "size": 10362,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+            "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+            "size": 12186,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+            "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+            "size": 155179,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+          }
+        }
+      },
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "tv.twitch:twitch:6.5",
+      "downloads": {
+        "artifact": {
+          "path": "tv/twitch/twitch/6.5/twitch-6.5.jar",
+          "sha1": "320a2dfd18513a5f41b4e75729df684488cbd925",
+          "size": 55977,
+          "url": "https://libraries.minecraft.net/tv/twitch/twitch/6.5/twitch-6.5.jar"
+        }
+      }
+    },
+    {
+      "name": "tv.twitch:twitch-platform:6.5",
+      "downloads": {
+        "classifiers": {
+          "natives-osx": {
+            "path": "tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-osx.jar",
+            "sha1": "5f9d1ee26257b3a33f0ca06fed335ef462af659f",
+            "size": 455359,
+            "url": "https://libraries.minecraft.net/tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-osx.jar"
+          },
+          "natives-windows-32": {
+            "path": "tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-32.jar",
+            "sha1": "206c4ccaecdbcfd2a1631150c69a97bbc9c20c11",
+            "size": 474225,
+            "url": "https://libraries.minecraft.net/tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-32.jar"
+          },
+          "natives-windows-64": {
+            "path": "tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-64.jar",
+            "sha1": "9fdd0fd5aed0817063dcf95b69349a171f447ebd",
+            "size": 580098,
+            "url": "https://libraries.minecraft.net/tv/twitch/twitch-platform/6.5/twitch-platform-6.5-natives-windows-64.jar"
+          }
+        }
+      },
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows-${arch}"
+      },
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "linux"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    },
+    {
+      "name": "tv.twitch:twitch-external-platform:4.5",
+      "downloads": {
+        "classifiers": {
+          "natives-windows-32": {
+            "path": "tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-32.jar",
+            "sha1": "18215140f010c05b9f86ef6f0f8871954d2ccebf",
+            "size": 5654047,
+            "url": "https://libraries.minecraft.net/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-32.jar"
+          },
+          "natives-windows-64": {
+            "path": "tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-64.jar",
+            "sha1": "c3cde57891b935d41b6680a9c5e1502eeab76d86",
+            "size": 7457619,
+            "url": "https://libraries.minecraft.net/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-64.jar"
+          }
+        }
+      },
+      "natives": {
+        "windows": "natives-windows-${arch}"
+      },
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "windows"
+          }
+        }
+      ],
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      }
+    }
+  ],
+  "mainClass": "net.minecraft.launchwrapper.Launch"
+}

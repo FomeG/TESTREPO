@@ -1,0 +1,216 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 47,
+  "generalSettings": {
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "450485984333660181",
+    "defaultIcon": "feedback_grass",
+    "enableJoinRequests": true,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.address.short}"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "altGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
+    "languageId": "en_US",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "renderTooltips": true,
+    "configKeyCode": 41
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "default": "https://via.placeholder.com/256.png",
+      "minemoi.com": "https://api.mcsrvstat.us/icon/minemoi.com",
+      "Ngoc_Cutee": "https://mc-heads.net/avatar/cf49c072f5b043fbb3e79458855a2652",
+      "play.hpknetwork.xyz": "https://api.mcsrvstat.us/icon/play.hpknetwork.xyz",
+      "hypixel.net": "https://api.mcsrvstat.us/icon/hypixel.net",
+      "NghiaPhoMe": "https://mc-heads.net/avatar/073895e3f7dc4bcb8ff12989b76ee788",
+      "heromc.net": "https://api.mcsrvstat.us/icon/heromc.net",
+      "mcplayhd.net": "https://api.mcsrvstat.us/icon/mcplayhd.net",
+      "mrbee": "https://mc-heads.net/avatar/c7dc4b8d95193e73a1a3d3bac1525c78",
+      "n1-vn.katari.dev": "https://api.mcsrvstat.us/icon/n1-vn.katari.dev",
+      "Choi4310": "https://mc-heads.net/avatar/64be134637834802b9f8f2f033846b4d",
+      "Keeper01": "https://mc-heads.net/avatar/613df7f55400310cb73c48123007903b",
+      "bridger.land": "https://api.mcsrvstat.us/icon/bridger.land",
+      "3fmc.com": "https://api.mcsrvstat.us/icon/3fmc.com",
+      "Keeper": "https://mc-heads.net/avatar/0f39b33c3af931468064651b3fe1adf1",
+      "as.minemen.club": "https://api.mcsrvstat.us/icon/as.minemen.club",
+      "na.minemen.club": "https://api.mcsrvstat.us/icon/na.minemen.club",
+      "eu.minemen.club": "https://api.mcsrvstat.us/icon/eu.minemen.club",
+      "twerion.net": "https://api.mcsrvstat.us/icon/twerion.net",
+      "gamster.org": "https://api.mcsrvstat.us/icon/gamster.org",
+      "okem123": "https://mc-heads.net/avatar/f3fc198e06103519a431d26eb2547a59",
+      "huyancut": "https://mc-heads.net/avatar/d66f5b9c722233cab696dc276b129463",
+      "huyancit22": "https://mc-heads.net/avatar/41309ccec75633f295182c038f4274e3",
+      "FomeG": "https://mc-heads.net/avatar/a4f663938864356ca2c3b4913b56c44b"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

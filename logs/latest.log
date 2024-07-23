@@ -1,0 +1,1206 @@
+[03:09:02] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:09:02] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:09:02] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:09:02] [main/INFO]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[03:09:02] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\aaa\AppData\Roaming\ATLauncher\runtimes\minecraft\jre-legacy\windows-x64\jre-legacy
+[03:09:02] [main/INFO]: Loading tweaker fr.dams4k.cpstweaker.CPSSetupTweaker from cpsdisplay-mc1.8.9-2.2.2.jar
+[03:09:02] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.8.9_HD_U_M5.jar
+[03:09:02] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from viaforge-mc189-3.7.0.jar
+[03:09:02] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:09:02] [main/INFO]: Loading tweak class name fr.dams4k.cpstweaker.CPSSetupTweaker
+[03:09:03] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[03:09:03] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[03:09:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.10 Source=file:/C:/Users/aaa/AppData/Roaming/ATLauncher/instances/Minecraft189withForge/mods/viaforge-mc189-3.7.0.jar Service=LaunchWrapper Env=CLIENT
+[03:09:03] [main/DEBUG]: Instantiating coremod class MixinLoader
+[03:09:03] [main/WARN]: The coremod de.florianmichael.viaforge.mixin.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[03:09:03] [main/INFO]: Compatibility level set to JAVA_8
+[03:09:03] [main/DEBUG]: Enqueued coremod MixinLoader
+[03:09:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:09:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:09:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:09:03] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[03:09:03] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[03:09:03] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[03:09:03] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[03:09:03] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\OptiFine_1.8.9_HD_U_M5.jar
+[03:09:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:09:03] [main/DEBUG]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[03:09:03] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[03:09:03] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[03:09:03] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[03:09:03] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[03:09:03] [main/DEBUG]: Injection complete
+[03:09:03] [main/DEBUG]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[03:09:03] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[03:09:04] [main/DEBUG]: Read 825 binary patches
+[03:09:04] [main/DEBUG]: Loading deobfuscation resource /deobfuscation_data-1.8.9.lzma with 27891 records
+[03:09:05] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[03:09:05] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[03:09:05] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[03:09:05] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:09:05] [main/DEBUG]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[03:09:05] [main/DEBUG]: Injection complete
+[03:09:05] [main/DEBUG]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[03:09:05] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[03:09:05] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[03:09:05] [main/INFO]: Calling tweak class fr.dams4k.cpstweaker.CPSSetupTweaker
+[03:09:05] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[03:09:05] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3003697
+[03:09:05] [main/DEBUG]: Injecting coremod MixinLoader {de.florianmichael.viaforge.mixin.MixinLoader} class transformers
+[03:09:05] [main/DEBUG]: Injection complete
+[03:09:05] [main/DEBUG]: Running coremod plugin for MixinLoader {de.florianmichael.viaforge.mixin.MixinLoader}
+[03:09:05] [main/DEBUG]: Running coremod plugin MixinLoader
+[03:09:05] [main/DEBUG]: Coremod plugin class MixinLoader run successfully
+[03:09:05] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:09:05] [main/DEBUG]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[03:09:05] [main/DEBUG]: Loaded 3 rules from AccessTransformer mod jar file C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\CraftPresence-2.4.3+1.8.9.jar!META-INF/accesstransformer.cfg
+
+[03:09:05] [main/DEBUG]: Loaded 3 rules from AccessTransformer mod jar file C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\InGameAccountSwitcher-Forge-1.8-8.0.1.jar!META-INF/ias_at.cfg
+
+[03:09:05] [main/DEBUG]: Validating minecraft
+[03:09:05] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:09:05] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[03:09:05] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:09:05] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[03:09:05] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[03:09:06] [main/WARN]: Error loading class: club/sk1er/patcher/util/status/ProtocolVersionDetector (java.lang.ClassNotFoundException: The specified class 'club.sk1er.patcher.util.status.ProtocolVersionDetector' was not found)
+[03:09:06] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[03:09:06] [main/INFO]: Mixing MixinGuiMainMenu from mixins.viaforge-mc189.json into net.minecraft.client.gui.GuiMainMenu
+[03:09:06] [main/INFO]: Mixing fixes.MixinEntityPlayerSP from mixins.viaforge-mc189.json into net.minecraft.client.entity.EntityPlayerSP
+[03:09:07] [Client thread/INFO]: Setting user: Ngoc_Cutee
+[03:09:10] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[03:09:10] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[03:09:10] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:09:11] [Client thread/INFO]: [OptiFine] 
+[03:09:11] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_M5
+[03:09:11] [Client thread/INFO]: [OptiFine] Build: 20210124-163719
+[03:09:11] [Client thread/INFO]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[03:09:11] [Client thread/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[03:09:11] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[03:09:11] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[03:09:11] [Client thread/INFO]: [OptiFine] OpenGL: Intel(R) UHD Graphics, version 4.6.0 - Build 26.20.100.7372, Intel
+[03:09:11] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[03:09:11] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[03:09:11] [Client thread/INFO]: [OptiFine] Maximum texture size: 8192x8192
+[03:09:11] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[03:09:11] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 - Build 26.20.100.7372
+[03:09:11] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[03:09:11] [Client thread/INFO]: [Shaders] Renderer: Intel(R) UHD Graphics
+[03:09:11] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[03:09:11] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[03:09:11] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[03:09:11] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[03:09:11] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[03:09:11] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[03:09:11] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[03:09:11] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[03:09:11] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[03:09:11] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[03:09:11] [Client thread/WARN]: =============================================================
+[03:09:11] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[03:09:11] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[03:09:11] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[03:09:11] [Client thread/WARN]: =============================================================
+[03:09:11] [VersionCheck/INFO]: [OptiFine] Version found: M5
+[03:09:12] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.8.9_HD_U_M5, enabling compatibility features
+[03:09:12] [Client thread/INFO]: Mixing connect.MixinNetworkManager from mixins.viaforge-mc189.json into net.minecraft.network.NetworkManager
+[03:09:12] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MixinLoader (viaforge-mc189-3.7.0.jar)
+Contact their authors BEFORE contacting forge
+
+// Don't be sad, have a hug! <3
+
+Time: 7/8/24 3:09 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1328402536 bytes (1266 MB) / 1610612736 bytes (1536 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (viaforge-mc189-3.7.0.jar)
+  
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7372' Renderer: 'Intel(R) UHD Graphics'
+[03:09:12] [Client thread/INFO]: MinecraftForge v11.15.1.2318 Initialized
+[03:09:12] [Client thread/INFO]: Replaced 229 ore recipies
+[03:09:12] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[03:09:12] [Client thread/INFO]: Searching C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods for mods
+[03:09:14] [Client thread/WARN]: Mod cpstracker is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0
+[03:09:14] [Client thread/WARN]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.8.9-1.10.3
+[03:09:14] [Client thread/INFO]: Attempting to reparse the mod container FpsReducer-mc1.8.9-1.10.3.jar
+[03:09:14] [Client thread/WARN]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.8.9-1.10.3
+[03:09:14] [Client thread/INFO]: Forge Mod Loader has identified 10 mods to load
+[03:09:15] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at CLIENT
+[03:09:15] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:16] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:16] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:16] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:16] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:16] [CraftPresence/INFO]: Starting version check for "craftpresence" (MC 1.8.9) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json"
+[03:09:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CPSDisplay, FMLFileResourcePack:CPS Tracker, FMLFileResourcePack:CraftPresence, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:In-Game Account Switcher, FMLFileResourcePack:MPK Mod, FMLFileResourcePack:OldInput, !   §aamethyst §8[§a16§7x§8].zip
+[03:09:16] [Client thread/INFO]: Processing ObjectHolder annotations
+[03:09:16] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[03:09:16] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[03:09:16] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[03:09:16] [CraftPresence/ERROR]: Failed to check for updates, enable verbose mode to see errors...
+[03:09:16] [CraftPresence/INFO]: Configuration settings have been saved and reloaded successfully!
+[03:09:16] [CraftPresence/INFO]: Checking for "curse" pack data...
+[03:09:16] [CraftPresence/ERROR]: Unable to get "curse" pack data (ignore if not using a "curse" pack)
+[03:09:16] [CraftPresence/INFO]: Checking for "mcupdater" pack data...
+[03:09:16] [CraftPresence/ERROR]: java.lang.NullPointerException
+	at com.gitlab.cdagaming.craftpresence.core.integrations.pack.mcupdater.MCUpdaterUtils.load(MCUpdaterUtils.java:62)
+	at forge.com.gitlab.cdagaming.craftpresence.utils.CommandUtils.init(CommandUtils.java:445)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence.init(CraftPresence.java:168)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence.clientTick(CraftPresence.java:218)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence.lambda$scheduleTick$2(CraftPresence.java:189)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence$$Lambda$19/2068732290.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[03:09:16] [CraftPresence/ERROR]: Unable to get "mcupdater" pack data (ignore if not using a "mcupdater" pack)
+[03:09:16] [CraftPresence/INFO]: Checking for "modrinth" pack data...
+[03:09:16] [CraftPresence/ERROR]: Unable to get "modrinth" pack data (ignore if not using a "modrinth" pack)
+[03:09:16] [CraftPresence/INFO]: Checking for "multimc" pack data...
+[03:09:16] [CraftPresence/ERROR]: Unable to get "multimc" pack data (ignore if not using a "multimc" pack)
+[03:09:16] [CraftPresence/INFO]: Checking for "technic" pack data...
+[03:09:16] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[03:09:16] [CraftPresence/ERROR]: Unable to get "technic" pack data (ignore if not using a "technic" pack)
+[03:09:16] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:09:16] [CraftPresence/INFO]: Checking Discord for available assets with Client Id: 450485984333660181
+[03:09:16] [CraftPresence/INFO]: Originally coded by paulhobbel - https://github.com/paulhobbel
+[03:09:16] [Client thread/INFO]: Applying holder lookups
+[03:09:16] [Client thread/INFO]: Holder lookups applied
+[03:09:16] [Client thread/INFO]: Injecting itemstacks
+[03:09:16] [Client thread/INFO]: Itemstack injection complete
+[03:09:16] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[03:09:16] [Client thread/INFO]: [OptiFine] Resource packs: !   §aamethyst §8[§a16§7x§8].zip
+[03:09:17] [CraftPresence/INFO]: 165 total assets detected!
+[03:09:17] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:09:17] [Forge Version Check/INFO]: [craftpresence] Starting version check at https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json
+[03:09:17] [Forge Version Check/INFO]: [ias] Starting version check at https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher/raw/main/updater-forge.json
+[03:09:17] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[03:09:17] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:09:18] [CraftPresence/INFO]: Attempting to connect to Discord (1/10)...
+[03:09:18] [Forge Version Check/INFO]: [mpkmod] Starting version check at https://raw.githubusercontent.com/kurrycat2004/MpkMod/main/update.json
+[03:09:18] [CraftPresence/INFO]: Attempting to connect to Discord (2/10)...
+[03:09:18] [Thread-9/INFO]: OpenAL initialized.
+[03:09:18] [Sound Library Loader/INFO]: Sound engine started
+[03:09:19] [CraftPresence/INFO]: Attempting to connect to Discord (3/10)...
+[03:09:19] [Client thread/INFO]: Mixing MixinServerData from mixins.viaforge-mc189.json into net.minecraft.client.multiplayer.ServerData
+[03:09:20] [CraftPresence/INFO]: Attempting to connect to Discord (4/10)...
+[03:09:20] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[03:09:20] [Client thread/INFO]: [OptiFine] Multitexture: false
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass black/glass_black.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass blue/glass_blue.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass brown/glass_brown.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass cyan/glass_cyan.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass gray/glass_gray.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass green/glass_green.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light blue/glass_light_blue.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light gray/glass_silver.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass lime/glass_lime.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass magenta/glass_magenta.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass orange/glass_orange.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass pink/glass_pink.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass purple/glass_purple.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass red/glass_red.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass white/glass_white.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass yellow/glass_yellow.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Black Glass/glass_black.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Blue Glass/glass_blue.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Brown Glass/glass_brown.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Cyan Glass/glass_cyan.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Green Glass/glass_green.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Grey Glass/glass_gray.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Light Blue Glass/glass_light_blue.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Light Grey Glass/glass_silver.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Lime Glass/glass_lime.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Magenta Glass/glass_magenta.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Normal/glass.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Orange Glass/glass_orange.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Pink Glass/glass_pink.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Purple Glass/glass_purple.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Red Glass/glass_red.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/White Glass/glass_white.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Yellow Glass/glass_yellow.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_clear/glass.properties
+[03:09:20] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[03:09:20] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[03:09:20] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[03:09:20] [Client thread/INFO]: Created: 16x16 textures-atlas
+[03:09:20] [Client thread/INFO]: [OptiFine] Animated sprites: 0
+[03:09:22] [Client thread/INFO]: MPK Mod loaded
+[03:09:22] [RPC-Init-Handler/INFO]: Trying to init DiscordRPC...
+[03:09:22] [Client thread/INFO]: Injecting itemstacks
+[03:09:22] [Client thread/INFO]: Itemstack injection complete
+[03:09:22] [RPC-Init-Handler/INFO]: DiscordRPC lib loaded!
+[03:09:22] [Client thread/INFO]: Forge Mod Loader has successfully loaded 10 mods
+[03:09:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CPSDisplay, FMLFileResourcePack:CPS Tracker, FMLFileResourcePack:CraftPresence, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:In-Game Account Switcher, FMLFileResourcePack:MPK Mod, FMLFileResourcePack:OldInput, !   §aamethyst §8[§a16§7x§8].zip
+[03:09:22] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[03:09:22] [Client thread/INFO]: [OptiFine] Resource packs: !   §aamethyst §8[§a16§7x§8].zip
+[03:09:22] [Client thread/INFO]: SoundSystem shutting down...
+[03:09:22] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:09:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:09:22] [CraftPresence/INFO]: Attempting to connect to Discord (5/10)...
+[03:09:23] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[03:09:23] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:09:23] [Thread-11/INFO]: OpenAL initialized.
+[03:09:23] [Sound Library Loader/INFO]: Sound engine started
+[03:09:25] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[03:09:25] [Client thread/INFO]: [OptiFine] Multitexture: false
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass black/glass_black.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass blue/glass_blue.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass brown/glass_brown.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass cyan/glass_cyan.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass gray/glass_gray.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass green/glass_green.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light blue/glass_light_blue.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass light gray/glass_silver.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass lime/glass_lime.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass magenta/glass_magenta.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass orange/glass_orange.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass pink/glass_pink.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass purple/glass_purple.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass red/glass_red.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass white/glass_white.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass yellow/glass_yellow.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Black Glass/glass_black.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Blue Glass/glass_blue.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Brown Glass/glass_brown.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Cyan Glass/glass_cyan.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Green Glass/glass_green.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Grey Glass/glass_gray.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Light Blue Glass/glass_light_blue.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Light Grey Glass/glass_silver.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Lime Glass/glass_lime.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Magenta Glass/glass_magenta.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Normal/glass.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Orange Glass/glass_orange.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Pink Glass/glass_pink.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Purple Glass/glass_purple.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Red Glass/glass_red.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/White Glass/glass_white.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/Yellow Glass/glass_yellow.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass/glass.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/glass_clear/glass.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[03:09:25] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[03:09:25] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[03:09:25] [Client thread/INFO]: [OptiFine] Custom loader sprites: 1
+[03:09:25] [Client thread/INFO]: [OptiFine] Custom loader sprites (skipped): 1
+[03:09:26] [Client thread/INFO]: Created: 4096x2048 textures-atlas
+[03:09:26] [Client thread/INFO]: [OptiFine] Animated sprites: 16
+[03:09:26] [Client thread/INFO]: Mixing MixinGuiOverlayDebug from mixins.viaforge-mc189.json into net.minecraft.client.gui.GuiOverlayDebug
+[03:09:26] [Client thread/INFO]: Mixing MixinGuiMultiplayer from mixins.viaforge-mc189.json into net.minecraft.client.gui.GuiMultiplayer
+[03:09:26] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:09:26] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:09:26] [pool-2-thread-5/INFO]: Loading: net.java.games.input.DirectAndRawInputEnvironmentPlugin
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:26] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:27] [pool-2-thread-5/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[03:09:29] [CraftPresence/INFO]: Attempting to connect to Discord (6/10)...
+[03:09:35] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[03:09:36] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/water.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampgrass.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/swampfoliage.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/sky0.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/xporb.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: drop.water = ffffff
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: lilypad = 577119
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: text.xpbar = beffe1
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomColors: text.boss = beffe1
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[03:09:36] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky3.properties
+[03:09:37] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[03:09:40] [IAS Executor/INFO]: Using shared SSL context. (behavior: default; custom + default certificates)
+[03:09:40] [IAS Executor/WARN]: Unable to load skin for: 1a519719-5a63-3a79-b789-c4432590c4ff
+java.lang.NullPointerException
+	at ru.vidtu.ias.legacy.SkinLoader.lambda$loadSkin$2(SkinLoader.java:54) [SkinLoader.class:?]
+	at ru.vidtu.ias.legacy.SkinLoader$$Lambda$3826/1782756732.run(Unknown Source) [SkinLoader.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[03:09:42] [IAS Executor/WARN]: Unable to load skin for: 49ee5701-ceb7-32d3-9c1b-95ecae64445c
+java.lang.NullPointerException
+	at ru.vidtu.ias.legacy.SkinLoader.lambda$loadSkin$2(SkinLoader.java:54) [SkinLoader.class:?]
+	at ru.vidtu.ias.legacy.SkinLoader$$Lambda$3826/1782756732.run(Unknown Source) [SkinLoader.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[03:09:43] [Client thread/INFO]: Mixing MixinGuiScreenServerList from mixins.viaforge-mc189.json into net.minecraft.client.gui.GuiScreenServerList
+[03:09:43] [Client thread/INFO]: Mixing MixinGuiScreenAddServer from mixins.viaforge-mc189.json into net.minecraft.client.gui.GuiScreenAddServer
+[03:09:43] [Client thread/INFO]: Mixing connect.MixinServerPinger from mixins.viaforge-mc189.json into net.minecraft.client.network.OldServerPinger
+[03:09:43] [IAS Executor/WARN]: Unable to load skin for: dcb3ba6d-6206-3b4e-956f-a7d545aa3b36
+java.lang.NullPointerException
+	at ru.vidtu.ias.legacy.SkinLoader.lambda$loadSkin$2(SkinLoader.java:54) [SkinLoader.class:?]
+	at ru.vidtu.ias.legacy.SkinLoader$$Lambda$3826/1782756732.run(Unknown Source) [SkinLoader.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[03:09:43] [Server Pinger #0/INFO]: Mixing connect.MixinNetworkManager_5 from mixins.viaforge-mc189.json into net.minecraft.network.NetworkManager$5
+[03:09:43] [IAS Executor/WARN]: Unable to load skin for: 3412c321-c8df-3a4c-94f6-bd7882fc8595
+java.lang.NullPointerException
+	at ru.vidtu.ias.legacy.SkinLoader.lambda$loadSkin$2(SkinLoader.java:54) [SkinLoader.class:?]
+	at ru.vidtu.ias.legacy.SkinLoader$$Lambda$3826/1782756732.run(Unknown Source) [SkinLoader.class:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+[03:09:44] [Netty Client IO #4/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:44] [Netty Client IO #7/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:44] [Netty Client IO #1/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:44] [Netty Client IO #2/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:44] [Netty Client IO #6/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:09:45] [CraftPresence/INFO]: Attempting to connect to Discord (7/10)...
+[03:09:46] [Client thread/INFO]: Connecting to play.3fmc.com., 25565
+[03:09:46] [Client thread/INFO]: Mixing connect.MixinGuiConnecting_1 from mixins.viaforge-mc189.json into net.minecraft.client.multiplayer.GuiConnecting$1
+[03:09:46] [Server Connector #1/INFO]: Mixing connect.MixinNetHandlerLoginClient from mixins.viaforge-mc189.json into net.minecraft.client.network.NetHandlerLoginClient
+[03:09:48] [Netty Client IO #8/INFO]: Unexpected packet during modded negotiation - assuming vanilla or keepalives : net.minecraft.network.play.server.S47PacketPlayerListHeaderFooter
+[03:09:48] [Netty Client IO #8/INFO]: Aborting client handshake "VANILLA"
+[03:09:48] [Netty Client IO #8/INFO]: [Netty Client IO #8] Client side vanilla connection established
+[03:09:49] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:09:50] [Client thread/INFO]: [CHAT] ? Hãy ??ng nh?p b?ng l?nh /login <m?t kh?u>
+[03:09:51] [Client thread/INFO]: [CHAT] ? ??ng nh?p thành công!
+[03:09:52] [Client thread/INFO]: [CHAT] Vui lòng thêm email vào tài kho?n c?a b?n b?ng l?nh /email add <email> <nh?p l?i email>
+[03:09:53] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:09:55] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:09:56] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:09:56] [Client thread/INFO]: [CHAT] 
+[03:09:56] [Client thread/INFO]: [CHAT]                 MAKE 3F GREAT AGAIN
+[03:09:56] [Client thread/INFO]: [CHAT]     Facebook https://fb.com/groups/LeagueOf3F
+[03:09:56] [Client thread/INFO]: [CHAT]     Discord https://discord.gg/Zehw9wP
+[03:09:56] [Client thread/INFO]: [CHAT]            
+[03:09:56] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:09:57] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:09:59] [Client thread/INFO]: [CHAT] 
+Phòng ch?i B604 Glacier Solo ?ang c?n thêm ng??i (4/8)
+[CLICK ?? THAM GIA]
+
+[03:10:02] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:10:04] [CraftPresence/INFO]: Attempting to connect to Discord (8/10)...
+[03:10:05] [Client thread/INFO]: [CHAT] FomeG ?ã vào tr?n ??u (5/8)!
+[03:10:05] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:10:33] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:10:38] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:10:41] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:10:42] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã g?i thêm ng??i ch?i.
+[03:10:52] [CraftPresence/INFO]: Attempting to connect to Discord (9/10)...
+[03:10:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.join
+[03:10:57] [Client thread/INFO]: [CHAT] ST_Kirito ?ã vào tr?n ??u (6/8)!
+[03:10:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [g.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1014) [ave.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349) [ave.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147237_a(NetHandlerPlayClient.java:484) ~[bcy.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:75) ~[fp.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:16) ~[fp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[fh$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[g.class:?]
+	... 9 more
+[03:10:57] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 10 giây!
+[03:10:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.join
+[03:10:59] [Client thread/INFO]: [CHAT] daccaukhoinguyen ?ã vào tr?n ??u (7/8)!
+[03:11:02] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 5 giây!
+[03:11:03] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 4 giây!
+[03:11:04] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 3 giây!
+[03:11:05] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 2 giây!
+[03:11:06] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 1 giây!
+[03:11:07] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:11:07] [Client thread/INFO]: [CHAT]                                    BedWars
+[03:11:07] [Client thread/INFO]: [CHAT] 
+[03:11:07] [Client thread/INFO]: [CHAT]      B?o v? gi??ng c?a b?n và phá gi??ng c?a
+[03:11:07] [Client thread/INFO]: [CHAT]      ??i th?. Nâng c?p v? khí và trang b? b?ng
+[03:11:07] [Client thread/INFO]: [CHAT]      cách thu th?p các tài nguyên.
+[03:11:07] [Client thread/INFO]: [CHAT] 
+[03:11:07] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:11:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.start
+[03:11:27] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:11:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:28] [Client thread/INFO]: [CHAT] B?n ?ã mua Wood
+[03:11:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:28] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:28] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:28] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:28] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:28] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:28] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:29] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Iron n?a!
+[03:11:30] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:11:46] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:11:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:11:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:11:47] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:11:47] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:11:47] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:11:47] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:11:47] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:11:48] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:11:52] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:11:52] [CraftPresence/INFO]: Attempting to connect to Discord (10/10)...
+[03:12:02] [Client thread/INFO]: [CHAT] cheat ?ã b? gi?t b?i ndlongan_2k11.
+[03:12:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:12:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.kill
+[03:12:17] [Client thread/INFO]: [CHAT] ThuanMax ?ã b? ??y xu?ng void b?i FomeG.
+[03:12:17] [Client thread/INFO]: [CHAT] +2 Iron
+[03:12:18] [Client thread/INFO]: [CHAT] FomeG ?ã b? ??y xu?ng void b?i ThuanMax.
+[03:12:18] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:12:19] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:12:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:12:19] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:12:20] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:12:21] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:12:22] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:12:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:12:26] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:12:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:12:26] [Client thread/INFO]: [CHAT]  
+[03:12:26] [Client thread/INFO]: [CHAT] BED > Aqua Bed ?ã b? phá b?i sang2k11!
+[03:12:26] [Client thread/INFO]: [CHAT]  
+[03:12:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Stone Sword
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:12:27] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:12:29] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:12:33] [Client thread/INFO]: [CHAT] ST_Kirito ?ã b? ??y b?i sang2k11. FINAL KILL!
+[03:12:33] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã b? ??y xu?ng void b?i cheat.
+[03:12:33] [Client thread/INFO]: [CHAT]  
+[03:12:33] [Client thread/INFO]: [CHAT] ELIMINATION > Aqua Team ?ã b? lo?i kh?i tr?n ??u!
+[03:12:33] [Client thread/INFO]: [CHAT]  
+[03:12:34] [Client thread/INFO]: [CHAT] cheat ?ã b? ??y xu?ng void b?i ndlongan_2k11.
+[03:12:52] [CraftPresence/ERROR]: Unable to connect to Discord...
+[03:13:04] [Client thread/INFO]: [CHAT] +10 ?i?m kinh nghi?m (Phá Gi??ng).
+[03:13:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:13:04] [Client thread/INFO]: [CHAT]  
+[03:13:04] [Client thread/INFO]: [CHAT] BED > Red Bed ?ã b? phá b?i FomeG!
+[03:13:04] [Client thread/INFO]: [CHAT]  
+[03:13:05] [Client thread/INFO]: [CHAT] cheat ?ã r?i xu?ng void.
+[03:13:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:13:07] [Client thread/INFO]: [CHAT] FomeG ?ã b? gi?t b?i ThuanMax.
+[03:13:07] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:13:09] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:13:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:13:09] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:13:10] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:13:11] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:13:12] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:13:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:13:18] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:13:20] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:13:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:21] [Client thread/INFO]: [CHAT] B?n ?ã mua Stone Sword
+[03:13:22] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:13:26] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:13:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Permanent Iron Armor
+[03:13:28] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:13:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:13:29] [Client thread/INFO]: [CHAT]  
+[03:13:29] [Client thread/INFO]: [CHAT] BED > Gray Bed ?ã b? phá b?i ndlongan_2k11!
+[03:13:29] [Client thread/INFO]: [CHAT]  
+[03:13:31] [Client thread/INFO]: [CHAT] cheat ?ã thoát tr?n khi ?ang chi?n ??u v?i ndlongan_2k11. FINAL KILL!
+[03:13:31] [Client thread/INFO]: [CHAT] cheat ?ã thoát tr?n ??u!
+[03:13:40] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:13:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:13:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:13:51] [Client thread/INFO]: [CHAT] B?n ch? có th? phá block ???c ??t b?i ng??i ch?i!
+[03:13:51] [Client thread/INFO]: [CHAT] B?n ch? có th? phá block ???c ??t b?i ng??i ch?i!
+[03:13:52] [Client thread/INFO]: [CHAT] B?n không th? ??t block ? ?ây!
+[03:13:52] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:14:02] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã r?i xu?ng void.
+[03:14:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:14:16] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã b? gi?t b?i sang2k11.
+[03:14:19] [Client thread/INFO]: [CHAT] +10 ?i?m kinh nghi?m (Final Kill).
+[03:14:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.finalkill
+[03:14:19] [Client thread/INFO]: [CHAT] ThuanMax ?ã b? gi?t b?i FomeG. FINAL KILL!
+[03:14:19] [Client thread/INFO]: [CHAT]  
+[03:14:19] [Client thread/INFO]: [CHAT] ELIMINATION > Red Team ?ã b? lo?i kh?i tr?n ??u!
+[03:14:19] [Client thread/INFO]: [CHAT]  
+[03:14:29] [Client thread/INFO]: [CHAT] sang2k11 ?ã b? ??y xu?ng void b?i ndlongan_2k11.
+[03:14:29] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:14:39] [Client thread/INFO]: [CHAT] sang2k11 ?ã thoát tr?n ??u!
+[03:14:54] [Client thread/INFO]: [CHAT] sang2k11 ?ã vào l?i tr?n ??u!
+[03:14:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:14:58] [Client thread/INFO]: [CHAT]  
+[03:14:58] [Client thread/INFO]: [CHAT] BED > White Bed ?ã b? phá b?i ndlongan_2k11!
+[03:14:58] [Client thread/INFO]: [CHAT]  
+[03:15:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:15:09] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:15:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:11] [Client thread/INFO]: [CHAT] B?n ?ã mua Iron Sword
+[03:15:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:12] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:15:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:12] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:15:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:12] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:15:13] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:15:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.upgrade
+[03:15:14] [Client thread/INFO]: [CHAT] FomeG ?ã mua Sharpened Swords
+[03:15:16] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:15:18] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã b? ??y xu?ng void b?i sang2k11.
+[03:15:19] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:15:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:24] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:15:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:24] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:15:25] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 5 Iron n?a!
+[03:15:25] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 5 Iron n?a!
+[03:15:25] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 5 Iron n?a!
+[03:15:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:25] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:25] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:25] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:15:26] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:15:29] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:15:35] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:15:38] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:15:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:15:38] [Client thread/INFO]: [CHAT] B?n ?ã mua Permanent Shears
+[03:15:40] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:15:43] [Client thread/INFO]: [CHAT] sang2k11 ?ã b? gi?t b?i ndlongan_2k11. FINAL KILL!
+[03:15:43] [Client thread/INFO]: [CHAT]  
+[03:15:43] [Client thread/INFO]: [CHAT] ELIMINATION > White Team ?ã b? lo?i kh?i tr?n ??u!
+[03:15:43] [Client thread/INFO]: [CHAT]  
+[03:16:04] [Client thread/INFO]: [CHAT] FomeG ?ã b? ??y xu?ng void b?i daccaukhoinguyen.
+[03:16:05] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:16:06] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:16:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:16:06] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:16:07] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:16:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:16:08] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:16:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.kill
+[03:16:09] [Client thread/INFO]: [CHAT] daccaukhoinguyen ?ã b? ??y xu?ng void b?i FomeG.
+[03:16:09] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:16:10] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:16:13] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:15] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:16:15] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 32 Iron n?a!
+[03:16:15] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 32 Iron n?a!
+[03:16:15] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 32 Iron n?a!
+[03:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:15] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:15] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:16:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:15] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:16:16] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:16] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:16:16] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Gold n?a!
+[03:16:16] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Gold n?a!
+[03:16:17] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:16:38] [Client thread/INFO]: [CHAT] FomeG ?ã r?i xu?ng void.
+[03:16:39] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:16:40] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:16:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:16:40] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:16:41] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:16:42] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:16:43] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:16:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:16:46] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Stone Sword
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:16:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:16:47] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:16:49] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:16:52] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:17:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.event.diamond2
+[03:17:06] [Client thread/INFO]: [CHAT] Diamond Generators ?ã ???c nâng lên C?p II
+[03:17:07] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:17:13] [Client thread/INFO]: [CHAT] FomeG ?ã b? gi?t b?i daccaukhoinguyen.
+[03:17:13] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:17:14] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:17:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:17:15] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:17:16] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:17:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:17:17] [Client thread/INFO]: [CHAT]  
+[03:17:17] [Client thread/INFO]: [CHAT] BED > Gi??ng c?a b?n ?ã b? phá b?i daccaukhoinguyen!
+[03:17:17] [Client thread/INFO]: [CHAT]  
+[03:17:17] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:17:18] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:17:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:17:26] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:17:29] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:17:35] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:17:35] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:35] [Client thread/INFO]: [CHAT] B?n ?ã mua Stone Sword
+[03:17:38] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 5 Iron n?a!
+[03:17:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:38] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:17:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:38] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:17:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:39] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:17:44] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Iron Sword
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:17:45] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:17:47] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:17:48] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã r?i xu?ng void.
+[03:17:53] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:17:58] [Client thread/INFO]: [CHAT] FomeG ?ã b? gi?t b?i daccaukhoinguyen. FINAL KILL!
+[03:17:58] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:17:58] [Client thread/INFO]: [CHAT] B?n ?ang theo dõi phòng Glacier.
+[03:17:58] [Client thread/INFO]: [CHAT] R?i phòng ch?i b?t c? lúc nào b?ng l?nh /leave.
+[03:17:58] [Client thread/INFO]: [CHAT] B?n ?ã b? lo?i!
+[03:17:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.finaldeath
+[03:18:03] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:18:05] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:18:05] [Client thread/INFO]: [CHAT] 
+[03:18:05] [Client thread/INFO]: [CHAT]                 MAKE 3F GREAT AGAIN
+[03:18:05] [Client thread/INFO]: [CHAT]     Facebook https://fb.com/groups/LeagueOf3F
+[03:18:05] [Client thread/INFO]: [CHAT]     Discord https://discord.gg/Zehw9wP
+[03:18:05] [Client thread/INFO]: [CHAT]            
+[03:18:05] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:18:05] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:18:09] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:18:10] [Client thread/INFO]: [CHAT] FomeG ?ã vào tr?n ??u (5/8)!
+[03:18:10] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:18:23] [Client thread/INFO]: [CHAT] cutihogni ?ã g?i thêm ng??i ch?i.
+[03:18:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.join
+[03:18:24] [Client thread/INFO]: [CHAT] ThuanMax ?ã vào tr?n ??u (6/8)!
+[03:18:24] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [g.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1014) [ave.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349) [ave.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147237_a(NetHandlerPlayClient.java:484) ~[bcy.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:75) ~[fp.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:16) ~[fp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[fh$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[g.class:?]
+	... 9 more
+[03:18:24] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 10 giây!
+[03:18:29] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 5 giây!
+[03:18:30] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 4 giây!
+[03:18:31] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 3 giây!
+[03:18:32] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 2 giây!
+[03:18:33] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 1 giây!
+[03:18:34] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:18:34] [Client thread/INFO]: [CHAT]                                    BedWars
+[03:18:34] [Client thread/INFO]: [CHAT] 
+[03:18:34] [Client thread/INFO]: [CHAT]      B?o v? gi??ng c?a b?n và phá gi??ng c?a
+[03:18:34] [Client thread/INFO]: [CHAT]      ??i th?. Nâng c?p v? khí và trang b? b?ng
+[03:18:34] [Client thread/INFO]: [CHAT]      cách thu th?p các tài nguyên.
+[03:18:34] [Client thread/INFO]: [CHAT] 
+[03:18:34] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:18:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.start
+[03:18:50] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:18:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:18:50] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:18:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:18:50] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:18:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:18:50] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:50] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:18:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:18:52] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:18:53] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:18:54] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:18:59] [Client thread/INFO]: [CHAT] 
+[03:18:59] [Client thread/INFO]: [CHAT] 
+[03:18:59] [Client thread/INFO]: [CHAT]  
+[03:18:59] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 60 giây !
+[03:18:59] [Client thread/INFO]: [CHAT]  
+[03:18:59] [Client thread/INFO]: [CHAT] 
+[03:19:01] [Client thread/INFO]: [CHAT] cheat ?ã r?i xu?ng void.
+[03:19:06] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:19:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.kill
+[03:19:11] [Client thread/INFO]: [CHAT] yasuanopro ?ã b? ??y xu?ng void b?i FomeG.
+[03:19:12] [Client thread/INFO]: [CHAT] +10 ?i?m kinh nghi?m (Phá Gi??ng).
+[03:19:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:19:12] [Client thread/INFO]: [CHAT]  
+[03:19:12] [Client thread/INFO]: [CHAT] BED > Red Bed ?ã b? phá b?i FomeG!
+[03:19:12] [Client thread/INFO]: [CHAT]  
+[03:19:15] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:19:23] [Client thread/INFO]: [CHAT] FomeG ?ã b? gi?t b?i yasuanopro.
+[03:19:23] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:19:25] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 5 giây!
+[03:19:25] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.death
+[03:19:25] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 4 giây!
+[03:19:26] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 3 giây!
+[03:19:27] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 2 giây!
+[03:19:28] [Client thread/INFO]: [CHAT] B?n s? h?i sinh sau 1 giây!
+[03:19:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.respawn
+[03:19:29] [Client thread/INFO]: [CHAT] 
+[03:19:29] [Client thread/INFO]: [CHAT] 
+[03:19:29] [Client thread/INFO]: [CHAT]  
+[03:19:29] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 30 giây !
+[03:19:29] [Client thread/INFO]: [CHAT]  
+[03:19:29] [Client thread/INFO]: [CHAT] 
+[03:19:29] [Client thread/INFO]: [CHAT] cheat ?ã r?i xu?ng void.
+[03:19:31] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:19:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:32] [Client thread/INFO]: [CHAT] B?n ?ã mua Wood
+[03:19:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:32] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:32] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:32] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:32] [Client thread/INFO]: [CHAT] ThuanMax ?ã b? gi?t b?i THANG_VN1.
+[03:19:34] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:19:41] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:19:43] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:44] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:19:44] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:19:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:19:46] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:19:46] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:19:47] [Client thread/INFO]: [CHAT] THANG_VN1 ?ã b? gi?t b?i ThuanMax.
+[03:19:49] [Client thread/INFO]: [CHAT] 
+[03:19:49] [Client thread/INFO]: [CHAT] 
+[03:19:49] [Client thread/INFO]: [CHAT]  
+[03:19:49] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 10 giây !
+[03:19:49] [Client thread/INFO]: [CHAT]  
+[03:19:49] [Client thread/INFO]: [CHAT] 
+[03:19:54] [Client thread/INFO]: [CHAT] 
+[03:19:54] [Client thread/INFO]: [CHAT] 
+[03:19:54] [Client thread/INFO]: [CHAT]  
+[03:19:54] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 5 giây !
+[03:19:54] [Client thread/INFO]: [CHAT]  
+[03:19:54] [Client thread/INFO]: [CHAT] 
+[03:19:55] [Client thread/INFO]: [CHAT] 
+[03:19:55] [Client thread/INFO]: [CHAT] 
+[03:19:55] [Client thread/INFO]: [CHAT]  
+[03:19:55] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 4 giây !
+[03:19:55] [Client thread/INFO]: [CHAT]  
+[03:19:55] [Client thread/INFO]: [CHAT] 
+[03:19:55] [Client thread/INFO]: [CHAT] cutihogni ?ã r?i xu?ng void.
+[03:19:56] [Client thread/INFO]: [CHAT] 
+[03:19:56] [Client thread/INFO]: [CHAT] 
+[03:19:56] [Client thread/INFO]: [CHAT]  
+[03:19:56] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 3 giây !
+[03:19:56] [Client thread/INFO]: [CHAT]  
+[03:19:56] [Client thread/INFO]: [CHAT] 
+[03:19:57] [Client thread/INFO]: [CHAT] 
+[03:19:57] [Client thread/INFO]: [CHAT] 
+[03:19:57] [Client thread/INFO]: [CHAT]  
+[03:19:57] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 2 giây !
+[03:19:57] [Client thread/INFO]: [CHAT]  
+[03:19:57] [Client thread/INFO]: [CHAT] 
+[03:19:58] [Client thread/INFO]: [CHAT] 
+[03:19:58] [Client thread/INFO]: [CHAT] 
+[03:19:58] [Client thread/INFO]: [CHAT]  
+[03:19:58] [Client thread/INFO]: [CHAT] Server s? kh?i ??ng l?i sau 1 giây !
+[03:19:58] [Client thread/INFO]: [CHAT]  
+[03:19:58] [Client thread/INFO]: [CHAT] 
+[03:19:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.lose
+[03:19:59] [Client thread/INFO]: [CHAT] yasuanopro ?ã thoát tr?n ??u!
+[03:20:00] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:20:01] [Client thread/INFO]: [CHAT] You were kicked from BedWarsB: §c§lServer ?ang kh?i ??ng l?i§r
+§eXin hãy vào l?i sau 5 phút§r
+[03:20:01] [Client thread/INFO]: [CHAT] ? ??ng nh?p thành công!
+[03:20:01] [Client thread/INFO]: [CHAT] Vui lòng thêm email vào tài kho?n c?a b?n b?ng l?nh /email add <email> <nh?p l?i email>
+[03:20:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[03:20:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[03:20:01] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[03:20:13] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:20:14] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:20:15] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:20:15] [Client thread/INFO]: [CHAT] 
+[03:20:15] [Client thread/INFO]: [CHAT]                 MAKE 3F GREAT AGAIN
+[03:20:15] [Client thread/INFO]: [CHAT]     Facebook https://fb.com/groups/LeagueOf3F
+[03:20:15] [Client thread/INFO]: [CHAT]     Discord https://discord.gg/Zehw9wP
+[03:20:15] [Client thread/INFO]: [CHAT]            
+[03:20:15] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+[03:20:16] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:20:18] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:20:19] [Client thread/INFO]: [CHAT] FomeG ?ã vào tr?n ??u (4/8)!
+[03:20:24] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:20:38] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.join
+[03:20:38] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã vào tr?n ??u (5/8)!
+[03:20:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.join
+[03:20:48] [Client thread/INFO]: [CHAT] THANG_VN1 ?ã vào tr?n ??u (6/8)!
+[03:20:48] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) [g.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1014) [ave.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349) [ave.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.func_147237_a(NetHandlerPlayClient.java:484) ~[bcy.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:75) ~[fp.class:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.func_148833_a(SourceFile:16) ~[fp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) ~[fh$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_51]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[g.class:?]
+	... 9 more
+[03:20:48] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 10 giây!
+[03:20:51] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:20:53] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 5 giây!
+[03:20:54] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 4 giây!
+[03:20:55] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 3 giây!
+[03:20:56] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 2 giây!
+[03:20:57] [Client thread/INFO]: [CHAT] Tr?n ??u s? b?t ??u sau 1 giây!
+[03:20:58] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:20:58] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:20:58] [Client thread/INFO]: [CHAT]                                    BedWars
+[03:20:58] [Client thread/INFO]: [CHAT] 
+[03:20:58] [Client thread/INFO]: [CHAT]      B?o v? gi??ng c?a b?n và phá gi??ng c?a
+[03:20:58] [Client thread/INFO]: [CHAT]      ??i th?. Nâng c?p v? khí và trang b? b?ng
+[03:20:58] [Client thread/INFO]: [CHAT]      cách thu th?p các tài nguyên.
+[03:20:58] [Client thread/INFO]: [CHAT] 
+[03:20:58] [Client thread/INFO]: [CHAT] ???????????????????????????????????????????????????????????????????????????
+[03:20:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.game.start
+[03:21:17] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:21:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:18] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:18] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:18] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:18] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:18] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Iron n?a!
+[03:21:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:19] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:21:26] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:21:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:21:26] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:21:26] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 2 Iron n?a!
+[03:21:27] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:21:28] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:21:46] [Client thread/INFO]: [CHAT] yasuanopro ?ã b? ??y xu?ng void b?i cheat.
+[03:21:52] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:21:52] [Client thread/INFO]: [CHAT]  
+[03:21:52] [Client thread/INFO]: [CHAT] BED > White Bed ?ã b? phá b?i cheat!
+[03:21:52] [Client thread/INFO]: [CHAT]  
+[03:21:52] [Client thread/INFO]: [CHAT] [2?] [WHITE] yasuanopro: DUNG MA
+[03:21:58] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:22:02] [Client thread/INFO]: [CHAT] yasuanopro ?ã b? ??y xu?ng void b?i cheat. FINAL KILL!
+[03:22:02] [Client thread/INFO]: [CHAT]  
+[03:22:02] [Client thread/INFO]: [CHAT] ELIMINATION > White Team ?ã b? lo?i kh?i tr?n ??u!
+[03:22:02] [Client thread/INFO]: [CHAT]  
+[03:22:12] [Client thread/INFO]: [CHAT] +10 ?i?m kinh nghi?m (Phá Gi??ng).
+[03:22:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:22:12] [Client thread/INFO]: [CHAT]  
+[03:22:12] [Client thread/INFO]: [CHAT] BED > Pink Bed ?ã b? phá b?i FomeG!
+[03:22:12] [Client thread/INFO]: [CHAT]  
+[03:22:17] [Client thread/INFO]: [CHAT] [8?] [PINK] cutihogni: hk sv
+[03:22:18] [Client thread/INFO]: [CHAT] +10 ?i?m kinh nghi?m (Final Kill).
+[03:22:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.finalkill
+[03:22:18] [Client thread/INFO]: [CHAT] cutihogni ?ã b? ??y xu?ng void b?i FomeG. FINAL KILL!
+[03:22:18] [Client thread/INFO]: [CHAT]  
+[03:22:18] [Client thread/INFO]: [CHAT] ELIMINATION > Pink Team ?ã b? lo?i kh?i tr?n ??u!
+[03:22:18] [Client thread/INFO]: [CHAT]  
+[03:22:22] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:22:23] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:22:28] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:22:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:29] [Client thread/INFO]: [CHAT] B?n ?ã mua Permanent Iron Armor
+[03:22:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:29] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:22:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:29] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:22:29] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:29] [Client thread/INFO]: [CHAT] B?n ?ã mua Wool
+[03:22:30] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:22:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:22:36] [Client thread/INFO]: [CHAT]  
+[03:22:36] [Client thread/INFO]: [CHAT] BED > Aqua Bed ?ã b? phá b?i THANG_VN1!
+[03:22:36] [Client thread/INFO]: [CHAT]  
+[03:22:37] [Client thread/INFO]: [CHAT] cheat ?ã thoát tr?n ??u!
+[03:22:48] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:22:51] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:22:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:53] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:22:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:53] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:22:54] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:22:55] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:22:56] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:22:56] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.bedbreak
+[03:22:56] [Client thread/INFO]: [CHAT]  
+[03:22:56] [Client thread/INFO]: [CHAT] BED > Gi??ng c?a b?n ?ã b? phá b?i ndlongan_2k11!
+[03:22:56] [Client thread/INFO]: [CHAT]  
+[03:22:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:58] [Client thread/INFO]: [CHAT] B?n ?ã mua Permanent Shears
+[03:22:58] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:22:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:22:59] [Client thread/INFO]: [CHAT] B?n ?ã mua Pickaxe 
+[03:23:00] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:23:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.kill
+[03:23:33] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã b? ??y xu?ng void b?i FomeG.
+[03:23:38] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:23:40] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:23:40] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:23:40] [Client thread/INFO]: [CHAT] B?n ?ã mua Iron Sword
+[03:23:42] [pool-2-thread-6/INFO]: scanning controllers wee oo wee oo
+[03:23:58] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:24:02] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:24:04] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.upgrade
+[03:24:04] [Client thread/INFO]: [CHAT] FomeG ?ã mua Reinforced Armor I
+[03:24:07] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:24:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.upgrade
+[03:24:08] [Client thread/INFO]: [CHAT] It's a trap! ?ã ???c kích ho?t!
+[03:24:08] [Client thread/INFO]: [CHAT] FomeG ?ã mua It's a trap!
+[03:24:09] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:24:12] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:24:16] [pool-2-thread-8/INFO]: scanning controllers wee oo wee oo
+[03:24:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:17] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:24:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:18] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:24:19] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:24:36] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.kill
+[03:24:36] [Client thread/INFO]: [CHAT] ndlongan_2k11 ?ã b? ??y xu?ng void b?i FomeG.
+[03:24:38] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:24:40] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:24:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:42] [Client thread/INFO]: [CHAT] B?n ?ã mua Fireball
+[03:24:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:43] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:24:43] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:43] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:24:43] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 3 Gold n?a!
+[03:24:44] [pool-2-thread-7/INFO]: scanning controllers wee oo wee oo
+[03:24:51] [pool-2-thread-3/INFO]: scanning controllers wee oo wee oo
+[03:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:54] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:24:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:3fmc.bedwars.shop.item
+[03:24:54] [Client thread/INFO]: [CHAT] B?n ?ã mua Golden Apple
+[03:24:54] [Client thread/INFO]: [CHAT] Không ?? tài nguyên! B?n c?n thêm 1 Gold n?a!
+[03:24:55] [pool-2-thread-4/INFO]: scanning controllers wee oo wee oo
+[03:24:58] [Client thread/INFO]: [CHAT] +20 ?i?m kinh nghi?m (Th?i gian ch?i).
+[03:25:00] [pool-2-thread-2/INFO]: scanning controllers wee oo wee oo
+[03:25:12] [pool-2-thread-5/INFO]: scanning controllers wee oo wee oo
+[03:25:13] [Client thread/INFO]: [CHAT] You were kicked from BedWarsC: §cPhát hi?n nghi v?n hack (FhxxMXRN)
+[03:25:13] [Client thread/INFO]: [CHAT] ? ??ng nh?p thành công!
+[03:25:13] [Client thread/INFO]: [CHAT] Vui lòng thêm email vào tài kho?n c?a b?n b?ng l?nh /email add <email> <nh?p l?i email>
+[03:25:29] [pool-2-thread-1/INFO]: scanning controllers wee oo wee oo
+[03:25:29] [Client thread/INFO]: Applying holder lookups
+[03:25:29] [Client thread/INFO]: Holder lookups applied
+[03:25:30] [Netty Client IO #10/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:25:30] [Netty Client IO #9/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:25:30] [Netty Client IO #14/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:25:30] [Netty Client IO #11/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:25:30] [Netty Client IO #0/INFO]: Attempting connection with missing mods [mcp, FML, Forge, cpsdisplay, cpstracker, craftpresence, FpsReducer, ias, mpkmod, oldinput] at SERVER
+[03:25:36] [Client thread/INFO]: Stopping!
+[03:25:36] [Client thread/INFO]: SoundSystem shutting down...
+[03:25:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.IllegalStateException: Keyboard must be created before you can query key state
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at io.github.kurrycat.mpkmod.k.a.e(Unknown Source)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at io.github.kurrycat.mpkmod.k.a$$Lambda$185/2098844773.get(Unknown Source)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at io.github.kurrycat.mpkmod.k.b.update(Unknown Source)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at io.github.kurrycat.mpkmod.k.a.aI(Unknown Source)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at io.github.kurrycat.mpkmod.k.a$$Lambda$182/134725587.run(Unknown Source)
+[03:25:37] [Key-Listener/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,398 @@
+[19:36:24] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:24] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:24] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:24] [main/INFO]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[19:36:24] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 8.1:amd64:6.3, installed at C:\Users\aaa\AppData\Roaming\ATLauncher\runtimes\minecraft\jre-legacy\windows-x64\jre-legacy
+[19:36:24] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.8.9_HD_U_M5.jar
+[19:36:24] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from viaforge-1.8.9-3.5.0.jar
+[19:36:24] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:24] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[19:36:24] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[19:36:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.10 Source=file:/C:/Users/aaa/AppData/Roaming/ATLauncher/instances/Minecraft189withForge/mods/viaforge-1.8.9-3.5.0.jar Service=LaunchWrapper Env=CLIENT
+[19:36:25] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:25] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[19:36:25] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[19:36:25] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[19:36:25] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[19:36:25] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\OptiFine_1.8.9_HD_U_M5.jar
+[19:36:25] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:25] [main/DEBUG]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[19:36:25] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[19:36:25] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[19:36:25] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:36:25] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[19:36:25] [main/DEBUG]: Injection complete
+[19:36:25] [main/DEBUG]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[19:36:25] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[19:36:27] [main/DEBUG]: Read 825 binary patches
+[19:36:27] [main/DEBUG]: Loading deobfuscation resource /deobfuscation_data-1.8.9.lzma with 27891 records
+[19:36:28] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:36:29] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[19:36:29] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[19:36:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:29] [main/DEBUG]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[19:36:29] [main/DEBUG]: Injection complete
+[19:36:29] [main/DEBUG]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[19:36:29] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[19:36:29] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[19:36:29] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[19:36:29] [main/INFO]: Compatibility level set to JAVA_8
+[19:36:29] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@70fab835
+[19:36:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:29] [main/DEBUG]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[19:36:29] [main/DEBUG]: Loaded 2 rules from AccessTransformer mod jar file C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\CraftPresence-2.3.0+1.8.9.jar!META-INF/accesstransformer.cfg
+
+[19:36:29] [main/DEBUG]: Loaded 3 rules from AccessTransformer mod jar file C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods\InGameAccountSwitcher-Forge-1.8-8.0.1.jar!META-INF/ias_at.cfg
+
+[19:36:29] [main/DEBUG]: Validating minecraft
+[19:36:30] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:30] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:36:30] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:30] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:36:30] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[19:36:30] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:36:31] [main/INFO]: Mixing fixes.MixinEntityPlayerSP from mixins.viaforge-mc18.json into net.minecraft.client.entity.EntityPlayerSP
+[19:36:32] [main/INFO]: Mixing MixinGuiMainMenu from mixins.viaforge-mc18.json into net.minecraft.client.gui.GuiMainMenu
+[19:36:32] [Client thread/INFO]: Setting user: Choi4310
+[19:36:38] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[19:36:38] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[19:36:38] [Client thread/INFO]: LWJGL Version: 2.9.4
+[19:36:39] [Client thread/INFO]: [OptiFine] 
+[19:36:39] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_M5
+[19:36:39] [Client thread/INFO]: [OptiFine] Build: 20210124-163719
+[19:36:39] [Client thread/INFO]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[19:36:39] [Client thread/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[19:36:39] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[19:36:39] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[19:36:39] [Client thread/INFO]: [OptiFine] OpenGL: Intel(R) UHD Graphics, version 4.6.0 - Build 26.20.100.7372, Intel
+[19:36:39] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[19:36:39] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[19:36:39] [Client thread/INFO]: [OptiFine] Maximum texture size: 8192x8192
+[19:36:39] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[19:36:39] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.0 - Build 26.20.100.7372
+[19:36:39] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[19:36:39] [Client thread/INFO]: [Shaders] Renderer: Intel(R) UHD Graphics
+[19:36:39] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[19:36:39] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[19:36:39] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[19:36:39] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[19:36:39] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[19:36:39] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[19:36:39] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[19:36:39] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[19:36:39] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[19:36:39] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[19:36:39] [Client thread/WARN]: =============================================================
+[19:36:39] [Client thread/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[19:36:39] [Client thread/WARN]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[19:36:39] [Client thread/WARN]: Use FMLCommonHandler.exitJava instead
+[19:36:39] [Client thread/WARN]: =============================================================
+[19:36:40] [VersionCheck/INFO]: [OptiFine] Version found: M5
+[19:36:40] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.8.9_HD_U_M5, enabling compatibility features
+[19:36:41] [Client thread/INFO]: Mixing MixinNetworkManager from mixins.viaforge-mc18.json into net.minecraft.network.NetworkManager
+[19:36:41] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Don't do that.
+
+Time: 2/15/24 7:36 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 638958744 bytes (609 MB) / 939524096 bytes (896 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 26.20.100.7372' Renderer: 'Intel(R) UHD Graphics'
+[19:36:41] [Client thread/INFO]: MinecraftForge v11.15.1.2318 Initialized
+[19:36:41] [Client thread/INFO]: Replaced 229 ore recipies
+[19:36:42] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:36:42] [Client thread/INFO]: Searching C:\Users\aaa\AppData\Roaming\ATLauncher\instances\Minecraft189withForge\mods for mods
+[19:36:45] [Client thread/WARN]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.8.9-1.10.3
+[19:36:45] [Client thread/INFO]: Attempting to reparse the mod container FpsReducer-mc1.8.9-1.10.3.jar
+[19:36:45] [Client thread/WARN]: Mod FpsReducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.8.9-1.10.3
+[19:36:45] [Client thread/INFO]: Forge Mod Loader has identified 9 mods to load
+[19:36:46] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at CLIENT
+[19:36:46] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:36:47] [CraftPresence/INFO]: Starting version check for "craftpresence" (MC 1.8.9) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json"
+[19:36:47] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:47] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:47] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CraftPresence, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:In-Game Account Switcher, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:MPK Mod, FMLFileResourcePack:OldInput, !    §b Dewier §f20k.zip
+[19:36:47] [Client thread/INFO]: Processing ObjectHolder annotations
+[19:36:47] [Client thread/INFO]: Found 384 ObjectHolder annotations
+[19:36:47] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[19:36:47] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[19:36:47] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[19:36:48] [Forge Version Check/INFO]: [MouseTweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[19:36:48] [CraftPresence/INFO]: Received update status for "craftpresence" -> Release (Target version: "")
+[19:36:48] [Client thread/INFO]: Applying holder lookups
+[19:36:48] [Client thread/INFO]: Holder lookups applied
+[19:36:48] [Client thread/INFO]: Injecting itemstacks
+[19:36:48] [Client thread/INFO]: Itemstack injection complete
+[19:36:48] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[19:36:48] [Client thread/INFO]: [OptiFine] Resource packs: !    §b Dewier §f20k.zip
+[19:36:48] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:36:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:36:49] [Forge Version Check/INFO]: [mpkmod] Starting version check at https://raw.githubusercontent.com/kurrycat2004/MpkMod/main/update.json
+[19:36:49] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[19:36:49] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:36:49] [Forge Version Check/INFO]: [mpkmod] Found status: UP_TO_DATE Target: null
+[19:36:49] [Forge Version Check/INFO]: [ias] Starting version check at https://github.com/The-Fireplace-Minecraft-Mods/In-Game-Account-Switcher/raw/main/updater-forge.json
+[19:36:50] [Thread-9/INFO]: OpenAL initialized.
+[19:36:50] [Sound Library Loader/INFO]: Sound engine started
+[19:36:50] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[19:36:50] [Forge Version Check/INFO]: [ias] Found status: OUTDATED Target: 8.0.1
+[19:36:50] [Forge Version Check/INFO]: [craftpresence] Starting version check at https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json
+[19:36:50] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[19:36:51] [Forge Version Check/INFO]: [craftpresence] Found status: AHEAD Target: null
+[19:36:51] [CraftPresence/INFO]: Configuration settings have been saved and reloaded successfully!
+[19:36:51] [CraftPresence/INFO]: Checking for "curse" pack data...
+[19:36:51] [CraftPresence/ERROR]: Unable to get "curse" pack data (ignore if not using a "curse" pack)
+[19:36:51] [CraftPresence/INFO]: Checking for "mcupdater" pack data...
+[19:36:51] [CraftPresence/ERROR]: java.lang.NullPointerException
+	at com.gitlab.cdagaming.craftpresence.core.integrations.pack.mcupdater.MCUpdaterUtils.load(MCUpdaterUtils.java:61)
+	at forge.com.gitlab.cdagaming.craftpresence.utils.CommandUtils.init(CommandUtils.java:299)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence.init(CraftPresence.java:148)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence.clientTick(CraftPresence.java:187)
+	at forge.com.gitlab.cdagaming.craftpresence.CraftPresence$$Lambda$10/1161564354.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[19:36:51] [CraftPresence/ERROR]: Unable to get "mcupdater" pack data (ignore if not using a "mcupdater" pack)
+[19:36:51] [CraftPresence/INFO]: Checking for "modrinth" pack data...
+[19:36:51] [CraftPresence/ERROR]: Unable to get "modrinth" pack data (ignore if not using a "modrinth" pack)
+[19:36:51] [CraftPresence/INFO]: Checking for "multimc" pack data...
+[19:36:51] [CraftPresence/ERROR]: Unable to get "multimc" pack data (ignore if not using a "multimc" pack)
+[19:36:51] [CraftPresence/INFO]: Checking for "technic" pack data...
+[19:36:51] [CraftPresence/ERROR]: Unable to get "technic" pack data (ignore if not using a "technic" pack)
+[19:36:51] [CraftPresence/INFO]: Checking Discord for available assets with Client Id: 450485984333660181
+[19:36:51] [CraftPresence/INFO]: Originally coded by paulhobbel - https://github.com/paulhobbel
+[19:36:52] [CraftPresence/INFO]: 147 total assets detected!
+[19:36:53] [CraftPresence/INFO]: Attempting to connect to Discord (1/10)...
+[19:36:53] [CraftPresence/INFO]: Attempting to connect to Discord (2/10)...
+[19:36:53] [Client thread/INFO]: Mixing MixinServerData from mixins.viaforge-mc18.json into net.minecraft.client.multiplayer.ServerData
+[19:36:54] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[19:36:54] [Client thread/INFO]: [OptiFine] Multitexture: false
+[19:36:54] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:36:54] [CraftPresence/INFO]: Attempting to connect to Discord (3/10)...
+[19:36:54] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:36:54] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:36:54] [Client thread/INFO]: Created: 16x16 textures-atlas
+[19:36:54] [Client thread/INFO]: [OptiFine] Animated sprites: 0
+[19:36:55] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] A call to initialize, entry point: FORGE.
+[19:36:55] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Obfuscation check, please ignore the following errors (if they come up).
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Could not retrieve field "ignoreMouseUp" from class "net.minecraft.client.gui.inventory.GuiContainer".
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Obfuscation check completed.
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Minecraft Forge is installed.
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] LiteLoader is not installed.
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Using Forge for the mod operation.
+[19:36:56] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Mouse Tweaks has been initialized.
+[19:36:56] [Client thread/INFO]: MPK Mod loaded
+[19:36:56] [RPC-Init-Handler/INFO]: Trying to init DiscordRPC...
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [RPC-Init-Handler/INFO]: DiscordRPC lib loaded!
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/ERROR]: The jar file C:\Users\aaa\AppData\Roaming\ATLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar has a security seal for path net.java.games.input, but that path is defined and not secure
+[19:36:56] [Client thread/INFO]: Injecting itemstacks
+[19:36:56] [Client thread/INFO]: Itemstack injection complete
+[19:36:57] [Client thread/INFO]: Forge Mod Loader has successfully loaded 9 mods
+[19:36:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CraftPresence, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:In-Game Account Switcher, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:MPK Mod, FMLFileResourcePack:OldInput, !    §b Dewier §f20k.zip
+[19:36:57] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[19:36:57] [Client thread/INFO]: [OptiFine] Resource packs: !    §b Dewier §f20k.zip
+[19:36:57] [Client thread/INFO]: SoundSystem shutting down...
+[19:36:57] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:36:57] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:36:57] [Thread-13/INFO]: Initializing LWJGL OpenAL
+[19:36:57] [Thread-13/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:36:57] [Thread-13/INFO]: OpenAL initialized.
+[19:36:58] [Sound Library Loader/INFO]: Sound engine started
+[19:36:58] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[19:36:58] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[19:36:58] [CraftPresence/INFO]: Attempting to connect to Discord (4/10)...
+[19:37:00] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[19:37:00] [Client thread/INFO]: [OptiFine] Multitexture: false
+[19:37:00] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:37:00] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[19:37:00] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:37:01] [Client thread/INFO]: [OptiFine] Custom loader sprites: 1
+[19:37:01] [Client thread/INFO]: [OptiFine] Custom loader sprites (skipped): 1
+[19:37:01] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:37:01] [Client thread/INFO]: [OptiFine] Animated sprites: 22
+[19:37:01] [Client thread/INFO]: Mixing MixinGuiOverlayDebug from mixins.viaforge-mc18.json into net.minecraft.client.gui.GuiOverlayDebug
+[19:37:01] [Client thread/INFO]: Mixing MixinGuiMultiplayer from mixins.viaforge-mc18.json into net.minecraft.client.gui.GuiMultiplayer
+[19:37:08] [CraftPresence/INFO]: Attempting to connect to Discord (5/10)...
+[19:37:10] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[19:37:10] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[19:37:10] [Client thread/WARN]: [OptiFine] CustomColors: Invalid dimension ID: 0_bright, path: mcpatcher/lightmap/world0_bright.png
+[19:37:10] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[19:37:11] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[19:37:11] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[19:37:11] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[19:37:19] [Client thread/INFO]: Mixing MixinGuiScreenServerList from mixins.viaforge-mc18.json into net.minecraft.client.gui.GuiScreenServerList
+[19:37:19] [Client thread/INFO]: Mixing MixinGuiScreenAddServer from mixins.viaforge-mc18.json into net.minecraft.client.gui.GuiScreenAddServer
+[19:37:19] [Client thread/INFO]: Mixing MixinServerPinger from mixins.viaforge-mc18.json into net.minecraft.client.network.OldServerPinger
+[19:37:19] [Server Pinger #0/INFO]: Mixing MixinNetworkManager_5 from mixins.viaforge-mc18.json into net.minecraft.network.NetworkManager$5
+[19:37:20] [Netty Client IO #3/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7425793d
+[19:37:20] [Netty Client IO #2/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7b235e46
+[19:37:20] [Netty Client IO #0/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7bf786ff
+[19:37:20] [Netty Client IO #4/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@6f104407
+[19:37:20] [Netty Client IO #4/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@6f104407
+[19:37:20] [Netty Client IO #4/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:20] [Netty Client IO #0/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7bf786ff
+[19:37:20] [Netty Client IO #0/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:20] [Netty Client IO #2/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7b235e46
+[19:37:21] [Client thread/INFO]: Connecting to play.mcplayhd.net., 25565
+[19:37:21] [Client thread/INFO]: Mixing MixinGuiConnecting_1 from mixins.viaforge-mc18.json into net.minecraft.client.multiplayer.GuiConnecting$1
+[19:37:21] [Netty Client IO #3/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7425793d
+[19:37:21] [Server Connector #1/INFO]: Mixing MixinNetHandlerLoginClient from mixins.viaforge-mc18.json into net.minecraft.client.network.NetHandlerLoginClient
+[19:37:21] [Netty Client IO #5/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@21e025c9
+[19:37:25] [Netty Client IO #7/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@46d9f5e3
+[19:37:25] [Netty Client IO #6/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@65cd2e78
+[19:37:25] [Netty Client IO #8/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@67901d60
+[19:37:25] [Netty Client IO #9/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5760ea4
+[19:37:25] [Netty Client IO #7/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@46d9f5e3
+[19:37:25] [Netty Client IO #7/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:25] [Netty Client IO #8/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@67901d60
+[19:37:25] [Netty Client IO #8/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:25] [Netty Client IO #11/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@4e5605e8
+[19:37:25] [Netty Client IO #9/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5760ea4
+[19:37:25] [Netty Client IO #11/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@4e5605e8
+[19:37:25] [Netty Client IO #11/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:25] [Netty Client IO #6/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@65cd2e78
+[19:37:28] [CraftPresence/INFO]: Attempting to connect to Discord (6/10)...
+[19:37:29] [Client thread/INFO]: Connecting to mc.hypixel.net., 25565
+[19:37:30] [Netty Client IO #12/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@2e1c9709
+[19:37:39] [IAS Executor/INFO]: Using shared SSL context. (behavior: default; custom + default certificates)
+[19:37:41] [IAS Executor/INFO]: Refreshing...
+[19:37:42] [IAS Executor/INFO]: Access token is valid.
+[19:37:43] [Netty Client IO #13/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@13ef614f
+[19:37:43] [Netty Client IO #13/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@13ef614f
+[19:37:43] [Netty Client IO #13/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:43] [Netty Client IO #1/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@c11becf
+[19:37:43] [Netty Client IO #15/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5b32a7b7
+[19:37:43] [Netty Client IO #0/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7e27e32f
+[19:37:43] [Netty Client IO #2/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5a82af95
+[19:37:43] [Netty Client IO #1/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@c11becf
+[19:37:43] [Netty Client IO #1/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:43] [Netty Client IO #15/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5b32a7b7
+[19:37:43] [Netty Client IO #15/INFO]: Attempting connection with missing mods [mcp, FML, Forge, craftpresence, FpsReducer, ias, MouseTweaks, mpkmod, oldinput] at SERVER
+[19:37:44] [Netty Client IO #2/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@5a82af95
+[19:37:44] [Netty Client IO #0/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@7e27e32f
+[19:37:44] [Client thread/INFO]: Connecting to play.mcplayhd.net., 25565
+[19:37:45] [Netty Client IO #3/INFO]: [de.florianmichael.viaforge.common.protocolhack.provider.ViaForgeVersionProvider:getClosestServerProtocol:32]: net.minecraft.network.NetworkManager@14d8e095
+[19:37:46] [Netty Client IO #3/INFO]: Aborting client handshake "VANILLA"
+[19:37:46] [Netty Client IO #3/INFO]: [Netty Client IO #3] Client side vanilla connection established
+[19:37:47] [Client thread/INFO]: [CHAT]  
+[19:37:47] [Client thread/INFO]: [CHAT] ---------------------------------------
+[19:37:47] [Client thread/INFO]: [CHAT]   > Welcome to McPlayHD.net! <
+[19:37:47] [Client thread/INFO]: [CHAT]  
+[19:37:47] [Client thread/INFO]: [CHAT]  Discord: https://discord.gg/nZuxxcG
+[19:37:47] [Client thread/INFO]: [CHAT]  McPlayHD on YouTube: http://youtube.com/McPlayHD/
+[19:37:47] [Client thread/INFO]: [CHAT] ---------------------------------------
+[19:37:47] [Client thread/INFO]: [CHAT]  
+[19:37:48] [Client thread/INFO]: [CHAT]  
+[19:37:48] [Client thread/INFO]: [CHAT] Friends | Currently, 0 of your friends are online.
+[19:37:48] [Client thread/INFO]: [CHAT]  
+[19:37:53] [Client thread/INFO]: [CHAT] This server only exists because of donations.
+[19:37:53] [Client thread/INFO]: [CHAT] Therefore every tip you give is a great help to continue running the server.
+[19:37:53] [Client thread/INFO]: [CHAT] You can buy ranks and Emeralds on our shop: https://store.mcplayhd.net/
+[19:37:55] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:37:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:00] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:01] [Client thread/INFO]: [CHAT]  
+[19:38:01] [Client thread/INFO]: [CHAT] You haven't collected all Emeralds today!
+[19:38:01] [Client thread/INFO]: [CHAT] Go to Smuggling Sam and vote for our server.
+[19:38:01] [Client thread/INFO]: [CHAT] §7   §7>§8>§7> §e§lClick here§a, to get to §3§lSam §7<§8<§7<
+[19:38:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:15] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:27] [CraftPresence/INFO]: Attempting to connect to Discord (7/10)...
+[19:38:27] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:32] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:37] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:53] [Client thread/INFO]: [CHAT] Subscribe to McPlayHD on YouTube.
+[19:38:53] [Client thread/INFO]: [CHAT] Link: https://youtube.com/McPlayHD
+[19:38:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:57] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:38:58] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:39:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:39:06] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:39:08] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:39:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none
+[19:39:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:none

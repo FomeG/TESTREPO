@@ -1,0 +1,111 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 2/6/24 7:35 PM
+Description: Unexpected error
+
+java.lang.IllegalStateException: Keyboard must be created before you can read events
+	at org.lwjgl.input.Keyboard.next(Keyboard.java:475)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1785)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:349)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at org.lwjgl.input.Keyboard.next(Keyboard.java:475)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 3 total; [EntityPlayerSP['Ngoc_Cutee'/294013304, l='MpServer', x=-2.28, y=100.00, z=6.20], EntityOtherPlayerMP['random_name'/294013305, l='MpServer', x=13.50, y=100.00, z=15.50], EntityOtherPlayerMP['random_name'/294013308, l='MpServer', x=5.50, y=101.00, z=5.50]]
+	Chunk stats: MultiplayerChunkCache: 440, 440
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0.00,64.00,0.00 - World: (0,64,0), Chunk: (at 0,4,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1488006293 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 24 total; [EntityOtherPlayerMP['random_name'/294013308, l='MpServer', x=5.50, y=101.00, z=5.50], EntityArmorStand['§7[ §e§lOne§6§lJump §7]'/3, l='MpServer', x=-8.44, y=102.47, z=13.47], EntityArmorStand['§7<=>'/4, l='MpServer', x=-8.44, y=102.22, z=13.47], EntityArmorStand['§7Only one jump.'/5, l='MpServer', x=-8.44, y=101.97, z=13.47], EntityArmorStand['§7Test your skill limit!'/6, l='MpServer', x=-8.44, y=101.72, z=13.47], EntityArmorStand['§7[ §4§lVa§c§llor §7]'/7, l='MpServer', x=-8.44, y=102.47, z=5.28], EntityArmorStand['§7<=>'/8, l='MpServer', x=-8.44, y=102.22, z=5.28], EntityArmorStand['§7True test of consistency!'/9, l='MpServer', x=-8.44, y=101.97, z=5.28], EntityArmorStand['§7Main parkour of this server!'/10, l='MpServer', x=-8.44, y=101.72, z=5.28], EntityArmorStand['§7[ §b§lMap §3§lMaker §7]'/11, l='MpServer', x=-8.53, y=102.47, z=-2.56], EntityArmorStand['§7<=>'/12, l='MpServer', x=-8.53, y=102.22, z=-2.56], EntityArmorStand['§7Create your custom map!'/13, l='MpServer', x=-8.53, y=101.97, z=-2.56], EntityArmorStand['§7You can also play others' levels!'/14, l='MpServer', x=-8.53, y=101.72, z=-2.56], EntityArmorStand['§8<| §b§l! §8|>'/15, l='MpServer', x=2.97, y=101.66, z=13.97], EntityArmorStand['§7You can play various things here.'/16, l='MpServer', x=2.97, y=101.41, z=13.97], EntityArmorStand['§7Enter the portal at right!'/17, l='MpServer', x=2.97, y=101.16, z=13.97], EntityArmorStand['§b§lYour Profile'/294013310, l='MpServer', x=5.50, y=101.09, z=5.50], EntityOtherPlayerMP['random_name'/294013308, l='MpServer', x=5.50, y=101.00, z=5.50], EntityArmorStand['§3Right-Click §7to open'/294013309, l='MpServer', x=5.50, y=100.78, z=5.50], EntityPlayerSP['Ngoc_Cutee'/294013304, l='MpServer', x=-2.28, y=100.00, z=6.20], EntityArmorStand['§6Right-Click §7me!'/294013306, l='MpServer', x=13.50, y=99.78, z=15.50], EntityOtherPlayerMP['random_name'/294013305, l='MpServer', x=13.50, y=100.00, z=15.50], EntityArmorStand['§e§lShop'/294013307, l='MpServer', x=13.50, y=100.09, z=15.50], EntityOtherPlayerMP['random_name'/294013305, l='MpServer', x=13.50, y=100.00, z=15.50]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:402)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2536)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 549779184 bytes (524 MB) / 1610612736 bytes (1536 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 9 total; -Xmx4096M -XX:MetaspaceSize=256M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_M5 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	Forge{11.15.1.2318} [Minecraft Forge] (forge-1.8.9-11.15.1.2318-1.8.9-universal.jar) 
+	UCHIJA	craftpresence{2.3.0} [CraftPresence] (CraftPresence-2.3.0+1.8.9.jar) 
+	UCHIJA	FpsReducer{mc1.8.9-1.10.3} [FPS Reducer] (FpsReducer-mc1.8.9-1.10.3.jar) 
+	UCHIJA	ias{D7.29 :P} [In-Game Account Switcher] (InGameAccountSwitcher-Forge-1.8-8.0.1.jar) 
+	UCHIJA	MouseTweaks{2.6.2} [Mouse Tweaks] (MouseTweaks-2.6.2-mc1.8.9.jar) 
+	UCHIJA	mpkmod{1.3.0} [MPK Mod] (mpkmod-1.3.0.jar) 
+	UCHIJA	oldinput{1.1.3} [OldInput] (oldinput-1.1.3+1.8.9.jar) 
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Launched Version: 1.8.9
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: !    §b Dewier §f20k.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_M5
+	OptiFine Build: 20210124-163719
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 26.20.100.7372
+	OpenGlRenderer: Intel(R) UHD Graphics
+	OpenGlVendor: Intel
+	CpuCount: 8
